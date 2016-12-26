@@ -9,7 +9,7 @@
 <html lang="en" class="no-js">
 <head>
 	<!-- Basic need -->
-	<title>The Kinder Project</title>
+	<title><?php bloginfo('sitename'); ?></title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Kinder">
 	<meta name="keywords" content="Kinder universell">
@@ -21,15 +21,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="format-detection" content="telephone-no">
 	
-	<!-- CSS files -->
-	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/style.css">
-	
-	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/ionicons.min.css">
-	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/animate.css"> -->
-	
-	<!-- html5/css3 for old browsers -->
-	<script src="<?=get_stylesheet_directory_uri()?>/js/modernizr.js"></script>
+	<?php wp_head(); ?>
 </head>
 
 <body>
@@ -43,21 +35,17 @@
 			<div class="row">
 				<div class="top_box flw">
 					<ul class="top_list">
-						<li class="spc"><span class="ion-ios-telephone"></span> Call us: +00 44 123 456 78910</li>
-						<li class="spc"><span class="ion-android-mail"></span> Mail us: <a href="mailto:info@kidkatkg.co.us">info@kidkatkg.co.us</a></li>
+						<li class="spc"><span class="ion-ios-telephone"></span> 学校电话：</li>
+						<li class="spc"><span class="ion-android-mail"></span> 电子邮件：<a href="mailto:"></a></li>
 						<li>
 							<form action="#">
 								<button type='submit'></button>
-								<input type="text" placeholder="Search..." required>
+								<input type="text" placeholder="搜索…" required>
 							</form>
 						</li>
 					</ul>
 					<ul class="top_social">
-						<li><a href="#" class="ion-social-facebook"></a></li>
-						<li><a href="#" class="ion-social-googleplus-outline"></a></li>
-						<li><a href="#" class="ion-social-twitter"></a></li>
-						<li><a href="#" class="ion-social-skype-outline"></a></li>
-						<li><a href="#" class="ion-social-pinterest"></a></li>
+						<li><a href="#" class="fa fa-wechat"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -72,7 +60,7 @@
 				<a href="index.html" class="lg" title="Kinder">
 					<img src="<?=get_stylesheet_directory_uri()?>/images/lg.png" alt="Logo Image">
 				</a>
-				<a href="#" class="appoint">APPOINTMENT</a>
+				<a href="#" class="appoint">招生咨询</a>
 				<!-- menu -->
 				<nav class="nav is-fixed">
 					<div class="nav-toggle">
