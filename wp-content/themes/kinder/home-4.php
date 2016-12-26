@@ -1,150 +1,4 @@
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7 no-js" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8 no-js" lang="en-US">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html lang="en" class="no-js">
-<head>
-	<!-- Basic need -->
-	<title>The Kinder Project</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Kinder">
-	<meta name="keywords" content="Kinder universell">
-	<meta name="author" content="tnthao">
-	<link rel="profile" href="#profile">
-	<link rel="shortcut icon" href="images/favicon.ico">
-
-	<!-- Mobile specific meta -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="format-detection" content="telephone-no">
-
-	<!-- CSS files -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-	<!--  -->
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="css/animate.css"> -->
-
-	<!-- html5/css3 for old browsers -->
-	<script src="js/modernizr.js"></script>
-</head>
-
-<body>
-
-
-<!-- BEGIN | Header -->
-<header id="ht_header" class="v4_header flw">
-	<!-- top -->
-	<div class="top_section flw">
-		<div class="container">
-			<div class="row">
-				<div class="top_box flw">
-					<ul class="top_list">
-						<li class="spc"><span class="ion-ios-telephone"></span> Call us: +00 44 123 456 78910</li>
-						<li class="spc"><span class="ion-android-mail"></span> Mail us: <a href="mailto:info@kidkatkg.co.us">info@kidkatkg.co.us</a></li>
-						<li>
-							<form action="#">
-								<button type='submit'></button>
-								<input type="text" placeholder="Search..." required>
-							</form>
-						</li>
-					</ul>
-					<ul class="top_social">
-						<li><a href="#" class="ion-social-facebook"></a></li>
-						<li><a href="#" class="ion-social-googleplus-outline"></a></li>
-						<li><a href="#" class="ion-social-twitter"></a></li>
-						<li><a href="#" class="ion-social-skype-outline"></a></li>
-						<li><a href="#" class="ion-social-pinterest"></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end top -->
-
-	<!-- top menu -->
-	<div class="box_mn uk-panel uk-panel-box uk-panel-box-primary" data-uk-sticky="{top:-200, animation: 'uk-animation-slide-top'}">
-		<div class="top_menu flw">
-			<div class="container">
-				<a href="index.html" class="lg" title="Kinder">
-					<img src="images/lg.png" alt="Logo Image">
-				</a>
-				<a href="#" class="appoint">APPOINTMENT</a>
-				<!-- menu -->
-				<nav class="nav is-fixed">
-					<div class="nav-toggle">
-						<div class="icon-menu"> <span class="line line-1"></span> <span class="line line-2"></span> <span class="line line-3"></span> </div>
-					</div>
-					<div class="nav-container">
-						<ul class="nav-menu menu">
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link set_active">Home</a>
-								<ul class="nav-dropdown menu">
-									<!-- <li class="menu-item"> <a href="#!" class="menu-link">jQuery</a> </li>
-									<li class="menu-item has-dropdown"> <a href="#!" class="menu-link">Front-end</a>
-									<ul class="nav-dropdown menu">
-										<li class="menu-item"><a href="#!" class="menu-link">Html5</a></li>
-										<li class="menu-item"><a href="#!" class="menu-link">CSS3</a></li>
-										<li class="menu-item"><a href="#!" class="menu-link">Javascript</a></li>
-									</ul>
-									</li> -->
-									<li class="menu-item"><a href="index.html" class="menu-link">Home ver. 1</a> </li>
-									<li class="menu-item"><a href="index_2.html" class="menu-link sub_active">Home ver. 2</a> </li>
-									<li class="menu-item"><a href="index_3.html" class="menu-link">Home ver. 3</a> </li>
-									<li class="menu-item"><a href="index_4.html" class="menu-link">Home ver. 4</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">About</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="about.html" class="menu-link">About ver. 1</a> </li>
-									<li class="menu-item"><a href="about_2.html" class="menu-link">About ver. 2</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Classes</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="classes.html" class="menu-link">Classes</a> </li>
-									<li class="menu-item"><a href="classes_single.html" class="menu-link">Single Ver. 1</a> </li>
-									<li class="menu-item"><a href="classes_single_2.html" class="menu-link">Single Ver. 2</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="gallery.html" class="menu-link">Gallery</a></li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Pages</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="coming_soon.html" class="menu-link">Coming soon</a> </li>
-									<li class="menu-item"><a href="event.html" class="menu-link">Event</a> </li>
-									<li class="menu-item"><a href="event_detail.html" class="menu-link">Event Detail</a></li>
-									<li class="menu-item"><a href="404.html" class="menu-link">404</a></li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Blog</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="blog.html" class="menu-link">Blog</a> </li>
-									<li class="menu-item"><a href="blog_single.html" class="menu-link">Blog Detail</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
-						</ul>
-					</div>
-				</nav>
-				<!-- end menu -->
-			</div>
-		</div>
-	</div>
-	<!-- end top menu -->
-</header>
-<!-- END | Header -->
-
+<?php get_header(); ?>
 <div class="hpage hpage_4 flw">
 <main id="main" class="page_content">
 <!-- main slider ver. 4-->
@@ -176,7 +30,7 @@
 							data-description="" 
 							class="add_">
 							<img 
-								src="images/upload/slide_4.jpg"  
+								src="<?=get_stylesheet_directory_uri()?>/images/upload/slide_4.jpg"
 								alt="img"  
 								data-bgposition="center center" 
 								data-bgfit="cover" 
@@ -274,7 +128,7 @@
 							data-description="" 
 							class="add_">
 							<img 
-								src="images/upload/slide1.jpg"  
+								src="<?=get_stylesheet_directory_uri()?>/images/upload/slide1.jpg"
 								alt="img"  
 								data-bgposition="center center" 
 								data-bgfit="cover" 
@@ -383,7 +237,7 @@
 								data-splitout="none" 
 								data-responsive_offset="on" 									
 								style="z-index: 7; white-space: nowrap;">
-								<img src="images/face.png" alt="img">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/face.png" alt="img">
 							</div>
 						</li>
 					</ul>
@@ -442,7 +296,7 @@
 <!-- home appointment -->
 <div class="appointment flw">
 	<div class="box_bear">
-		<img src="images/upload/bear.png" alt="Image bear">
+		<img src="<?=get_stylesheet_directory_uri()?>/images/upload/bear.png" alt="Image bear">
 	</div>
 	<div class="container">
 		<div class="row">
@@ -486,56 +340,56 @@
 			<div class="col-md-3 col-lg-3">
 				<div class="item_fea">
 					<div class="fl flo">
-						<img src="images/fl3.png" alt="image featured">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/fl3.png" alt="image featured">
 					</div>
 					<h3 class="name_"><span>Always</span> Innovation</h3>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
 					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 				</div>
 			</div>
 			<div class="col-md-3 col-lg-3">
 				<div class="item_fea">
 					<div class="fl flt">
-						<img src="images/fl3.png" alt="image featured">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/fl3.png" alt="image featured">
 					</div>
 					<h3 class="name_"><span>Growing by</span> Learning</h3>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
 					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 				</div>
 			</div>
 			<div class="col-md-3 col-lg-3">
 				<div class="item_fea">
 					<div class="fl flth">
-						<img src="images/fl3.png" alt="image featured">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/fl3.png" alt="image featured">
 					</div>
 					<h3 class="name_">Multimedia <span>Centre</span></h3>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
 					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 				</div>
 			</div>
 			<div class="col-md-3 col-lg-3">
 				<div class="item_fea">
 					<div class="fl flf">
-						<img src="images/fl3.png" alt="image featured">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/fl3.png" alt="image featured">
 					</div>
 					<h3 class="name_"><span>Pursuing</span> Excellence</h3>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
-					<span><img src="images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
+					<span><img src="<?=get_stylesheet_directory_uri()?>/images/fls.png" alt="Image flowers"></span>
 					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 				</div>
 			</div>
@@ -554,7 +408,7 @@
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="images/upload/babe1.png" alt="Image babe"></a>
+						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe1.png" alt="Image babe"></a>
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
@@ -588,7 +442,7 @@
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="images/upload/babe2.png" alt="Image babe"></a>
+						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe2.png" alt="Image babe"></a>
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
@@ -622,7 +476,7 @@
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="images/upload/babe3.png" alt="Image babe"></a>
+						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe3.png" alt="Image babe"></a>
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
@@ -661,7 +515,7 @@
 <!-- _section_teacher -->
 <div class="_section_teacher flw">
 	<div class="box_parallax flw">
-		<div class="parallax"><img src="images/upload/slide2.jpg" alt="background feauted"></div>
+		<div class="parallax"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/slide2.jpg" alt="background feauted"></div>
 	</div>
 	<div class="box_teacher flw">
 		<div class="container">
@@ -680,7 +534,7 @@
 				    		<li><a href="#" class="fa fa-facebook"></a></li>
 				    	</ul>
 					    <div class="box_img hvr_icon_push">
-					        <img src="images/upload/teacher1.png" alt="Image Teacher">
+					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher1.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
 					        <a href="#">Talor Swift</a>
@@ -698,7 +552,7 @@
 				    		<li><a href="#" class="fa fa-facebook"></a></li>
 				    	</ul>
 					    <div class="box_img hvr_icon_push">
-					        <img src="images/upload/teacher2.png" alt="Image Teacher">
+					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher2.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
 					        <a href="#">Talor Swift</a>
@@ -716,7 +570,7 @@
 				    		<li><a href="#" class="fa fa-facebook"></a></li>
 				    	</ul>
 					    <div class="box_img hvr_icon_push">
-					        <img src="images/upload/teacher3.png" alt="Image Teacher">
+					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher3.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
 					        <a href="#">Cherry Lad</a>
@@ -734,7 +588,7 @@
 				    		<li><a href="#" class="fa fa-facebook"></a></li>
 				    	</ul>
 					    <div class="box_img hvr_icon_push">
-					        <img src="images/upload/teacher4.png" alt="Image Teacher">
+					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher4.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
 					        <a href="#">Carry Mod</a>
@@ -856,7 +710,7 @@
 <!-- section testim -->
 <div class="_section_testim flw">
 	<div class="box_parallax flw">
-		<div class="parallax"><img src="images/upload/slide3.jpg" alt="background feauted"></div>
+		<div class="parallax"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/slide3.jpg" alt="background feauted"></div>
 	</div>
 	<div class="container">
 		<div class="row">
@@ -916,7 +770,7 @@
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="images/upload/2event1.png" alt="Image babe"></a>
+						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/2event1.png" alt="Image babe"></a>
 					</div>
 					<div class="box_suma">
 						<a href="#" class="name_ flw">Letter Match Class</a>
@@ -934,7 +788,7 @@
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="images/upload/2event2.png" alt="Image babe"></a>
+						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/2event2.png" alt="Image babe"></a>
 					</div>
 					<div class="box_suma">
 						<a href="#" class="name_ flw">Beauty of Children Chef</a>
@@ -952,7 +806,7 @@
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="images/upload/2event3.png" alt="Image babe"></a>
+						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/2event3.png" alt="Image babe"></a>
 					</div>
 					<div class="box_suma">
 						<a href="#" class="name_ flw">Flying to Heaven with Us</a>
@@ -993,12 +847,12 @@
 		<div class="gallery_content grid flw">
 			<div class="element-item video">
 				<div class="gallery_item">
-					<a href="images/upload/child1.png" data-imagelightbox="light_box_img">
-						<img src="images/upload/child1.png" alt="image event">
+					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" data-imagelightbox="light_box_img">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" alt="image event">
 					</a>
 					<ul class="child_hv">
-						<li><a href="images/upload/child1.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="images/upload/child1.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
 						<li><b>CHARTY, NATURE</b></li>
 					</ul>
 				</div>
@@ -1006,60 +860,60 @@
 			<div class="gutter-sizer"></div>
 			<div class="element-item toy">
 				<div class="gallery_item">
-					<a href="images/upload/child2.png" data-imagelightbox="light_box_img">
-						<img src="images/upload/child2.png" alt="image event">
+					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" data-imagelightbox="light_box_img">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" alt="image event">
 					</a>
 					<ul class="child_hv">
-						<li><a href="images/upload/child2.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="images/upload/child2.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
 						<li><b>CHARTY, NATURE</b></li>
 					</ul>
 				</div>
 			</div>
 			<div class="element-item video chrty">
 				<div class="gallery_item">
-					<a href="images/upload/child3.png" data-imagelightbox="light_box_img">
-						<img src="images/upload/child3.png" alt="image event">
+					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" data-imagelightbox="light_box_img">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" alt="image event">
 					</a>
 					<ul class="child_hv">
-						<li><a href="images/upload/child3.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="images/upload/child3.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
 						<li><b>CHARTY, NATURE</b></li>
 					</ul>
 				</div>
 			</div>
 			<div class="element-item children video">
 				<div class="gallery_item">
-					<a href="images/upload/child4.png" data-imagelightbox="light_box_img">
-						<img src="images/upload/child4.png" alt="image event">
+					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" data-imagelightbox="light_box_img">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" alt="image event">
 					</a>
 					<ul class="child_hv">
-						<li><a href="images/upload/child4.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="images/upload/child4.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
 						<li><b>CHARTY, NATURE</b></li>
 					</ul>
 				</div>
 			</div>
 			<div class="element-item nature toy">
 				<div class="gallery_item">
-					<a href="images/upload/child5.png" data-imagelightbox="light_box_img">
-						<img src="images/upload/child5.png" alt="image event">
+					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" data-imagelightbox="light_box_img">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" alt="image event">
 					</a>
 					<ul class="child_hv">
-						<li><a href="images/upload/child5.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="images/upload/child5.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
 						<li><b>CHARTY, NATURE</b></li>
 					</ul>
 				</div>
 			</div>
 			<div class="element-item wildlife children">
 				<div class="gallery_item">
-					<a href="images/upload/child6.png" data-imagelightbox="light_box_img">
-						<img src="images/upload/child6.png" alt="image event">
+					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" data-imagelightbox="light_box_img">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" alt="image event">
 					</a>
 					<ul class="child_hv">
-						<li><a href="images/upload/child6.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="images/upload/child6.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
 						<li><b>CHARTY, NATURE</b></li>
 					</ul>
 				</div>
@@ -1072,7 +926,7 @@
 <!-- section search class -->
 <div class="home_search_class flw">
 	<div class="left_">
-		<img src="images/upload/search_class.png" alt="Image Class">
+		<img src="<?=get_stylesheet_directory_uri()?>/images/upload/search_class.png" alt="Image Class">
 	</div>
 	<div class="right_">
 		<div class="box_right flw">
@@ -1115,12 +969,12 @@
 			</div>
 			<div class="box_eg flw">
 				<div class="shape">
-					<img src="images/shap_1.png" alt="image shape" class="shape_1">
-					<img src="images/shap_2.png" alt="image shape" class="shape_2">
+					<img src="<?=get_stylesheet_directory_uri()?>/images/shap_1.png" alt="image shape" class="shape_1">
+					<img src="<?=get_stylesheet_directory_uri()?>/images/shap_2.png" alt="image shape" class="shape_2">
 				</div>
 				<div class="item_eg">
 					<div class="box_img">
-						<img src="images/upload/eg1.png" alt="image event gallery">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/eg1.png" alt="image event gallery">
 					</div>
 					<div class="item_sub">
 							<a href="#" class="name_">Beauty of Children Chef Eventury</a>
@@ -1133,7 +987,7 @@
 				</div>
 				<div class="item_eg">
 					<div class="box_img">
-						<img src="images/upload/eg2.png" alt="image event gallery">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/eg2.png" alt="image event gallery">
 					</div>
 					<div class="item_sub">
 						<a href="#" class="name_">Flying to Heaven with Us</a>
@@ -1146,7 +1000,7 @@
 				</div>
 				<div class="item_eg">
 					<div class="box_img">
-						<img src="images/upload/eg3.png" alt="image event gallery">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/eg3.png" alt="image event gallery">
 					</div>
 					<div class="item_sub">
 						<a href="#" class="name_">Art of creative for kids</a>
@@ -1159,7 +1013,7 @@
 				</div>
 				<div class="item_eg">
 					<div class="box_img">
-						<img src="images/upload/eg4.png" alt="image event gallery">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/eg4.png" alt="image event gallery">
 					</div>
 					<div class="item_sub">
 						<a href="#" class="name_">Gulf Today Report On</a>
@@ -1188,7 +1042,7 @@
 						<div class="icon_ ion-map"></div>
 						<dl class="add_">
 							<dt class="h3_">Kidkad Kinder Add #1</dt>
-							<dd><img src="images/sp1.png" alt="shape1"></dd>
+							<dd><img src="<?=get_stylesheet_directory_uri()?>/images/sp1.png" alt="shape1"></dd>
 							<dt>
 								<p>1600 Blue Amphitheatre Parkway, Mountain View, CA 94043, USA</p>
 							</dt>
@@ -1199,7 +1053,7 @@
 						<div class="icon_ ion-ios-telephone"></div>
 						<dl class="add_">
 							<dt class="h3_">Calling support</dt>
-							<dd><img src="images/sp2.png" alt="shape1"></dd>
+							<dd><img src="<?=get_stylesheet_directory_uri()?>/images/sp2.png" alt="shape1"></dd>
 							<dt>
 								<p>+00 44 123 456 78910</p>
 								<p>+00 44 1900 1570 001</p>
@@ -1211,7 +1065,7 @@
 						<div class="icon_ ion-email-unread"></div>
 						<dl class="add_">
 							<dt class="h3_">E-mail live</dt>
-							<dd><img src="images/sp1.png" alt="shape1"></dd>
+							<dd><img src="<?=get_stylesheet_directory_uri()?>/images/sp1.png" alt="shape1"></dd>
 							<dt>
 								<p>Info@kidkatkg.co.us</p>
 								<p>Support@kidkadkinder.co.us</p>
@@ -1229,7 +1083,7 @@
 					<span class="ion-android-star"></span>
 					<span class="ion-android-star"></span>
 					<div class="img_">
-						<img src="images/loca.png" alt="image location">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/loca.png" alt="image location">
 					</div>
 					<div class="title">
 						<h4>Kinder Universell School</h4>
@@ -1243,153 +1097,4 @@
 <!-- end home maps -->
 </main>
 
-<footer class="ht_footer flw">
-	<div class="subscribe flw">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-lg-7">
-					<div class="box_left">
-						<img src="images/mail_op.png" alt="image email" class="mail_op">
-						<img src="images/mail.png" alt="image email" class="mail">
-						<dl class="left_form">
-							<dt>Stay update infomation with us!</dt>
-							<dd>Nulla feugiat nibh placerat fermentum rutrum ante risus euismod</dd>
-						</dl>
-					</div>
-				</div>
-				<div class="col-md-5 col-lg-5">
-					<form action="#" class="form_sub flw">
-						<input type="text" placeholder="Enter your email" required>
-						<input type="submit" value="SUBSCRIBE">
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer_ flw">
-		<div class="container">
-			<div class="footer_main flw">
-				<div class="row">
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<a href="#" class="lg_bottom"><img src="images/lg.png" alt="Image Logo"></a>
-							<div class="des_">
-								<img src="images/upload/des.png" alt="Image Des">
-							</div>
-							<ul class="info flw">
-								<li>No 123, Ohh Street, New York</li>
-								<li>1 (800) 345- 6789</li>
-								<li><a href="#">Support@company.mail.com</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<h3>Useful link</h3>
-							<ul class="uselink flw">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Classes</a></li>
-								<li><a href="#">News</a></li>
-								<li><a href="#">Teacher &amp; Staff</a></li>
-								<li><a href="#">Contact us</a></li>
-								<li><a href="#">Privacy policy</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<h3>Recent tweet</h3>
-							<dl class="tw">
-								<dt><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dt>
-								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
-								<dt><span>1 day ago</span></dt>
-								<dd></dd>
-							</dl>
-							<dl class="tw">
-								<dt><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dt>
-								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
-								<dt><span>2 day ago</span></dt>
-								<dd></dd>
-							</dl>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<h3>News letter</h3>
-							<p class="letter flw">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.
-							</p>
-							<form action="#" class="letter_form flw">
-								<input type="text" required placeholder="Name">
-								<input type="text" required placeholder="Mail">
-								<input type="submit" value="SUBSCRIBE NOW">
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- social footer -->
-		<div class="box_social flw">
-			<ul class="footer_social">
-				<li><a href="#" class="ion-social-facebook"></a></li>
-				<li><a href="#" class="ion-social-twitter"></a></li>
-				<li><a href="#" class="ion-social-googleplus"></a></li>
-				<li><a href="#" class="ion-social-vimeo"></a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="copyright flw">
-		Copyright © 2015. Designed by <a href="#">PukDG</a>. All reserved!
-	</div>
-</footer>
-</div>
-<!-- JS files -->
-<script src="js/jquery.js"></script>
-<!-- smooth scroll -->
-<script src="js/jquery.nicescroll.min.js"></script>
-<!-- menu -->
-<script src="js/menu.responsive.js"></script>
-<script src="js/scroll.menu.js"></script>
-<!-- parallax -->
-<script src="js/parallax.materialize.js"></script>
-<!-- video lightning -->
-<script src="js/video.lightning.js"></script>
-<!-- isotope -->
-<script src="js/isotope-docs.min.js"></script>
-<!-- bx slider -->
-<script src="js/jquery.bxslider.min.js"></script>
-<!-- gallery classes page -->
-<script src="js/jquery.flexslider-min.js"></script>
-<!-- couter up -->
-<script src="js/waypoints.min.js"></script>
-<script src="js/counter.plugin.js"></script>
-<!-- slick carousel -->
-<script src="js/slick.min.js"></script>
-<!-- accordion -->
-<script src="js/smk-accordion.js"></script>
-<!-- lightbox image -->
-<script src="js/imagelightbox.min.js"></script>
-<script src="js/light_box_img.js"></script>
-<!-- menu sticky -->
-<script src="js/uikit.min.js"></script>
-<script src="js/sticky.menu.js"></script>
-<!-- wow js -->
-<!-- <script src="js/wow.min.js"></script> -->
-<!-- custom -->
-<script src="js/custom.js"></script>
-<!-- custom slider -->
-<script src="js/slider/jquery.themepunch.tools.min.js"></script>
-<script src="js/slider/jquery.themepunch.revolution.min.js"></script>
-<script src="js/slider/revolution.extension.actions.min.js"></script>
-<script src="js/slider/revolution.extension.carousel.min.js"></script>
-<script src="js/slider/revolution.extension.kenburn.min.js"></script>
-<script src="js/slider/revolution.extension.layeranimation.min.js"></script>
-<script src="js/slider/revolution.extension.migration.min.js"></script>
-<script src="js/slider/revolution.extension.navigation.min.js"></script>
-<script src="js/slider/revolution.extension.parallax.min.js"></script>
-<script src="js/slider/revolution.extension.slideanims.min.js"></script>
-<script src="js/slider/revolution.extension.video.min.js"></script>
-<script src="js/slider/custom_slider.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>

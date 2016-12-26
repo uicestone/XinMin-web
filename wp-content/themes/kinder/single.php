@@ -1,169 +1,12 @@
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7 no-js" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8 no-js" lang="en-US">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html lang="en" class="no-js">
-<head>
-	<!-- Basic need -->
-	<title>The Kinder Project</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Kinder">
-	<meta name="keywords" content="Kinder universell">
-	<meta name="author" content="tnthao">
-	<link rel="profile" href="#profile">
-	<link rel="shortcut icon" href="images/favicon.ico">
-
-	<!-- Mobile specific meta -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="format-detection" content="telephone-no">
-
-	<!-- CSS files -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-	<!--  -->
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="css/animate.css"> -->
-
-	<!-- html5/css3 for old browsers -->
-	<script src="js/modernizr.js"></script>
-</head>
-
-<body>
-
-
-<!-- BEGIN | Header -->
-<header id="ht_header" class="hd_sub flw">
-	<!-- top -->
-	<div class="top_section flw">
-		<div class="container">
-			<div class="row">
-					<div class="top_box flw">
-						<ul class="top_list">
-							<li class="spc"><span class="ion-ios-telephone"></span> Call us: +00 44 123 456 78910</li>
-							<li class="spc"><span class="ion-android-mail"></span> Mail us: <a href="mailto:info@kidkatkg.co.us">info@kidkatkg.co.us</a></li>
-							<li>
-								<form action="#">
-									<button type='submit'></button>
-									<input type="text" placeholder="Search..." required>
-								</form>
-							</li>
-						</ul>
-						<ul class="top_social">
-							<li><a href="#" class="ion-social-facebook"></a></li>
-							<li><a href="#" class="ion-social-googleplus-outline"></a></li>
-							<li><a href="#" class="ion-social-twitter"></a></li>
-							<li><a href="#" class="ion-social-skype-outline"></a></li>
-							<li><a href="#" class="ion-social-pinterest"></a></li>
-						</ul>
-					</div>
-			</div>
-		</div>
-	</div>
-	<!-- end top -->
-
-	<!-- top menu -->
-	<div class="box_mn uk-panel uk-panel-box uk-panel-box-primary" data-uk-sticky="{top:-200, animation: 'uk-animation-slide-top'}">
-		<div class="top_menu flw">
-			<div class="container">
-				<a href="index.html" class="lg" title="Kinder">
-					<img src="images/lg.png" alt="Logo Image">
-				</a>
-				<a href="#" class="appoint">APPOINTMENT</a>
-				<!-- menu -->
-				<nav class="nav is-fixed" role="navigation">
-					<button class="nav-toggle">
-						<div class="icon-menu"> <span class="line line-1"></span> <span class="line line-2"></span> <span class="line line-3"></span> </div>
-					</button>
-					<div class="nav-container">
-						<ul class="nav-menu menu">
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Home</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="index.html" class="menu-link">Home ver. 1</a> </li>
-									<li class="menu-item"><a href="index_2.html" class="menu-link sub_active">Home ver. 2</a> </li>
-									<li class="menu-item"><a href="index_3.html" class="menu-link">Home ver. 3</a> </li>
-									<li class="menu-item"><a href="index_4.html" class="menu-link">Home ver. 4</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">About</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="about.html" class="menu-link">About ver. 1</a> </li>
-									<li class="menu-item"><a href="about_2.html" class="menu-link">About ver. 2</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Classes</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="classes.html" class="menu-link">Classes</a> </li>
-									<li class="menu-item"><a href="classes_single.html" class="menu-link">Single Ver. 1</a> </li>
-									<li class="menu-item"><a href="classes_single_2.html" class="menu-link">Single Ver. 2</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="gallery.html" class="menu-link">Gallery</a></li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Pages</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="coming_soon.html" class="menu-link">Coming soon</a> </li>
-									<li class="menu-item"><a href="event.html" class="menu-link">Event</a> </li>
-									<li class="menu-item"><a href="event_detail.html" class="menu-link">Event Detail</a></li>
-									<li class="menu-item"><a href="404.html" class="menu-link">404</a></li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link set_active">Blog</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="blog.html" class="menu-link">Blog</a> </li>
-									<li class="menu-item"><a href="blog_single.html" class="menu-link">Blog Detail</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
-						</ul>
-					</div>
-				</nav>
-				<!-- end menu -->
-			</div>
-		</div>
-	</div>
-	<!-- end top menu -->
-
-	<!-- category -->
-	<div class="category_ flw">
-		<div class="container">
-			<div class="left_">
-				<h1>Blog detail <span></span></h1>
-			</div>
-			<div class="right_">
-				<ul class="cat_navigation">
-					<li><a href="#">Home</a></li>
-					<li><span class="ion-android-arrow-dropright-circle"></span></li>
-					<li><a href="#">Pages</a></li>
-					<li><span class="ion-android-arrow-dropright-circle"></span></li>
-					<li>Blog detail</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<!-- end category -->
-</header>
-<!-- END | Header -->
-
-	<main id="main" class="page_content page_blog">
+<?php get_header(); ?>
+<main id="main" class="page_content page_blog">
 		<div class="container">
 			<div class="row">
 <!-- blog single -->
 <div class="col-md-9 col-lg-9">
 <div class="blog_single_content flw">
 	<div class="box_img_top">
-		<img src="images/upload/blog_single1.jpg" alt="img blog">
+		<img src="<?=get_stylesheet_directory_uri()?>/images/upload/blog_single1.jpg" alt="img blog">
 	</div>
 	<div class="name_">
 		<a href="#" class="btn_name">Amazing Standard Blog Post // Black Heading 1</a>
@@ -214,7 +57,7 @@
 			<h3>You Will Love Our Styles.</h3>
 			<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus.</p>
 			<div class="box_img">
-				<img src="images/upload/blog_single2.jpg" alt="img blog">
+				<img src="<?=get_stylesheet_directory_uri()?>/images/upload/blog_single2.jpg" alt="img blog">
 			</div>
 			<div class="text">
 				<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. </p>
@@ -241,7 +84,7 @@
 		<div class="box_admin">
 			<div class="ava_ad">
 				<a href="#">
-					<img src="images/upload/ad_ava.png" alt="img avatar">
+					<img src="<?=get_stylesheet_directory_uri()?>/images/upload/ad_ava.png" alt="img avatar">
 				</a>
 			</div>
 			<div class="infor">
@@ -267,7 +110,7 @@
 			<div class="comments_ do_post_">
 				<div class="user_ava">
 					<a href="#">
-						<img src="images/upload/user_ava.png" alt="avatar user">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/user_ava.png" alt="avatar user">
 					</a>
 				</div>
 				<div class="box_content_cmt">
@@ -284,7 +127,7 @@
 			<div class="comments_ do_reply_">
 				<div class="user_ava">
 					<a href="#">
-						<img src="images/upload/user_ava.png" alt="avatar user">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/user_ava.png" alt="avatar user">
 					</a>
 				</div>
 				<div class="box_content_cmt">
@@ -301,7 +144,7 @@
 			<div class="comments_ do_post_">
 				<div class="user_ava">
 					<a href="#">
-						<img src="images/upload/user_ava.png" alt="avatar user">
+						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/user_ava.png" alt="avatar user">
 					</a>
 				</div>
 				<div class="box_content_cmt">
@@ -370,7 +213,7 @@
 		            <div class="item_post_">
 		            	<div class="box_img">
 		            		<a href="#">
-		            			<img src="images/upload/p1.png" alt="img post">
+		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p1.png" alt="img post">
 		            		</a>
 		            	</div>
 		            	<dl class="suma_">
@@ -386,7 +229,7 @@
 		            <div class="item_post_">
 		            	<div class="box_img">
 		            		<a href="#">
-		            			<img src="images/upload/p2.png" alt="img post">
+		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p2.png" alt="img post">
 		            		</a>
 		            	</div>
 		            	<dl class="suma_">
@@ -402,7 +245,7 @@
 		            <div class="item_post_">
 		            	<div class="box_img">
 		            		<a href="#">
-		            			<img src="images/upload/p3.png" alt="img post">
+		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p3.png" alt="img post">
 		            		</a>
 		            	</div>
 		            	<dl class="suma_">
@@ -420,7 +263,7 @@
 		            <div class="item_post_">
 		            	<div class="box_img">
 		            		<a href="#">
-		            			<img src="images/upload/p2.png" alt="img post">
+		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p2.png" alt="img post">
 		            		</a>
 		            	</div>
 		            	<dl class="suma_">
@@ -436,7 +279,7 @@
 		            <div class="item_post_">
 		            	<div class="box_img">
 		            		<a href="#">
-		            			<img src="images/upload/p1.png" alt="img post">
+		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p1.png" alt="img post">
 		            		</a>
 		            	</div>
 		            	<dl class="suma_">
@@ -452,7 +295,7 @@
 		            <div class="item_post_">
 		            	<div class="box_img">
 		            		<a href="#">
-		            			<img src="images/upload/p3.png" alt="img post">
+		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p3.png" alt="img post">
 		            		</a>
 		            	</div>
 		            	<dl class="suma_">
@@ -516,122 +359,6 @@
 <!-- end blog sidebar -->
 			</div>
 		</div>
-	</main>
+</main>
 
-<footer class="ht_footer flw">
-	<div class="footer_ flw">
-		<div class="container">
-			<div class="box_register flw">
-				<span>Visit us to day to explore best of kinder garten in New York!</span>
-				<a href="#" class="btn_reg">REGISTER NOW</a>
-			</div>
-			<div class="footer_main flw">
-				<div class="row">
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<a href="#" class="lg_bottom"><img src="images/lg.png" alt="Image Logo"></a>
-							<div class="des_">
-								<img src="images/upload/des.png" alt="Image Des">
-							</div>
-							<ul class="info flw">
-								<li>No 123, Ohh Street, New York</li>
-								<li>1 (800) 345- 6789</li>
-								<li><a href="#">Support@company.mail.com</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<h3>Useful link</h3>
-							<ul class="uselink flw">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Classes</a></li>
-								<li><a href="#">News</a></li>
-								<li><a href="#">Teacher &amp; Staff</a></li>
-								<li><a href="#">Contact us</a></li>
-								<li><a href="#">Privacy policy</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<h3>Recent tweet</h3>
-							<dl class="tw">
-								<dt><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dt>
-								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
-								<dt><span>1 day ago</span></dt>
-								<dd>&#160;</dd>
-							</dl>
-							<dl class="tw">
-								<dt><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dt>
-								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
-								<dt><span>2 day ago</span></dt>
-								<dd>&#160;</dd>
-							</dl>
-						</div>
-					</div>
-					<div class="col-md-3 col-lg-3">
-						<div class="ft_col">
-							<h3>News letter</h3>
-							<p class="letter flw">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.
-							</p>
-							<form action="#" class="letter_form flw">
-								<input type="text" required placeholder="Name">
-								<input type="text" required placeholder="Mail">
-								<input type="submit" value="SUBSCRIBE NOW">
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- social footer -->
-		<div class="box_social flw">
-			<ul class="footer_social">
-				<li><a href="#" class="ion-social-facebook"></a></li>
-				<li><a href="#" class="ion-social-twitter"></a></li>
-				<li><a href="#" class="ion-social-googleplus"></a></li>
-				<li><a href="#" class="ion-social-vimeo"></a></li>
-			</ul>
-		</div>
-	</div>
-	<div class="copyright flw">
-		Copyright © 2015. Designed by <a href="#">PukDG</a>. All reserved!
-	</div>
-</footer>
-
-<!-- JS files -->
-<script src="js/jquery.js"></script>
-<!-- smooth scroll -->
-<script src="js/jquery.nicescroll.min.js"></script>
-<!-- menu -->
-<script src="js/menu.responsive.js"></script>
-<script src="js/scroll.menu.js"></script>
-<!-- parallax -->
-<script src="js/parallax.materialize.js"></script>
-<!-- video lightning -->
-<script src="js/video.lightning.js"></script>
-<!-- isotope -->
-<script src="js/isotope-docs.min.js"></script>
-<!-- bx slider -->
-<script src="js/jquery.bxslider.min.js"></script>
-<!-- gallery classes page -->
-<script src="js/jquery.flexslider-min.js"></script>
-<!-- couter up -->
-<script src="js/waypoints.min.js"></script>
-<script src="js/counter.plugin.js"></script>
-<!-- slick carousel -->
-<script src="js/slick.min.js"></script>
-<!-- accordion -->
-<script src="js/smk-accordion.js"></script>
-<!-- lightbox image -->
-<script src="js/imagelightbox.min.js"></script>
-<script src="js/light_box_img.js"></script>
-<!-- menu sticky -->
-<script src="js/uikit.min.js"></script>
-<script src="js/sticky.menu.js"></script>
-<!-- custom -->
-<script src="js/custom.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>

@@ -15,25 +15,25 @@
 	<meta name="keywords" content="Kinder universell">
 	<meta name="author" content="tnthao">
 	<link rel="profile" href="#profile">
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="<?=get_stylesheet_directory_uri()?>/images/favicon.ico">
 
 	<!-- Mobile specific meta -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 	<meta name="format-detection" content="telephone-no">
 
 	<!-- CSS files -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/style.css">
 
 	<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
 	<!--  -->
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="css/animate.css"> -->
+	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/ionicons.min.css">
+	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/animate.css"> -->
 
 	<!-- html5/css3 for old browsers -->
-	<script src="js/modernizr.js"></script>
+	<script src="<?=get_stylesheet_directory_uri()?>/js/modernizr.js"></script>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
 	<div class="comingsoon flw">
 		<div class="container">
 			<a href="index.html" class="lg">
-				<img src="images/lg.png" alt="Logo Image">
+				<img src="<?=get_stylesheet_directory_uri()?>/images/lg.png" alt="Logo Image">
 			</a>
 			<div class="title_">
 				<h3>We are comming soon!</h3>
@@ -87,11 +87,11 @@
 <!-- end coming soon page -->
 </main>
 <!-- JS files -->
-<script src="js/jquery.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/js/jquery.js"></script>
 <!-- smooth scroll -->
-<script src="js/jquery.nicescroll.min.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/js/jquery.nicescroll.min.js"></script>
 <!-- coundown -->
-<script src="js/countdown.js"></script>
+<script src="<?=get_stylesheet_directory_uri()?>/js/countdown.js"></script>
 <!-- custom -->
 <script>
 	// smooth scroll
