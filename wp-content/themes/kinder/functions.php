@@ -45,13 +45,19 @@ add_action('after_setup_theme', function() {
 
 add_filter('nav_menu_link_attributes', function($attrs, $item) {
 	
-	$classes = ['menu-link'];
+	$attrs['class'] = $attrs['class'] ?: [];
+	
+	$attrs['class'][] = 'menu-link';
 	
 	if(in_array('current-menu-item', $item->classes) || in_array('current-page-ancestor', $item->classes)) {
-		$classes[] = 'set_active';
+		$attrs['class'][] = 'set_active';
 	}
 	
-	return ['class'=>implode(' ', $classes), 'role'=>'button'];
+	$attrs['class'] = implode(' ', $attrs['class']);
+	
+	$attrs['role'] = 'button';
+	
+	return $attrs;
 	
 }, 10, 2);
 
