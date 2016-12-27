@@ -3721,7 +3721,7 @@ button,
 input,
 select,
 textarea {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	line-height: 1;
 }
 h1,
@@ -3730,7 +3730,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	clear: both;
 	line-height: 1;
@@ -3939,21 +3939,21 @@ del {
 /* Placeholder text color -- selectors need to be separate to work. */
 ::-webkit-input-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 }
 :-moz-input-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 }
 ::-moz-input-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	opacity: 1;
 	/* Since FF19 lowers the opacity of the placeholder by default */
 }
 :-ms-input-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 }
 textarea {
 	max-width: 100%;
@@ -4094,7 +4094,7 @@ a:hover {
 	/* 1 */
 	color: #303030;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	margin-right: 13px;
 	cursor: pointer;
@@ -4454,7 +4454,7 @@ a:hover {
 	line-height: 46px;
 	font-size: 16px;
 	color: #777;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
@@ -5592,7 +5592,7 @@ select {
 .top_section .top_box .top_list li {
 	display: inline-block;
 	color: #ffffff;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 12px;
 }
 .top_section .top_box .top_list li.spc {
@@ -5708,7 +5708,7 @@ select {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 900;
 	text-align: center;
 	line-height: 40px;
@@ -5796,7 +5796,7 @@ select {
 	margin-top: -59px;
 }
 .main_sl .box_sliders .tit_main {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #ffffff;
 	line-height: 1!important;
 	border-bottom: 1px solid #ffffff !important;
@@ -5823,14 +5823,14 @@ select {
 	position: absolute;
 }
 .main_sl .box_sliders .tit_des {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #ffffff;
 }
 .main_sl .box_sliders .tit_btn {
 	text-align: center;
 }
 .main_sl .box_sliders .tit_btn .btn_go {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #ffffff;
 	text-transform: uppercase;
 	padding: inherit!important;
@@ -5867,21 +5867,21 @@ select {
 }
 .main_sl .box_sliders .circle_text {
 	color: #ffffff;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	padding: 7px 0!important;
 }
 .main_sl .box_sliders .title_main_2 {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #ffffff;
 }
 .main_sl .box_sliders .title_main_2_cl {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #f26f29;
 }
 .main_sl .box_sliders .welcome_ {
 	color: #ffffff !important;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	line-height: inherit!important;
 }
 .main_sl .box_sliders .welcome_ .big_1 {
@@ -5900,7 +5900,7 @@ select {
 	text-align: center!important;
 }
 .main_sl .box_sliders .tit_btn_2 .btn_go {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #5fcde3;
 	text-transform: uppercase;
 	padding: inherit!important;
@@ -5926,7 +5926,7 @@ select {
 	text-align: center!important;
 }
 .main_sl .box_sliders .tit_btn_3 .btn_go {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #f26f29;
 	text-transform: uppercase;
 	display: block;
@@ -5962,7 +5962,7 @@ select {
 .ht_footer .footer_ .box_register span {
 	float: left;
 	font-size: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 }
@@ -5973,7 +5973,7 @@ select {
 	border-radius: 50px;
 	background: #ffffff;
 	color: #f2722a;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	text-align: center;
 	line-height: 50px;
@@ -6020,7 +6020,7 @@ select {
 	margin-top: 33px;
 }
 .ht_footer .footer_ .footer_main .info li {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 14px;
 	color: #868686;
 	line-height: 1;
@@ -6048,7 +6048,7 @@ select {
 	font-size: 16px;
 }
 .ht_footer .footer_ .footer_main .info li a {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 14px;
 	color: #868686;
 	line-height: 1;
@@ -6058,7 +6058,7 @@ select {
 	color: #f26f29;
 }
 .ht_footer .footer_ .footer_main h3 {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	font-size: 24px;
 	color: #ffffff;
@@ -6073,7 +6073,7 @@ select {
 	line-height: 33px;
 }
 .ht_footer .footer_ .footer_main .uselink li a {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #868686;
 	font-size: 14px;
@@ -6099,7 +6099,7 @@ select {
 }
 .ht_footer .footer_ .footer_main .tw dt p {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #868686;
 	line-height: 24px;
 	font-weight: 400;
@@ -6107,7 +6107,7 @@ select {
 .ht_footer .footer_ .footer_main .tw dt span {
 	font-size: 14px;
 	color: #555555;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	display: block;
 	margin-top: 19px;
@@ -6125,7 +6125,7 @@ select {
 .ht_footer .footer_ .footer_main .tw dd a {
 	font-size: 14px;
 	color: #f2722a;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	font-style: italic;
 }
@@ -6134,7 +6134,7 @@ select {
 }
 .ht_footer .footer_ .footer_main .letter {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #868686;
 	line-height: 24px;
 	font-weight: 400;
@@ -6162,12 +6162,12 @@ select {
 }
 .ht_footer .footer_ .footer_main .letter_form input[type="text"]::-webkit-input-placeholder {
 	color: #868686;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 .ht_footer .footer_ .footer_main .letter_form input[type="text"]::-moz-input-placeholder {
 	color: #868686;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 .ht_footer .footer_ .footer_main .letter_form input[type="submit"] {
@@ -6175,7 +6175,7 @@ select {
 	background: #f26f29;
 	text-transform: uppercase;
 	color: #ffffff;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	transition-duration: 0.3s;
 	-webkit-transition-duration: 0.3s;
@@ -6217,14 +6217,14 @@ select {
 	background: #111;
 	text-align: center;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	line-height: 88px;
 	color: #555555;
 }
 .ht_footer .copyright a {
 	color: #f27029;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 }
 .ht_footer .copyright a:hover {
 	text-decoration: underline;
@@ -6303,7 +6303,7 @@ select {
 }
 .hpage .appointment .title_l h3 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #303030;
 	margin-top: 55px;
@@ -6311,7 +6311,7 @@ select {
 }
 .hpage .appointment .title_l h4 {
 	font-size: 36px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #f26f29;
 	font-weight: 400;
 }
@@ -6354,7 +6354,7 @@ select {
 	border-bottom: 1px solid #cccccc;
 	height: 55px;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #777;
 	position: relative;
@@ -6367,14 +6367,14 @@ select {
 }
 .hpage .appointment .form_ input[type="text"]::-webkit-input-placeholder {
 	color: #777777;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	font-size: 18px;
 	font-weight: 400;
 }
 .hpage .appointment .form_ input[type="text"]::-moz-placeholder {
 	color: #777777;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	font-size: 18px;
 	font-weight: 400;
@@ -6408,7 +6408,7 @@ select {
 .hpage .appointment .form_ .msg_ {
 	width: 100%;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	color: #777;
@@ -6437,7 +6437,7 @@ select {
 	border: 0;
 	background: #f26f29;
 	cursor: pointer;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	color: #ffffff;
 	line-height: 40px;
@@ -6449,13 +6449,13 @@ select {
 }
 .hpage .home_pricing .title_ h3 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #303030;
 	margin-bottom: 10px;
 }
 .hpage .home_pricing .title_ h4 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #f26f29;
 	font-weight: 400;
 	font-size: 36px;
@@ -6509,7 +6509,7 @@ select {
 }
 .hpage .home_pricing .item_title span {
 	font-size: 30px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 	line-height: 93px;
@@ -6559,7 +6559,7 @@ select {
 .hpage .home_pricing .item_main .dot_ dd {
 	font-size: 36px;
 	color: #303030;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 }
 .hpage .home_pricing .item_main .dot_ .dtb {
 	margin-top: -13px;
@@ -6570,7 +6570,7 @@ select {
 	margin-top: 24px;
 }
 .hpage .home_pricing .item_main .list_ li {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #888;
 	font-size: 16px;
@@ -6587,7 +6587,7 @@ select {
 	bottom: 0;
 	width: 100%;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
@@ -6688,7 +6688,7 @@ select {
 }
 .hpage .home_search_class .title_l h3 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 	margin-bottom: 15px;
@@ -6697,7 +6697,7 @@ select {
 	font-size: 14px;
 	line-height: 24px;
 	color: #ffffff;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 .hpage .home_search_class .form_ {
@@ -6716,7 +6716,7 @@ select {
 	border-bottom: 1px solid #ffffff;
 	background: #5fcde3;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
@@ -6729,7 +6729,7 @@ select {
 	border: 0;
 	border-bottom: 1px solid #ffffff;
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
@@ -6737,14 +6737,14 @@ select {
 }
 .hpage .home_search_class .form_ label input::-webkit-input-placeholder {
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
 }
 .hpage .home_search_class .form_ label input::-moz-input-placeholder {
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
@@ -6759,7 +6759,7 @@ select {
 	line-height: 40px;
 	color: #303030;
 	text-transform: uppercase;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	cursor: pointer;
 	float: left;
@@ -6781,12 +6781,12 @@ select {
 .hpage .home_event .class_title h3 {
 	font-size: 48px;
 	color: #303030;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	margin-bottom: 15px;
 }
 .hpage .home_event .class_title h4 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	font-size: 36px;
 	color: #f26f29;
@@ -6794,7 +6794,7 @@ select {
 }
 .hpage .home_event .class_title p {
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #303030;
 	font-size: 14px;
@@ -6866,7 +6866,7 @@ select {
 .hpage .home_event .classes_it .box_suma .date_ span {
 	float: left;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #f26f29;
 	margin-right: 20px;
 }
@@ -6888,7 +6888,7 @@ select {
 }
 .hpage .home_event .classes_it .box_suma .name_ {
 	font-size: 30px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	line-height: 1;
 	color: #303030;
@@ -6903,13 +6903,13 @@ select {
 	font-size: 14px;
 	color: #303030;
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 .hpage .home_event .classes_it .box_suma .btn_readmore {
 	color: #f26f29;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	position: absolute;
 	left: 31px;
 	bottom: 39px;
@@ -7015,7 +7015,7 @@ select {
 .hpage .home_featured .name_ {
 	font-size: 30px;
 	color: #303030;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	margin-top: 26px;
 	margin-bottom: 9px;
@@ -7027,7 +7027,7 @@ select {
 	font-size: 14px;
 	line-height: 22px;
 	color: #777;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	margin-top: 7px;
 }
 .hpage ._section_classes {
@@ -7061,7 +7061,7 @@ select {
 	-moz-transition-duration: 0.3s;
 }
 .hpage .home_counter .item_cter .name_ct {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #ffe2d3;
 	font-size: 24px;
 	font-weight: 400;
@@ -7075,7 +7075,7 @@ select {
 	margin-top: 10px;
 }
 .hpage .home_counter .item_cter .cter {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 900;
 	color: #f9f9f9;
 	font-size: 36px;
@@ -7127,11 +7127,11 @@ select {
 }
 .hpage .subscribe .box_left .left_form dt {
 	font-size: 36px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	line-height: 1;
 }
 .hpage .subscribe .box_left .left_form dd {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 14px;
 }
 .hpage .subscribe .form_sub input[type="text"] {
@@ -7150,12 +7150,12 @@ select {
 }
 .hpage .subscribe .form_sub input[type="text"]::-webkit-input-placeholder {
 	color: #cccccc;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 14px;
 }
 .hpage .subscribe .form_sub input[type="text"]::-moz-input-placeholder {
 	color: #cccccc;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 14px;
 }
 .hpage .subscribe .form_sub input[type="submit"] {
@@ -7190,21 +7190,21 @@ select {
 }
 .hpage .home_event_gallery .title_ h3 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #303030;
 	margin-bottom: 10px;
 }
 .hpage .home_event_gallery .title_ h4 {
 	font-size: 36px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #f26f29;
 	margin-bottom: 23px;
 }
 .hpage .home_event_gallery .title_ p {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #303030;
 	line-height: 24px;
 }
@@ -7297,7 +7297,7 @@ select {
 	height: 280px;
 }
 .hpage .home_event_gallery .name_ {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 	font-size: 30px;
@@ -7312,7 +7312,7 @@ select {
 	float: left;
 	width: 100%;
 	font-size: 16px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #aaaaaa;
 }
@@ -7330,12 +7330,12 @@ select {
 }
 .hpage .home_event_gallery .content p {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	line-height: 24px;
 }
 .hpage .home_event_gallery .content .bt_link {
 	color: #ffffff;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 14px;
 	margin-top: 10px;
 	display: block;
@@ -7422,7 +7422,7 @@ select {
 .hpage .spt .add_ .h3_ {
 	font-size: 24px;
 	margin-top: 4px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 }
 .hpage .spt .add_ dd {
@@ -7435,7 +7435,7 @@ select {
 	width: 100%;
 }
 .hpage .spt .add_ dt p {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 24px;
@@ -7469,7 +7469,7 @@ select {
 	float: left;
 	padding-top: 14px;
 	color: #f26f29;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	position: relative;
 	margin-top: 15px;
 }
@@ -7510,7 +7510,7 @@ select {
 }
 .category_ .left_ h1 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 }
@@ -7584,7 +7584,7 @@ select {
 	margin-bottom: 11px;
 }
 .about_welcome .title_l h4 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 36px;
 	color: #f26f29;
 }
@@ -7764,7 +7764,7 @@ select {
 .about_demo .right_ .title_l h4 {
 	color: #f37633;
 	font-size: 24px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 }
 .about_demo .right_ .title_l p {
 	line-height: 24px;
@@ -7889,7 +7889,7 @@ select {
 }
 .about_build .left_ .title_l h4 {
 	font-size: 36px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #f26f29;
 }
 .about_build .left_ .title_l p {
@@ -8046,7 +8046,7 @@ select {
 	width: 18.91%;
 }
 .about_pl_grow .pl_item dt h3 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 64px;
 }
 .about_pl_grow .pl_item.sub {
@@ -8271,13 +8271,13 @@ select {
 .classes_enroll .item_ .classes_it .box_suma .date_ span {
 	float: left;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #777;
 	margin-right: 20px;
 }
 .classes_enroll .item_ .classes_it .box_suma .name_ {
 	font-size: 30px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	line-height: 1;
 	color: #303030;
@@ -8297,13 +8297,13 @@ select {
 	font-size: 14px;
 	color: #303030;
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 .classes_enroll .item_ .classes_it .box_suma .btn_apply {
 	text-transform: uppercase;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	color: #ffffff;
 	background: #f26f29;
@@ -8387,7 +8387,7 @@ select {
 .classes_enroll .item_ .classes_it .box_suma .popup_ .btn_popup {
 	font-size: 12px;
 	color: #777;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 .classes_enroll .item_ .classes_it .box_suma .popup_:hover {
@@ -8466,7 +8466,7 @@ select {
 	background: url(images/letter.png) no-repeat top center;
 }
 .page_class_single .leftview .letter .shape_lt span {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 24px;
 	color: #ffffff;
 }
@@ -8600,7 +8600,7 @@ select {
 	padding: 14px 30px;
 }
 .page_class_single .sidebar .popular .box li {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 24px;
 	height: 84px;
 	line-height: 84px;
@@ -8625,7 +8625,7 @@ select {
 }
 .page_class_single .sidebar .popular .box li b {
 	margin-left: 8px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 }
@@ -8936,7 +8936,7 @@ select {
 	float: left;
 	color: #f26f29;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 }
 .page_class_single .leftview_2 .letter .content_r .box_rate_ .cont_ dl dd {
 	float: left;
@@ -9090,7 +9090,7 @@ select {
 }
 .comingsoon .title_ h3 {
 	font-size: 60px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	margin-bottom: 21px;
 }
@@ -9114,14 +9114,14 @@ select {
 	color: #ffffff;
 	font-size: 50px;
 	font-weight: 300;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	display: block;
 	margin-top: 41px;
 	margin-bottom: 34px;
 }
 .comingsoon .box_cd #countdown li p {
 	font-size: 24px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #303030;
 }
@@ -9158,12 +9158,12 @@ select {
 }
 .comingsoon .form_ .sub input[type="text"]::-webkit-input-placeholder {
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #534239;
 }
 .comingsoon .form_ .sub input[type="text"]::-moz-input-placeholder {
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #534239;
 }
 .comingsoon .form_ .sub input[type="submit"] {
@@ -9176,7 +9176,7 @@ select {
 	cursor: pointer;
 	font-weight: 300;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #534239;
 	border-radius: 0 3px 3px 0;
 }
@@ -9279,7 +9279,7 @@ select {
 }
 .contact_page .box_mes .title_l h4 {
 	font-weight: 400;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	color: #f26f29;
 	font-size: 36px;
 	margin-bottom: 28px;
@@ -9319,13 +9319,13 @@ select {
 	transition-duration: 0.4s;
 }
 .contact_page .box_mes .form_ input[type="text"]::-webkit-input-placeholder {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #303030;
 	font-size: 14px;
 }
 .contact_page .box_mes .form_ input[type="text"]::-moz-placeholder {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #303030;
 	font-size: 14px;
@@ -9345,13 +9345,13 @@ select {
 	transition-duration: 0.4s;
 }
 .contact_page .box_mes .form_ textarea::-webkit-input-placeholder {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #303030;
 	font-size: 14px;
 }
 .contact_page .box_mes .form_ textarea::-moz-placeholder {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #303030;
 	font-size: 14px;
@@ -9369,7 +9369,7 @@ select {
 	cursor: pointer;
 	border: 0;
 	background: #f26f29;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	transition-duration: 0.4s;
 	border: 1px solid transparent;
 }
@@ -9420,7 +9420,7 @@ select {
 .contact_page .box_info .spt .add_ h3 {
 	font-size: 24px;
 	margin-top: 4px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 }
 .contact_page .box_info .spt .add_ dd {
@@ -9433,7 +9433,7 @@ select {
 	width: 100%;
 }
 .contact_page .box_info .spt .add_ dt p {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -9488,7 +9488,7 @@ select {
 	margin-top: 13px;
 }
 .event_main_view .date_ li {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 18px;
 	color: #aaa;
 	float: left;
@@ -9668,7 +9668,7 @@ select {
 	margin-top: 13px;
 }
 .event_detail .top_fly .fly_calendar .date_ li {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 18px;
 	color: #aaa;
 	float: left;
@@ -9788,7 +9788,7 @@ select {
 }
 .event_detail .top_fly .fly_calendar .fly_form .btn_ li span {
 	color: #f26f29;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 24px;
 	font-weight: 400;
 }
@@ -9901,7 +9901,7 @@ select {
 	float: left;
 	color: #f26f29;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 }
 .event_detail .event_ .box_rate_ .cont_ dl dd {
 	float: left;
@@ -10100,7 +10100,7 @@ select {
 	float: left;
 	width: 100%;
 	color: #f26f29;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	margin-top: 10px;
 	font-size: 18px;
@@ -10296,7 +10296,7 @@ select {
 	padding-right: 12px;
 	margin-right: 12px;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #777;
 }
@@ -10551,7 +10551,7 @@ select {
 }
 .page_blog .sidebar .new_post .tab_content .item_post_ .suma_ dt .date {
 	color: #777;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-size: 14px;
 	font-weight: 400;
 }
@@ -10561,7 +10561,7 @@ select {
 	right: 0;
 	font-size: 14px;
 	color: #ccc;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 }
 .page_blog .sidebar .new_post .tab_content .item_post_ .suma_ dt .cmt:before {
 	content: "\f0e6";
@@ -10728,7 +10728,7 @@ select {
 	padding-right: 12px;
 	margin-right: 12px;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #777;
 }
@@ -10942,7 +10942,7 @@ select {
 	float: left;
 	color: #cccccc;
 	font-size: 16px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	margin-right: 32px;
 }
 .page_blog .blog_single_content .content_view .social_if .left_l li span {
@@ -11048,7 +11048,7 @@ select {
 .page_blog .blog_single_content .content_view .related_post .nav_ li span {
 	font-size: 16px;
 	color: #ccc;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 }
 .page_blog .blog_single_content .content_view .related_post .nav_ li span a {
 	color: #f26f29;
@@ -12634,7 +12634,7 @@ select {
 	z-index: 1;
 }
 ._section_item ._box_item .medal_ span {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 24px;
 	font-weight: 300;
 	color: #303030;
@@ -12642,7 +12642,7 @@ select {
 }
 ._section_item ._box_item .medal_ h3 {
 	font-size: 36px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	transition-duration: 0.3s;
 	color: #303030;
@@ -12658,7 +12658,7 @@ select {
 ._section_item ._box_item .btn_read {
 	text-transform: uppercase;
 	color: #f26f29;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	width: 130px;
 	height: 40px;
@@ -12726,7 +12726,7 @@ select {
 	margin-bottom: 30px;
 }
 ._section_featured ._it_feat h3 {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	font-size: 24px;
 	color: #303030;
@@ -12779,12 +12779,12 @@ select {
 ._section_classes .class_title h3 {
 	font-size: 48px;
 	color: #303030;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	margin-bottom: 15px;
 }
 ._section_classes .class_title h4 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	font-size: 36px;
 	color: #f26f29;
@@ -12887,14 +12887,14 @@ select {
 ._section_classes .classes_it .box_suma .date_ span {
 	float: left;
 	font-size: 18px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #777;
 	margin-right: 20px;
 }
 ._section_classes .classes_it .box_suma .name_ {
 	font-size: 30px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	line-height: 1;
 	color: #303030;
@@ -12917,13 +12917,13 @@ select {
 	font-size: 14px;
 	color: #303030;
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 ._section_classes .classes_it .box_suma .btn_apply {
 	text-transform: uppercase;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	color: #ffffff;
 	background: #f26f29;
@@ -13045,7 +13045,7 @@ select {
 ._section_classes .classes_it .box_suma .popup_ .btn_popup {
 	font-size: 12px;
 	color: #777;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 ._section_classes .classes_it .box_suma .popup_ .btn_popup:hover {
@@ -13112,12 +13112,12 @@ select {
 }
 ._section_teacher .box_teacher .teacher_title h2 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 }
 ._section_teacher .box_teacher .teacher_title h3 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	font-size: 36px;
 	color: #f26f29;
@@ -13126,7 +13126,7 @@ select {
 }
 ._section_teacher .box_teacher .teacher_title p {
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	color: #ffffff;
@@ -13189,7 +13189,7 @@ select {
 }
 ._section_teacher .box_teacher .box_item .teacher_info a {
 	font-size: 36px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #ffffff;
 	display: block;
@@ -13203,7 +13203,7 @@ select {
 	top: -5px;
 }
 ._section_teacher .box_teacher .box_item .teacher_info p {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 12px;
 	color: #ffffff;
 	font-weight: 400;
@@ -13289,7 +13289,7 @@ select {
 }
 ._section_counter .item_counter .counter {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	line-height: 1;
 	margin-bottom: 20px;
@@ -13321,7 +13321,7 @@ select {
 }
 ._section_counter .item_counter p {
 	font-size: 18px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	margin-top: 20px;
 }
@@ -13355,7 +13355,7 @@ select {
 	z-index: 5;
 }
 ._section_testim .testim_title h3 {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	font-size: 48px;
 	color: #ffffff;
@@ -13365,7 +13365,7 @@ select {
 }
 ._section_testim .testim_title h4 {
 	font-size: 36px;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #ffffff;
 	margin-bottom: 23px;
@@ -13374,7 +13374,7 @@ select {
 ._section_testim .testim_title p {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #ffffff;
 }
@@ -13393,12 +13393,12 @@ select {
 ._section_testim .testim_vd h3 a {
 	font-size: 32px;
 	color: #f26f29;
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 }
 ._section_testim .testim_vd span {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-style: italic;
 	color: #777;
 	margin-bottom: 25px;
@@ -13408,12 +13408,12 @@ select {
 	font-size: 14px;
 	line-height: 24px;
 	color: #303030;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	max-width: 60%;
 }
 ._section_testim .testim_vd > a {
 	font-weight: 700;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #f26f29;
 	font-size: 14px;
 	position: absolute;
@@ -13524,7 +13524,7 @@ select {
 }
 ._section_testim .box_location .location_ li .cter {
 	font-size: 75px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 900;
 	line-height: 1;
 	margin-top: 13px;
@@ -13535,7 +13535,7 @@ select {
 	display: block;
 	line-height: 1;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 }
 ._section_testim .box_location .location_ li hr {
@@ -13551,7 +13551,7 @@ select {
 ._section_testim .box_location .location_ li p {
 	line-height: 24px;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	display: block;
 }
@@ -13564,7 +13564,7 @@ select {
 	color: #ffffff;
 	line-height: 50px;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 700;
 	position: absolute;
 	bottom: 72px;
@@ -13587,13 +13587,13 @@ select {
 	color: #303030;
 }
 ._section_gallery .gallery_title h3 {
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	font-size: 48px;
 	margin-bottom: 13px;
 }
 ._section_gallery .gallery_title h4 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	color: #f26f29;
 	font-size: 36px;
@@ -13601,7 +13601,7 @@ select {
 }
 ._section_gallery .gallery_title p {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	line-height: 24px;
 }
 ._section_gallery .gallery_nav {
@@ -13613,7 +13613,7 @@ select {
 	background: none;
 	cursor: pointer;
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #777;
 	text-transform: uppercase;
@@ -13716,7 +13716,7 @@ select {
 }
 ._section_gallery .gallery_content .element-item .gallery_item .child_hv li .btn_cl {
 	color: #ffffff;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-size: 24px;
 	font-weight: 300;
 }
@@ -13725,7 +13725,7 @@ select {
 }
 ._section_gallery .gallery_content .element-item .gallery_item .child_hv li b {
 	font-size: 12px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 900;
 	display: block;
 	margin-top: 10px;
@@ -13848,13 +13848,13 @@ select {
 }
 ._section_event .box_event .event_title h3 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	margin-bottom: 13px;
 	white-space: nowrap;
 }
 ._section_event .box_event .event_title h4 {
-	font-family: "Grand Hotel", cursive;
+	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
 	white-space: nowrap;
 	font-size: 36px;
@@ -13864,7 +13864,7 @@ select {
 ._section_event .box_event .event_title p {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 }
 ._section_event .box_event .event_cs .event_item {
@@ -13905,7 +13905,7 @@ select {
 }
 ._section_event .box_event .event_cs .event_item .event_content h3 a {
 	font-size: 30px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	color: #ffffff;
 }
@@ -13917,7 +13917,7 @@ select {
 ._section_event .box_event .event_cs .event_item .event_content dl dt {
 	float: left;
 	width: 50%;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #f9c0ab;
 	font-size: 14px;
@@ -13932,7 +13932,7 @@ select {
 ._section_event .box_event .event_cs .event_item .event_content dl dd {
 	float: left;
 	width: 50%;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	color: #f9c0ab;
 	font-size: 14px;
@@ -13946,7 +13946,7 @@ select {
 }
 ._section_event .box_event .event_cs .event_item .event_content p {
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	line-height: 24px;
 	color: #ffffff;
@@ -13954,7 +13954,7 @@ select {
 ._section_event .box_event .event_cs .event_item .event_content > a {
 	color: #ffffff;
 	font-size: 14px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 400;
 	position: absolute;
 	left: 30px;
@@ -13980,7 +13980,7 @@ select {
 }
 ._section_question .q_title h3 {
 	font-size: 48px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	font-weight: 300;
 	margin-top: -5px;
 	margin-bottom: 20px;
@@ -13989,7 +13989,7 @@ select {
 ._section_question .q_title p {
 	font-size: 14px;
 	line-height: 24px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #303030;
 	margin-bottom: 13px;
 }
@@ -14003,7 +14003,7 @@ select {
 }
 ._section_question .q_title .qas {
 	font-size: 16px;
-	font-family: Lato, sans-serif;
+	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
 	color: #f26f29;
 	font-weight: 400;
 }
