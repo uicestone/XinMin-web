@@ -66,52 +66,7 @@
 					<div class="nav-toggle">
 						<div class="icon-menu"> <span class="line line-1"></span> <span class="line line-2"></span> <span class="line line-3"></span> </div>
 					</div>
-					<div class="nav-container">
-						<ul class="nav-menu menu">
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link set_active">Home</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="index.html" class="menu-link">Home ver. 1</a> </li>
-									<li class="menu-item"><a href="index_2.html" class="menu-link sub_active">Home ver. 2</a> </li>
-									<li class="menu-item"><a href="index_3.html" class="menu-link">Home ver. 3</a> </li>
-									<li class="menu-item"><a href="index_4.html" class="menu-link">Home ver. 4</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">About</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="about.html" class="menu-link">About ver. 1</a> </li>
-									<li class="menu-item"><a href="about_2.html" class="menu-link">About ver. 2</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Classes</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="classes.html" class="menu-link">Classes</a> </li>
-									<li class="menu-item"><a href="classes_single.html" class="menu-link">Single ver. 1</a> </li>
-									<li class="menu-item"><a href="classes_single_2.html" class="menu-link">Single ver. 2</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="gallery.html" class="menu-link">Gallery</a></li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Pages</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="coming_soon.html" class="menu-link">Coming soon</a> </li>
-									<li class="menu-item"><a href="event.html" class="menu-link">Event</a> </li>
-									<li class="menu-item"><a href="event_detail.html" class="menu-link">Event Detail</a></li>
-									<li class="menu-item"><a href="404.html" class="menu-link">404</a></li>
-								</ul>
-							</li>
-							<li class="menu-item has-dropdown">
-								<a role="button" class="menu-link">Blog</a>
-								<ul class="nav-dropdown menu">
-									<li class="menu-item"><a href="blog.html" class="menu-link">Blog</a> </li>
-									<li class="menu-item"><a href="blog_single.html" class="menu-link">Blog Detail</a> </li>
-								</ul>
-							</li>
-							<li class="menu-item"><a href="contact.html" class="menu-link">Contact</a></li>
-						</ul>
-					</div>
+					<?php wp_nav_menu(['theme_location'=>'primary', 'container_class'=>'nav-container', 'menu_class'=>'nav-menu menu', 'walker'=>new Kinder_Walker_Nav_Menu()]); ?>
 				</nav>
 				<!-- end menu -->
 			</div>

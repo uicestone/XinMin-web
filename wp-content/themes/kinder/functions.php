@@ -38,3 +38,37 @@ add_action('wp_enqueue_scripts', function() {
 	wp_enqueue_script('revolution.extension.video.min', get_stylesheet_directory_uri() . '/js/slider/revolution.extension.video.min.js', [], false, true);
 	wp_enqueue_script('custom_slider', get_stylesheet_directory_uri() . '/js/slider/custom_slider.js', [], false, true);
 });
+
+add_action('after_setup_theme', function() {
+	register_nav_menu('primary', '主导航');
+});
+
+add_filter('nav_menu_link_attributes', function($attrs, $item) {
+	
+	$classes = ['menu-link'];
+	
+	if(in_array('current-menu-item', $item->classes) || in_array('current-page-ancestor', $item->classes)) {
+		$classes[] = 'set_active';
+	}
+	
+	return ['class'=>implode(' ', $classes), 'role'=>'button'];
+	
+}, 10, 2);
+
+add_filter('nav_menu_css_class', function($classes, $item) {
+	
+	if(in_array('menu-item-has-children', $classes)) {
+		$classes[] = 'has-dropdown';
+	}
+	
+	return $classes;
+	
+}, 10, 2);
+
+class Kinder_Walker_Nav_Menu extends Walker_Nav_Menu {
+	public function start_lvl(&$output, $depth = 0, $args = array())
+	{
+		parent::start_lvl($output, $depth, $args);
+		$output = str_replace('sub-menu', 'sub-menu nav-dropdown menu', $output);
+	}
+}
