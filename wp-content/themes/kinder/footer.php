@@ -67,7 +67,7 @@
 		</div>
 	</div>
 	<div class="copyright flw">
-		Copyright © 2015. Designed by <a href="#">PukDG</a>. All reserved!
+		版权所有 © 2016 上海市宝山区新民实验学校
 	</div>
 </footer>
 <?php wp_footer(); ?>
