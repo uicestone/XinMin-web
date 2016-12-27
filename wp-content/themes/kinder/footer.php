@@ -2,8 +2,8 @@
 	<div class="footer_ flw">
 		<div class="container">
 			<div class="box_register flw">
-				<span>Visit us to day to explore best of kinder garten in New York!</span>
-				<a href="#" class="btn_reg">REGISTER NOW</a>
+				<span>明天就来试听我们的公开课程！</span>
+				<a href="#" class="btn_reg">立即报名</a>
 			</div>
 			<div class="footer_main flw">
 				<div class="row">
@@ -14,30 +14,30 @@
 								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/des.png" alt="Image Des">
 							</div>
 							<ul class="info flw">
-								<li>No 123, Ohh Street, New York</li>
-								<li>1 (800) 345- 6789</li>
-								<li><a href="#">Support@company.mail.com</a></li>
+								<li>宝山区月浦四村1号</li>
+								<li></li>
+								<li><a href="#"></a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 col-lg-3">
 						<div class="ft_col">
-							<h3>Useful link</h3>
+							<h3>相关链接</h3>
 							<ul class="uselink flw">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Classes</a></li>
-								<li><a href="#">News</a></li>
-								<li><a href="#">Teacher &amp; Staff</a></li>
-								<li><a href="#">Contact us</a></li>
-								<li><a href="#">Privacy policy</a></li>
+								<li><a href="#">关于我们</a></li>
+								<li><a href="#">办学课程</a></li>
+								<li><a href="#">新闻资讯</a></li>
+								<li><a href="#">教工风采</a></li>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">隐私政策</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-md-3 col-lg-3">
 						<div class="ft_col">
-							<h3>Recent tweet</h3>
+							<h3>最新动态</h3>
 							<dl class="tw">
-								<dt><p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dt>
+								<dt><p>校运动会举办</p></dt>
 								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
 								<dt><span>1 day ago</span></dt>
 								<dd>&#160;</dd>
@@ -52,15 +52,8 @@
 					</div>
 					<div class="col-md-3 col-lg-3">
 						<div class="ft_col">
-							<h3>News letter</h3>
-							<p class="letter flw">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.
-							</p>
-							<form action="#" class="letter_form flw">
-								<input type="text" required placeholder="Name">
-								<input type="text" required placeholder="Mail">
-								<input type="submit" value="SUBSCRIBE NOW">
-							</form>
+							<h3>新闻订阅</h3>
+							<p class="letter flw">欢迎关注我校公众号，获取最新资讯</p>
 						</div>
 					</div>
 				</div>
@@ -69,10 +62,7 @@
 		<!-- social footer -->
 		<div class="box_social flw">
 			<ul class="footer_social">
-				<li><a href="#" class="ion-social-facebook"></a></li>
-				<li><a href="#" class="ion-social-twitter"></a></li>
-				<li><a href="#" class="ion-social-googleplus"></a></li>
-				<li><a href="#" class="ion-social-vimeo"></a></li>
+				<li><a href="#" class="fa fa-wechat"></a></li>
 			</ul>
 		</div>
 	</div>

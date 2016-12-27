@@ -1,248 +1,250 @@
 <?php get_header(); ?>
 <main id="main" class="page_content">
-<!-- main slider index ver. 1 -->
+<!-- main slider ver. 4-->
 <div class="main_sl flw">
 	<div class="box_sliders">
-		<div 
-			id="rev_slider_4_1_wrapper" 
-			class="rev_slider_wrapper fullwidthbanner-container" 
-			data-alias="classicslider1" 
+		<div
+			id="rev_slider_4_1_wrapper"
+			class="rev_slider_wrapper fullwidthbanner-container"
+			data-alias="classicslider1"
 			style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-				<div 
-					id="rev_slider_4_1" 
-					class="rev_slider fullwidthabanner" 
-					style="display:none;" data-version="5.0.7">
-					<ul>
-						<li 
-							data-index="rs-16" 
-							data-transition="zoomout" 
-							data-slotamount="default"
-							data-easein="Power4.easeInOut" 
-							data-easeout="Power4.easeInOut" 
-							data-masterspeed="2000"
-							data-fstransition="fade" 
-							data-fsmasterspeed="1500" 
-							data-fsslotamount="7" 
-							data-saveperformance="off"  
-							data-title="Intro" 
-							data-description="" 
-							class="add_">
-							<img 
-								src="<?=get_stylesheet_directory_uri()?>/images/upload/slide1.jpg"
-								alt="img"  
-								data-bgposition="center center" 
-								data-bgfit="cover" 
-								data-bgrepeat="no-repeat" 
-								class="rev-slidebg"
-								data-no-retina>
-							<div 
-								class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0 tit_main" 
-								id="slide-16-layer-1" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['354','200','170','80']"
-								data-width="none"
-								data-height="none"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-								data-start="1000" 
-								data-splitin="chars" 
-								data-splitout="none" 
-								data-responsive_offset="on"
-								data-elementdelay="0.05"
-								data-fontsize="['64','54','34','24']"
-								data-fontweight="['900','700','400','400']"
-								style="z-index: 5; white-space: nowrap;">BEST KINDERGARTEN IN USA.
-							</div>
-							<div 
-								class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0 circle_text" 
-								id="slide-16-layer-2" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['320','170','140','50']"
-								data-width="none"
-								data-height="none"
-								data-fontsize="['42','30','24','20']"
-								data-lineheight="['42','30','24','20']"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-								data-start="1000" 
-								data-responsive_offset="on"
-								data-elementdelay="0.05"
-								style="z-index: 5; white-space: nowrap;">
-								Come and visit us today
-							</div>
-							<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_des" 
-								id="slide-16-layer-6" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['538','400','280','150']" 
-								data-width="none"
-								data-fontsize="['18','18','18','18']"
-								data-height="none"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-								data-start="1500" 
-								data-splitin="none" 
-								data-splitout="none" 
-								data-responsive_offset="on" 									
-								style="z-index: 6; white-space: nowrap;">At November 12, 13 and December 1, 2
-							</div>
-							<div id="slide-16-layer-4" class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_btn"
-							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['596','450','400','200']" 
-								data-width="['295','295','295','295']"
-								data-height="['50','45','40','40']"
-								data-lineheight="['47','38','30','30']"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-								data-fontsize="['16','16','16','16']"
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-								data-start="1500" 
-								data-splitin="none" 
-								data-splitout="none" 
-								data-responsive_offset="on" 									
-								style="z-index: 6; white-space: nowrap;">
-								<a href="#" class="btn_go">MAKE AN APPOINTMENT</a>
-							</div>
-							<div class="tp-caption NotGeneric-Icon tp-resizeme rs-parallaxlevel-0 icon_" 
-								id="slide-16-layer-5" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['172','50','10','10']" 
-								data-width="none"
-								data-height="none"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-style_hover="cursor:default;"
-
-								data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" 
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-								data-start="2000" 
-								data-splitin="none" 
-								data-splitout="none" 
-								data-responsive_offset="on" 									
-								style="z-index: 7; white-space: nowrap;">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/face.png" alt="img">
-							</div>
-						</li>
-						<li
-							data-index="rs-17" 
-							data-transition="zoomout" 
-							data-slotamount="default"
-							data-easein="Power4.easeInOut" 
-							data-easeout="Power4.easeInOut" 
-							data-masterspeed="2000" 
-							data-rotate="0"  
-							data-fstransition="fade" 
-							data-fsmasterspeed="1500" 
-							data-fsslotamount="7" 
-							data-saveperformance="off"  
-							data-title="Intro" 
-							data-description="" 
-							class="add_">
-							<img 
-								src="<?=get_stylesheet_directory_uri()?>/images/upload/slide_2.jpg"
-								alt="img"  
-								data-bgposition="center center" 
-								data-bgfit="cover" 
-								data-bgrepeat="no-repeat" 
-								class="rev-slidebg"
-								data-no-retina>
-							<div 
-								class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-3 title_main_2" 
-								id="slide-17-layer-1" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['335','300','255','125']"
-								data-width="none"
-								data-height="none"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-fontsize="['84','55','45','36']"
-								data-fontweight="['700','700','700','700']"
-								data-lineheight="['84','84','84','84']"
-								data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:0px;" 
-								data-mask_out="x:inherit;y:inherit;" 
-								data-start="1000" 
-								data-splitin="chars" 
-								data-splitout="none" 
-								data-responsive_offset="on" 
-
-								data-elementdelay="0.05" 
-
-								style="z-index: 5; white-space: nowrap;">Education For Kids Perfectly!
-							</div>
-							<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_btn_2" 
-								id="slide-16-layer-3" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['596','450','400','250']" 
-								data-width="['295','295','295','295']"
-								data-height="['50','45','40','40']"
-								data-lineheight="['47','38','30','30']"
-								data-fontsize="['16','16','16','16']"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-								data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
-								data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" 
-								data-start="1500" 
-								data-splitin="none" 
-								data-splitout="none" 
-								data-responsive_offset="on" 									
-								style="z-index: 6; white-space: nowrap;">
-								<a href="#" class="btn_go">MAKE AN APPOINTMENT</a>
-							</div>
-							<div
-								class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-2 welcome_" 
-								id="slide-17-layer-4" 
-								data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-								data-y="['top','top','top','top']" data-voffset="['278','230','150','50']" 
-								data-fontsize="['36','28','24','18']"
-								data-width="none"
-								data-height="none"
-								data-whitespace="nowrap"
-								data-transform_idle="o:1;"
-
-								data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-								data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-								data-mask_in="x:0px;y:[100%];" 
-								data-mask_out="x:inherit;y:inherit;" 
-								data-start="1500" 
-								data-splitin="none" 
-								data-splitout="none" 
-								data-responsive_offset="on"
-								style="z-index: 7; white-space: nowrap;">
-								<i class="ion-android-star-outline big_3"></i>
-								<i class="ion-android-star-outline big_2"></i>
-								<i class="ion-android-star big_1"></i>
-								Welcome to KinderUniversell!
-								<i class="ion-android-star big_1"></i>
-								<i class="ion-android-star-outline big_2"></i>
-								<i class="ion-android-star-outline big_3"></i>
-							</div>
-						</li>
-					</ul>
-				</div>
+			<div
+				id="rev_slider_4_1"
+				class="rev_slider fullwidthabanner"
+				style="display:none;" data-version="5.0.7">
+				<ul>
+					<li
+						data-index="rs-15"
+						data-transition="zoomout"
+						data-slotamount="default"
+						data-easein="Power4.easeInOut"
+						data-easeout="Power4.easeInOut"
+						data-masterspeed="2000"
+						data-rotate="0"
+						data-fstransition="fade"
+						data-fsmasterspeed="1500"
+						data-fsslotamount="7"
+						data-saveperformance="off"
+						data-title="Intro"
+						data-description=""
+						class="add_">
+						<img
+							src="<?=get_stylesheet_directory_uri()?>/images/upload/slide_4.jpg"
+							alt="img"
+							data-bgposition="center center"
+							data-bgfit="cover"
+							data-bgrepeat="no-repeat"
+							class="rev-slidebg"
+							data-no-retina>
+						<div
+							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-3 title_main_2"
+							id="slide-17-layer-1"
+							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							data-y="['top','top','top','top']" data-voffset="['335','300','255','125']"
+							data-fontsize="['84','55','45','36']"
+							data-fontweight="['700','700','700','700']"
+							data-lineheight="['84','84','84','84']"
+							data-width="none"
+							data-height="none"
+							data-whitespace="nowrap"
+							data-transform_idle="o:1;"
+							
+							data-transform_in="y:[100%];z:0;rZ:-35deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							data-mask_in="x:0px;y:0px;"
+							data-mask_out="x:inherit;y:inherit;"
+							data-start="1000"
+							data-splitin="chars"
+							data-splitout="none"
+							data-responsive_offset="on"
+							
+							data-elementdelay="0.05"
+							
+							style="z-index: 5; white-space: nowrap;">全新的九年一贯制实验学校
+						</div>
+						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_btn_3"
+							 id="slide-16-layer-4"
+							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							 data-y="['top','top','top','top']" data-voffset="['596','450','400','250']"
+							 data-width="['295','295','295','295']"
+							 data-height="['50','45','40','40']"
+							 data-lineheight="['47','38','30','30']"
+							 data-fontsize="['16','16','16','16']"
+							 data-whitespace="nowrap"
+							 data-transform_idle="o:1;"
+							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+							 data-start="1500"
+							 data-splitin="none"
+							 data-splitout="none"
+							 data-responsive_offset="on"
+							 style="z-index: 6; white-space: nowrap;">
+							<a href="#" class="btn_go">招生咨询</a>
+						</div>
+						<div
+							class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-2 welcome_"
+							id="slide-17-layer-4"
+							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							data-y="['top','top','top','top']" data-voffset="['278','230','150','50']"
+							data-fontsize="['36','28','24','18']"
+							data-width="none"
+							data-height="none"
+							data-whitespace="nowrap"
+							data-transform_idle="o:1;"
+							
+							data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							data-mask_in="x:0px;y:[100%];"
+							data-mask_out="x:inherit;y:inherit;"
+							data-start="1500"
+							data-splitin="none"
+							data-splitout="none"
+							data-responsive_offset="on"
+							style="z-index: 7; white-space: nowrap;">
+							<i class="ion-android-star-outline big_3"></i>
+							<i class="ion-android-star-outline big_2"></i>
+							<i class="ion-android-star big_1"></i>
+							欢迎访问宝山区新民实验中学！
+							<i class="ion-android-star big_1"></i>
+							<i class="ion-android-star-outline big_2"></i>
+							<i class="ion-android-star-outline big_3"></i>
+						</div>
+					</li>
+					<li
+						data-index="rs-16"
+						data-transition="zoomout"
+						data-slotamount="default"
+						data-easein="Power4.easeInOut"
+						data-easeout="Power4.easeInOut"
+						data-masterspeed="2000"
+						data-fstransition="fade"
+						data-fsmasterspeed="1500"
+						data-fsslotamount="7"
+						data-saveperformance="off"
+						data-title="Intro"
+						data-description=""
+						class="add_">
+						<img
+							src="<?=get_stylesheet_directory_uri()?>/images/upload/slide1.jpg"
+							alt="img"
+							data-bgposition="center center"
+							data-bgfit="cover"
+							data-bgrepeat="no-repeat"
+							class="rev-slidebg"
+							data-no-retina>
+						<div
+							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0 tit_main"
+							id="slide-16-layer-1"
+							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							data-y="['top','top','top','top']" data-voffset="['354','200','170','80']"
+							data-width="none"
+							data-height="none"
+							data-whitespace="nowrap"
+							data-transform_idle="o:1;"
+							data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+							data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+							data-start="1000"
+							data-splitin="chars"
+							data-splitout="none"
+							data-responsive_offset="on"
+							data-elementdelay="0.05"
+							data-fontsize="['64','54','34','24']"
+							data-fontweight="['900','700','400','400']"
+							style="z-index: 5; white-space: nowrap;">BEST KINDERGARTEN IN USA.
+						</div>
+						<div
+							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0 circle_text"
+							id="slide-16-layer-2"
+							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							data-y="['top','top','top','top']" data-voffset="['320','170','140','50']"
+							data-width="none"
+							data-height="none"
+							data-fontsize="['42','30','24','20']"
+							data-lineheight="['42','30','24','20']"
+							data-whitespace="nowrap"
+							data-transform_idle="o:1;"
+							data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
+							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+							data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+							data-start="1000"
+							data-responsive_offset="on"
+							data-elementdelay="0.05"
+							style="z-index: 5; white-space: nowrap;">
+							Come and visit us today
+						</div>
+						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_des"
+							 id="slide-16-layer-3"
+							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							 data-y="['top','top','top','top']" data-voffset="['538','400','280','150']"
+							 data-width="none"
+							 data-fontsize="['18','18','18','18']"
+							 data-height="none"
+							 data-whitespace="nowrap"
+							 data-transform_idle="o:1;"
+							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+							 data-start="1500"
+							 data-splitin="none"
+							 data-splitout="none"
+							 data-responsive_offset="on"
+							 style="z-index: 6; white-space: nowrap;">At November 12, 13 and December 1, 2
+						</div>
+						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_btn"
+							 id="slide-16-layer-6"
+							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							 data-y="['top','top','top','top']" data-voffset="['596','450','400','200']"
+							 data-width="['295','295','295','295']"
+							 data-height="['50','45','40','40']"
+							 data-lineheight="['47','38','30','30']"
+							 data-whitespace="nowrap"
+							 data-transform_idle="o:1;"
+							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+							 data-fontsize="['16','16','16','16']"
+							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+							 data-start="1500"
+							 data-splitin="none"
+							 data-splitout="none"
+							 data-responsive_offset="on"
+							 style="z-index: 6; white-space: nowrap;">
+							<a href="#" class="btn_go">MAKE AN APPOINTMENT</a>
+						</div>
+						<div class="tp-caption NotGeneric-Icon tp-resizeme rs-parallaxlevel-0 icon_"
+							 id="slide-16-layer-5"
+							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+							 data-y="['top','top','top','top']" data-voffset="['172','50','10','10']"
+							 data-width="none"
+							 data-height="none"
+							 data-whitespace="nowrap"
+							 data-transform_idle="o:1;"
+							 data-style_hover="cursor:default;"
+						
+							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+							 data-start="2000"
+							 data-splitin="none"
+							 data-splitout="none"
+							 data-responsive_offset="on"
+							 style="z-index: 7; white-space: nowrap;">
+							<img src="<?=get_stylesheet_directory_uri()?>/images/face.png" alt="img">
+						</div>
+					</li>
+				</ul>
 			</div>
+		</div>
 	</div>
 </div>
-<!-- end main slider index ver. 1 -->
+<!-- end main slider ver. 4-->
 <!-- section item -->
 
 <div class="_section_item flw">
@@ -253,11 +255,11 @@
 					<div class="_box_item _box_item_one bd_radi_l">
 						<span class="icon-1 kinder_icon"></span>
 						<div class="medal_">
-							<span>Programs:</span>
-							<h3>Full- and Part-Day</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</p>
+							<span>学制：</span>
+							<h3>九年一贯制学校</h3>
+							<p></p>
 						</div>
-						<a href="#" class="btn_read">read more</a>
+						<a href="#" class="btn_read">详情</a>
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-4 nopadding"
@@ -265,11 +267,11 @@
 					<div class="_box_item _box_item_two">
 						<span class="icon-2 kinder_icon"></span>
 						<div class="medal_">
-							<span>Location:</span>
-							<h3>In or Out of School</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</p>
+							<span>生源：</span>
+							<h3>地区区块招生</h3>
+							<p></p>
 						</div>
-						<a href="#" class="btn_read">read more</a>
+						<a href="#" class="btn_read">详情</a>
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-4 nopadding wow fadeInUpSmall animated"
@@ -277,11 +279,11 @@
 					<div class="_box_item _box_item_three bd_radi_r">
 						<span class="icon-3 kinder_icon"></span>
 						<div class="medal_">
-							<span>Teacher:</span>
-							<h3>Credential–Training</h3>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</p>
+							<span>教师：</span>
+							<h3>专业可靠的教师团队</h3>
+							<p></p>
 						</div>
-						<a href="#" class="btn_read">read more</a>
+						<a href="#" class="btn_read">详情</a>
 					</div>
 				</div>
 			</div>
@@ -299,8 +301,8 @@
 			</div>
 			<div class="col-md-3">
 				<div class="_it_feat">
-					<h3><span>Always</span> Innovation</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h3><span>保持</span> 创新意识</h3>
+					<p></p>
 				</div>
 			</div>
 			<div class="col-sm-1">
@@ -308,8 +310,8 @@
 			</div>
 			<div class="col-md-3">
 				<div class="_it_feat">
-					<h3><span>Growing</span> by Learning</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h3>在学习中<span>成长</span></h3>
+					<p></p>
 				</div>
 			</div>
 			<div class="col-sm-1">
@@ -317,37 +319,8 @@
 			</div>
 			<div class="col-md-3">
 				<div class="_it_feat">
-					<h3>Music <span>And</span> Art Room</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-1">
-				<span class="_fl ion-icecream"></span>
-			</div>
-			<div class="col-md-3">
-				<div class="_it_feat">
-					<h3><span>Pursuing</span> Excellence</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-			<div class="col-sm-1">
-				<span class="_fl ion-earth"></span>
-			</div>
-			<div class="col-md-3">
-				<div class="_it_feat">
-					<h3><span>Global</span> Citizenship</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-			<div class="col-sm-1">
-				<span class="_fl ion-android-sunny"></span>
-			</div>
-			<div class="col-md-3">
-				<div class="_it_feat">
-					<h3>Multimedia <span>Centre</span></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h3>学科与特长兼顾</h3>
+					<p></p>
 				</div>
 			</div>
 		</div>
@@ -359,8 +332,8 @@
 <div class="_section_classes flw">
 	<div class="container">
 		<div class="class_title">
-			<h3>Your weekly classes</h3>
-			<h4>• Quality classes for kids •</h4>
+			<h3>学科和特长</h3>
+			<h4>• 孩子的成长，我们的职业 •</h4>
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-lg-4">
@@ -370,11 +343,7 @@
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
-						<div class="date_ flw">
-							<span>December 8, 2016</span>
-							<span>8:00 am</span>
-						</div>
-						<a href="#" class="name_ flw">Letter Match Class</a>
+						<a href="#" class="name_ flw">小学奥数特训</a>
 						<div class="rate_ flw">
 							<span class="ion-ios-heart"></span>
 							<span class="ion-ios-heart"></span>
@@ -383,16 +352,16 @@
 							<span class="ion-ios-heart"></span>
 						</div>
 						<div class="sumary_ flw">
-							<p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna vehicula est node maecenas.  <b>Praesent arcu gravida vehicula</b> est node maecenas loareet morbi.</p>
+							<p></p>
 						</div>
-						<a href="#" class="btn_apply">apply</a>
+						<a href="#" class="btn_apply">预约试听</a>
 						<a class="more_" href="#">
 							<span></span>
 							<span></span>
 							<span></span>
 						</a>
 						<div class="popup_">
-							<a href="#" class="btn_popup">More info</a>
+							<a href="#" class="btn_popup">详情</a>
 						</div>
 					</div>
 				</div>
@@ -404,11 +373,7 @@
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
-						<div class="date_ flw">
-							<span>December 8, 2016</span>
-							<span>8:00 am</span>
-						</div>
-						<a href="#" class="name_ flw">Letter Match Class</a>
+						<a href="#" class="name_ flw">初中英语强化</a>
 						<div class="rate_ flw">
 							<span class="ion-ios-heart"></span>
 							<span class="ion-ios-heart"></span>
@@ -417,16 +382,16 @@
 							<span class="ion-ios-heart"></span>
 						</div>
 						<div class="sumary_ flw">
-							<p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna vehicula est node maecenas.  <b>Praesent arcu gravida vehicula</b> est node maecenas loareet morbi.</p>
+							<p></p>
 						</div>
-						<a href="#" class="btn_apply">apply</a>
+						<a href="#" class="btn_apply">预约试听</a>
 						<a class="more_" href="#">
 							<span></span>
 							<span></span>
 							<span></span>
 						</a>
 						<div class="popup_">
-							<a href="#" class="btn_popup">More info</a>
+							<a href="#" class="btn_popup">详情</a>
 						</div>
 					</div>
 				</div>
@@ -438,11 +403,7 @@
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
-						<div class="date_ flw">
-							<span>December 8, 2016</span>
-							<span>8:00 am</span>
-						</div>
-						<a href="#" class="name_ flw">Letter Match Class</a>
+						<a href="#" class="name_ flw">中考冲刺加油</a>
 						<div class="rate_ flw">
 							<span class="ion-ios-heart"></span>
 							<span class="ion-ios-heart"></span>
@@ -451,22 +412,22 @@
 							<span class="ion-ios-heart"></span>
 						</div>
 						<div class="sumary_ flw">
-							<p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna vehicula est node maecenas.  <b>Praesent arcu gravida vehicula</b> est node maecenas loareet morbi.</p>
+							<p></p>
 						</div>
-						<a href="#" class="btn_apply">apply</a>
+						<a href="#" class="btn_apply">预约试听</a>
 						<a class="more_" href="#">
 							<span></span>
 							<span></span>
 							<span></span>
 						</a>
 						<div class="popup_">
-							<a href="#" class="btn_popup">More info</a>
+							<a href="#" class="btn_popup">详情</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<a href="#" class="all_classes">OUR ALL CLASSES</a>
+		<a href="#" class="all_classes">查看我们的所有课程</a>
 	</div>
 </div>
 <!-- end section classes -->
@@ -478,9 +439,9 @@
 	<div class="box_teacher flw">
 		<div class="container">
 			<div class="teacher_title flw">
-				<h2>Our manager &amp; teacher</h2>
-				<h3>• Carefully, lovely, smooth •</h3>
-				<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc <br>putamus parum claram, anteposuerit litterarum formas.</p>
+				<h2>教师和管理团队</h2>
+				<h3>• 事无巨细, 和蔼可亲, 恰如其分 •</h3>
+				<p></p>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-lg-3">
@@ -495,9 +456,9 @@
 					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher1.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
-					        <a href="#">Talor Swift</a>
+					        <a href="#">葛燕华</a>
 					        <span></span>
-					        <p>Teacher</p>
+					        <p>校长</p>
 					    </div>
 					</div>
 				</div>
@@ -513,9 +474,9 @@
 					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher2.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
-					        <a href="#">Talor Swift</a>
+					        <a href="#">吴昌利</a>
 					        <span></span>
-					        <p>Teacher</p>
+					        <p>校办</p>
 					    </div>
 					</div>
 				</div>
@@ -531,9 +492,9 @@
 					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher3.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
-					        <a href="#">Cherry Lad</a>
+					        <a href="#">陆秋石</a>
 					        <span></span>
-					        <p>Teacher</p>
+					        <p>教工</p>
 					    </div>
 					</div>
 				</div>
@@ -549,9 +510,9 @@
 					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher4.png" alt="Image Teacher">
 					    </div>
 					    <div class="teacher_info">
-					        <a href="#">Carry Mod</a>
+					        <a href="#">Jane Dow</a>
 					        <span></span>
-					        <p>Teacher</p>
+					        <p>外教</p>
 					    </div>
 					</div>
 				</div>
@@ -566,187 +527,96 @@
 		<div class="row">
 			<div class="col-md-3 col-lg-3">
 				<div class="item_counter">
-					<span class="counter one">9190</span>
+					<span class="counter one">547</span>
 					<span class="or_ smile"></span>
-					<p>Teaching Hours</p>
+					<p>校园占地（亩）</p>
 				</div>
 			</div>
 			<div class="col-md-3 col-lg-3">
 				<div class="item_counter">
-					<span class="counter two">190</span>
+					<span class="counter two">72</span>
 					<span class="bl_ smile"></span>
-					<p>Meals Per Year</p>
+					<p>教师团队</p>
 				</div>
 			</div>
 			<div class="col-md-3 col-lg-3">
 				<div class="item_counter">
-					<span class="counter three">1910</span>
+					<span class="counter three">1341</span>
 					<span class="ort_ smile"></span>
-					<p>Morning Sessions</p>
+					<p>在校学生</p>
 				</div>
 			</div>
 			<div class="col-md-3 col-lg-3">
 				<div class="item_counter">
-					<span class="counter four">690</span>
+					<span class="counter four">5687</span>
 					<span class="orr_ smile"></span>
-					<p>Full Daycare</p>
+					<p>全年课程</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- end section counter -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- section testim -->
-<div class="_section_testim flw">
+<!-- section event -->
+<div class="_section_event flw">
 	<div class="box_parallax flw">
-		<div class="parallax"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/slide3.jpg" alt="background feauted"></div>
+		<div class="parallax"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/slide4.jpg" alt="background feauted"></div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5 col-lg-5">
-				<div class="testim_title">
-					<h3>Parents Testimonials</h3>
-					<h4>• Don’t hear from us only •</h4>
-					<p>Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna vehicula est node maecenas.</p>
-				</div>
-				<div class="testim_vd">
-					<h3><a href="#">Bill Johnson</a></h3>
-					<span>Kinny Shine’s mom, live in New York C.</span>
-					<p>“Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna vehicula est node maecenas. <b>Praesent arcu gravida vehicula</b> est"</p>
-					<a href="#">Play Interview Video  </a>
-					<div class="btn_play">
-						<span data-video-id="y-loaupcTjC8I" title="Play Interview Video" class="ion-ios-play btn_play_vd"></span>
+	<!--	-->
+	<div class="box_event flw">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-lg-4">
+					<div class="event_title">
+						<h3>新闻和活动</h3>
+						<h4>• 每天和孩子一起成长 •</h4>
+						<p>了解我们的最新动态，并参与到其中！</p>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
-				<div class="box_location">
-					<ul class="location_">
-						<li><span class="ion-ios-location"></span></li>
-						<li><span class="cter">5,094</span></li>
-						<li><p>Parents trusted us in USA from 1991.</p></li>
-						<li>
-							<hr>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-						</li>
-						<li>
-							<p>
-								Elipsis magna a terminal nulla elementum morbi elite forte maecenas est magna vehicula est node maecenas.  Praesent arcu gravida vehicula est node maecenas loareet morbi.
-							</p>
-						</li>
-						<li><a href="#">VIEW ALL LOCATION</a></li>
-					</ul>
+				<div class="col-md-8 col-lg-8 sss">
+					<div class="event_cs">
+						<div class="event_item">
+							<div class="box_img">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe1_2.png" alt="">
+								<div class="shape"></div>
+							</div>
+							<div class="event_content">
+								<h3><a href="#">校运动会举行</a></h3>
+								<dl>
+									<dt>2016年12月20日</dt>
+								</dl>
+								<p>一年一度的运动盛典又拉开帷幕了，这场游戏，从来没有输赢，只有快乐</p>
+								<a href="#">全文</a>
+							</div>
+						</div>
+						<div class="event_item">
+							<div class="box_img">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/event.png" alt="">
+								<div class="shape"></div>
+							</div>
+							<div class="event_content">
+								<h3><a href="#">宝山区新民实验学校成立</a></h3>
+								<dl>
+									<dt>2016年12月1日</dt>
+								</dl>
+								<p>宝钢三中和月浦实验小学合并，九年一贯制实验中学崭新挂牌</p>
+								<a href="#">全文</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- end section testim -->
-
+<!-- end section event -->
 <!-- section glery -->
 <div class="_section_gallery flw">
 	<div class="container">
 		<div class="gallery_title">
-			<h3>A few moments</h3>
-			<h4>• Cute gallery •</h4>
-			<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc <br>putamus parum claram, anteposuerit litterarum formas.</p>
+			<h3>精彩时刻</h3>
+			<h4>• 孩子们的画廊 •</h4>
+			<p></p>
 		</div>
 		<div data-js-module="filtering-demo">
     		<div class="gallery_nav filter-button-group button-group js-radio-button-group">
@@ -837,99 +707,14 @@
 	</div>
 </div>
 <!-- end section glery -->
-<!-- section event -->
-<div class="_section_event flw">
-	<div class="box_parallax flw">
-		<div class="parallax"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/slide4.jpg" alt="background feauted"></div>
-	</div>
-<!--	-->
-	<div class="box_event flw">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-lg-4">
-					<div class="event_title">
-						<h3>News &amp; Events</h3>
-						<h4>• Update useful infomation •</h4>
-						<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. </p>
-					</div>
-				</div>
-				<div class="col-md-8 col-lg-8 sss">
-					<div class="event_cs">
-						<div class="event_item">
-							<div class="box_img">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe1_2.png" alt="">
-								<div class="shape"></div>
-							</div>
-							<div class="event_content">
-								<h3><a href="#">Gulf Today Report On</a></h3>
-								<dl>
-									<dt>December 29, 2015</dt>
-									<dd>Kevil Shin</dd>
-								</dl>
-								<p>Claritas est etiam processus dynamicus, qui  res sequitur mutationem consuetudium lectorum Mirum est notare quam littera gothica, quam...</p>
-								<a href="#">Read more</a>
-							</div>
-						</div>
-						<div class="event_item">
-							<div class="box_img">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/event.png" alt="">
-								<div class="shape"></div>
-							</div>
-							<div class="event_content">
-								<h3><a href="#">The KGS Kindness</a></h3>
-								<dl>
-									<dt>December 29, 2015</dt>
-									<dd>Kevil Shin</dd>
-								</dl>
-								<p>Claritas est etiam processus dynamicus, qui  res sequitur mutationem consuetudium lectorum Mirum est notare quam littera gothica, quam...</p>
-								<a href="#">Read more</a>
-							</div>
-						</div>
-						<div class="event_item">
-							<div class="box_img">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe1_2.png" alt="">
-								<div class="shape"></div>
-							</div>
-							<div class="event_content">
-								<h3><a href="#">Gulf Today Report On</a></h3>
-								<dl>
-									<dt>December 29, 2015</dt>
-									<dd>Kevil Shin</dd>
-								</dl>
-								<p>Claritas est etiam processus dynamicus, qui  res sequitur mutationem consuetudium lectorum Mirum est notare quam littera gothica, quam...</p>
-								<a href="#">Read more</a>
-							</div>
-						</div>
-						<div class="event_item">
-							<div class="box_img">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/event.png" alt="">
-								<div class="shape"></div>
-							</div>
-							<div class="event_content">
-								<h3><a href="#">The KGS Kindness</a></h3>
-								<dl>
-									<dt>December 29, 2015</dt>
-									<dd>Kevil Shin</dd>
-								</dl>
-								<p>Claritas est etiam processus dynamicus, qui  res sequitur mutationem consuetudium lectorum Mirum est notare quam littera gothica, quam...</p>
-								<a href="#">Read more</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- end section event -->
 <!-- section question -->
 <div class="_section_question flw">
 	<div class="container">
 		<div class="q_title flw">
 			<span class="ion-chatbubble-working"></span>
-			<h3>Have any question for us?</h3>
-			<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam <br>nunc putamus parum claram, anteposuerit <a href="#">litterarum formas</a>.</p>
-			<a href="#" class="qas">Go to QAs page</a>
+			<h3>对我们有任何疑问？</h3>
+			<p>如果您对我校招生、课程、师资等有任何疑问，欢迎随时致电我们咨询</p>
+			<a href="#" class="qas">电话：</a>
 		</div>
 	</div>
 </div>
