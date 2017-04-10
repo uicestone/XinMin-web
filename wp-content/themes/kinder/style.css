@@ -5687,9 +5687,9 @@ select {
 .top_menu .lg {
 	position: absolute;
 	z-index: 5;
-	width: 208px;
-	height: 111px;
-	top: 30px;
+	width: 140px;
+	height: 140px;
+	top: 15px;
 	transition-duration: 0s;
 	-webkit-transition-duration: 0s;
 	-moz-transition-duration: 0s;

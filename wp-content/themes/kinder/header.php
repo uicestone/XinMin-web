@@ -58,7 +58,7 @@
 		<div class="top_menu flw">
 			<div class="container">
 				<a href="index.html" class="lg" title="Kinder">
-					<img src="<?=get_stylesheet_directory_uri()?>/images/lg.png" alt="Logo Image">
+					<img src="<?=get_stylesheet_directory_uri()?>/images/logo.png" alt="Logo Image">
 				</a>
 				<a href="#" class="appoint">招生咨询</a>
 				<!-- menu -->
