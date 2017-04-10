@@ -434,7 +434,9 @@
 <!-- _section_teacher -->
 <div class="_section_teacher flw">
 	<div class="box_parallax flw">
-		<div class="parallax"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/slide2.jpg" alt="background feauted"></div>
+		<div class="parallax">
+			<!--<img src="--><?//=get_stylesheet_directory_uri()?><!--/images/upload/slide2.jpg" alt="background feauted">-->
+		</div>
 	</div>
 	<div class="box_teacher flw">
 		<div class="container">
@@ -444,78 +446,30 @@
 				<p></p>
 			</div>
 			<div class="row">
+				<?php foreach (get_posts('category_name=教师&order=asc&posts_per_page=-1') as $index => $post): ?>
 				<div class="col-md-3 col-lg-3">
 					<div class="box_item">
-				    	<ul class="social_">
-				    		<li><a href="#" class="fa fa-pinterest-p"></a></li>
-				    		<li><a href="#" class="fa fa-google-plus"></a></li>
-				    		<li><a href="#" class="fa fa-twitter"></a></li>
-				    		<li><a href="#" class="fa fa-facebook"></a></li>
-				    	</ul>
-					    <div class="box_img hvr_icon_push">
-					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher1.png" alt="Image Teacher">
-					    </div>
-					    <div class="teacher_info">
-					        <a href="#">葛燕华</a>
-					        <span></span>
-					        <p>校长</p>
-					    </div>
+						<!--<ul class="social_">
+							<li><a href="#" class="fa fa-pinterest-p"></a></li>
+							<li><a href="#" class="fa fa-google-plus"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-facebook"></a></li>
+						</ul>-->
+						<div class="box_img hvr_icon_push">
+							<?=get_the_post_thumbnail($post, [225, 300])?>
+						</div>
+						<div class="teacher_info">
+							<a href="<?=get_the_permalink($post)?>"><?=get_the_title($post)?></a>
+							<span></span>
+							<p><?=get_the_subtitle($post)?></p>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-lg-3">
-					<div class="box_item">
-				    	<ul class="social_">
-				    		<li><a href="#" class="fa fa-pinterest-p"></a></li>
-				    		<li><a href="#" class="fa fa-google-plus"></a></li>
-				    		<li><a href="#" class="fa fa-twitter"></a></li>
-				    		<li><a href="#" class="fa fa-facebook"></a></li>
-				    	</ul>
-					    <div class="box_img hvr_icon_push">
-					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher2.png" alt="Image Teacher">
-					    </div>
-					    <div class="teacher_info">
-					        <a href="#">吴昌利</a>
-					        <span></span>
-					        <p>校办</p>
-					    </div>
-					</div>
-				</div>
-				<div class="col-md-3 col-lg-3">
-					<div class="box_item">
-				    	<ul class="social_">
-				    		<li><a href="#" class="fa fa-pinterest-p"></a></li>
-				    		<li><a href="#" class="fa fa-google-plus"></a></li>
-				    		<li><a href="#" class="fa fa-twitter"></a></li>
-				    		<li><a href="#" class="fa fa-facebook"></a></li>
-				    	</ul>
-					    <div class="box_img hvr_icon_push">
-					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher3.png" alt="Image Teacher">
-					    </div>
-					    <div class="teacher_info">
-					        <a href="#">陆秋石</a>
-					        <span></span>
-					        <p>教工</p>
-					    </div>
-					</div>
-				</div>
-				<div class="col-md-3 col-lg-3">
-					<div class="box_item">
-				    	<ul class="social_">
-				    		<li><a href="#" class="fa fa-pinterest-p"></a></li>
-				    		<li><a href="#" class="fa fa-google-plus"></a></li>
-				    		<li><a href="#" class="fa fa-twitter"></a></li>
-				    		<li><a href="#" class="fa fa-facebook"></a></li>
-				    	</ul>
-					    <div class="box_img hvr_icon_push">
-					        <img src="<?=get_stylesheet_directory_uri()?>/images/upload/teacher4.png" alt="Image Teacher">
-					    </div>
-					    <div class="teacher_info">
-					        <a href="#">Jane Dow</a>
-					        <span></span>
-					        <p>外教</p>
-					    </div>
-					</div>
-				</div>
+				<?php if ($index % 4 === 3): ?>
+			</div>
+			<div class="row">
+				<?php endif; ?>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>
@@ -619,7 +573,7 @@
 			<p></p>
 		</div>
 		<div data-js-module="filtering-demo">
-    		<div class="gallery_nav filter-button-group button-group js-radio-button-group">
+			<div class="gallery_nav filter-button-group button-group js-radio-button-group">
 			<button class="button is-checked" data-filter="*">All</button>
 			<button class="button" data-filter=".wildlife, .toy, .charty">charty</button>
 			<button class="button" data-filter=".nature, .video, children">nature</button>
@@ -627,7 +581,7 @@
 			<button class="button" data-filter=".video, .children">video</button>
 			<button class="button" data-filter=".toy, .nature">toy</button>
 			<button class="button" data-filter=".children">children</button>
-     	</div>
+	 	</div>
 		<div class="gallery_content grid flw">
 			<div class="element-item video">
 				<div class="gallery_item">
@@ -702,7 +656,7 @@
 					</ul>
 				</div>
 			</div>
-	     </div>
+		 </div>
 		</div>
 	</div>
 </div>
