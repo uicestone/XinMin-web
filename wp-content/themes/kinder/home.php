@@ -13,6 +13,7 @@
 				class="rev_slider fullwidthabanner"
 				style="display:none;" data-version="5.0.7">
 				<ul>
+                    <?php foreach (get_posts('category_name=头图') as $post): ?>
 					<li
 						data-index="rs-15"
 						data-transition="zoomout"
@@ -28,14 +29,12 @@
 						data-title="Intro"
 						data-description=""
 						class="add_">
-						<img
-							src="<?=get_stylesheet_directory_uri()?>/images/upload/slide_4.jpg"
-							alt="img"
-							data-bgposition="center center"
-							data-bgfit="cover"
-							data-bgrepeat="no-repeat"
-							class="rev-slidebg"
-							data-no-retina>
+                        <?=get_the_post_thumbnail($post, [1920, 1200], ['alt'=>'img',
+							'data-bgposition'=>'center center',
+							'data-bgfit'=>'cover',
+							'data-bgrepeat'=>'no-repeat',
+							'class'=>'rev-slidebg',
+							'data-no-retina'=>''])?>
 						<div
 							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-3 title_main_2"
 							id="slide-17-layer-1"
@@ -60,7 +59,7 @@
 							
 							data-elementdelay="0.05"
 							
-							style="z-index: 5; white-space: nowrap;">全新的九年一贯制实验学校
+							style="z-index: 5; white-space: nowrap;"><?=get_the_title($post)?>
 						</div>
 						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_btn_3"
 							 id="slide-16-layer-4"
@@ -81,7 +80,6 @@
 							 data-splitout="none"
 							 data-responsive_offset="on"
 							 style="z-index: 6; white-space: nowrap;">
-							<a href="#" class="btn_go">招生咨询</a>
 						</div>
 						<div
 							class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-2 welcome_"
@@ -106,139 +104,13 @@
 							<i class="ion-android-star-outline big_3"></i>
 							<i class="ion-android-star-outline big_2"></i>
 							<i class="ion-android-star big_1"></i>
-							欢迎访问宝山区新民实验中学！
+							<?=get_the_subtitle($post)?>
 							<i class="ion-android-star big_1"></i>
 							<i class="ion-android-star-outline big_2"></i>
 							<i class="ion-android-star-outline big_3"></i>
 						</div>
 					</li>
-					<li
-						data-index="rs-16"
-						data-transition="zoomout"
-						data-slotamount="default"
-						data-easein="Power4.easeInOut"
-						data-easeout="Power4.easeInOut"
-						data-masterspeed="2000"
-						data-fstransition="fade"
-						data-fsmasterspeed="1500"
-						data-fsslotamount="7"
-						data-saveperformance="off"
-						data-title="Intro"
-						data-description=""
-						class="add_">
-						<img
-							src="<?=get_stylesheet_directory_uri()?>/images/upload/slide1.jpg"
-							alt="img"
-							data-bgposition="center center"
-							data-bgfit="cover"
-							data-bgrepeat="no-repeat"
-							class="rev-slidebg"
-							data-no-retina>
-						<div
-							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0 tit_main"
-							id="slide-16-layer-1"
-							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							data-y="['top','top','top','top']" data-voffset="['354','200','170','80']"
-							data-width="none"
-							data-height="none"
-							data-whitespace="nowrap"
-							data-transform_idle="o:1;"
-							data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
-							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-							data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-							data-start="1000"
-							data-splitin="chars"
-							data-splitout="none"
-							data-responsive_offset="on"
-							data-elementdelay="0.05"
-							data-fontsize="['64','54','34','24']"
-							data-fontweight="['900','700','400','400']"
-							style="z-index: 5; white-space: nowrap;">BEST KINDERGARTEN IN USA.
-						</div>
-						<div
-							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-0 circle_text"
-							id="slide-16-layer-2"
-							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							data-y="['top','top','top','top']" data-voffset="['320','170','140','50']"
-							data-width="none"
-							data-height="none"
-							data-fontsize="['42','30','24','20']"
-							data-lineheight="['42','30','24','20']"
-							data-whitespace="nowrap"
-							data-transform_idle="o:1;"
-							data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;"
-							data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-							data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
-							data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-							data-start="1000"
-							data-responsive_offset="on"
-							data-elementdelay="0.05"
-							style="z-index: 5; white-space: nowrap;">
-							Come and visit us today
-						</div>
-						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_des"
-							 id="slide-16-layer-3"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['top','top','top','top']" data-voffset="['538','400','280','150']"
-							 data-width="none"
-							 data-fontsize="['18','18','18','18']"
-							 data-height="none"
-							 data-whitespace="nowrap"
-							 data-transform_idle="o:1;"
-							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-							 data-start="1500"
-							 data-splitin="none"
-							 data-splitout="none"
-							 data-responsive_offset="on"
-							 style="z-index: 6; white-space: nowrap;">At November 12, 13 and December 1, 2
-						</div>
-						<div class="tp-caption NotGeneric-SubTitle tp-resizeme rs-parallaxlevel-0 tit_btn"
-							 id="slide-16-layer-6"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['top','top','top','top']" data-voffset="['596','450','400','200']"
-							 data-width="['295','295','295','295']"
-							 data-height="['50','45','40','40']"
-							 data-lineheight="['47','38','30','30']"
-							 data-whitespace="nowrap"
-							 data-transform_idle="o:1;"
-							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-							 data-fontsize="['16','16','16','16']"
-							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-							 data-start="1500"
-							 data-splitin="none"
-							 data-splitout="none"
-							 data-responsive_offset="on"
-							 style="z-index: 6; white-space: nowrap;">
-							<a href="#" class="btn_go">MAKE AN APPOINTMENT</a>
-						</div>
-						<div class="tp-caption NotGeneric-Icon tp-resizeme rs-parallaxlevel-0 icon_"
-							 id="slide-16-layer-5"
-							 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-							 data-y="['top','top','top','top']" data-voffset="['172','50','10','10']"
-							 data-width="none"
-							 data-height="none"
-							 data-whitespace="nowrap"
-							 data-transform_idle="o:1;"
-							 data-style_hover="cursor:default;"
-						
-							 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
-							 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-							 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-							 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-							 data-start="2000"
-							 data-splitin="none"
-							 data-splitout="none"
-							 data-responsive_offset="on"
-							 style="z-index: 7; white-space: nowrap;">
-							<img src="<?=get_stylesheet_directory_uri()?>/images/face.png" alt="img">
-						</div>
-					</li>
+                    <?php endforeach; ?>
 				</ul>
 			</div>
 		</div>

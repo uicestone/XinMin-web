@@ -70,7 +70,7 @@
 		},
 		responsiveLevels:[1240,992,768,480],
 		gridwidth:[1240,992,768,480],
-		gridheight:[1017,640,540,320],
+		gridheight:[864,640,540,320],
 		lazyType:"none",
 		parallax: {
 		type:"mouse",
