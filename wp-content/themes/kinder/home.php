@@ -13,9 +13,9 @@
 				class="rev_slider fullwidthabanner"
 				style="display:none;" data-version="5.0.7">
 				<ul>
-                    <?php foreach (get_posts('category_name=头图') as $post): ?>
+                    <?php foreach (get_posts('category_name=头图&order=asc') as $index => $post): ?>
 					<li
-						data-index="rs-15"
+						data-index="rs-<?=$index?>"
 						data-transition="zoomout"
 						data-slotamount="default"
 						data-easein="Power4.easeInOut"
@@ -25,9 +25,7 @@
 						data-fstransition="fade"
 						data-fsmasterspeed="1500"
 						data-fsslotamount="7"
-						data-saveperformance="off"
-						data-title="Intro"
-						data-description=""
+						data-saveperformance="on"
 						class="add_">
                         <?=get_the_post_thumbnail($post, [1920, 1200], ['alt'=>'img',
 							'data-bgposition'=>'center center',
