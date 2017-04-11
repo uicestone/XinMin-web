@@ -15,8 +15,8 @@
 							</div>
 							<ul class="info flw">
 								<li>宝山区月浦四村1号</li>
-								<li></li>
-								<li><a href="#"></a></li>
+								<li>021-56649303</li>
+								<li><a href="mailto:info@xmes.sh.cn">info@xmes.sh.cn</a></li>
 							</ul>
 						</div>
 					</div>

@@ -43,8 +43,8 @@
 			<div class="row">
 				<div class="top_box flw">
 					<ul class="top_list">
-						<li class="spc"><span class="ion-ios-telephone"></span> 学校电话：</li>
-						<li class="spc"><span class="ion-android-mail"></span> 电子邮件：<a href="mailto:"></a></li>
+						<li class="spc"><span class="ion-ios-telephone"></span> 学校电话：021-56649303</li>
+						<li class="spc"><span class="ion-android-mail"></span> 电子邮件：info@xmes.sh.cn<a href="mailto:info@xmes.sh.cn"></a></li>
 						<li>
 							<form action="#">
 								<button type='submit'></button>
