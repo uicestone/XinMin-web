@@ -1,6 +1,10 @@
 (function () {
 	"use strict";
 
+	setTimeout(function(){
+		$('.page-loader').fadeOut(1000);
+	}, 1000);
+
 	// parallax js
 	$('.parallax').parallax();
 

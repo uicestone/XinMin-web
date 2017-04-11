@@ -24,8 +24,16 @@
 	<?php wp_head(); ?>
 </head>
 
-<body>
+<body <?php body_class('page-template-default page masthead-fixed full-width footer-widgets grid')?>>
 
+<div class="page-loader">
+	<div class="loader">
+		<span class="dot dot_1"></span>
+		<span class="dot dot_2"></span>
+		<span class="dot dot_3"></span>
+		<span class="dot dot_4"></span>
+	</div>
+</div>
 
 <!-- BEGIN | Header -->
 <header id="ht_header" class="flw">
