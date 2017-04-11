@@ -5833,7 +5833,7 @@ select {
 [data-uk-sticky].uk-active .top_menu .lg {
 	top: 5px;
 	height: 50px;
-	width: 94px;
+	width: 50px;
 }
 [data-uk-sticky].uk-active .top_menu .appoint {
 	line-height: 30px;

@@ -72,6 +72,8 @@ add_filter('nav_menu_css_class', function($classes, $item) {
 	
 }, 10, 2);
 
+show_admin_bar( false );
+
 class Kinder_Walker_Nav_Menu extends Walker_Nav_Menu {
 	public function start_lvl(&$output, $depth = 0, $args = array())
 	{

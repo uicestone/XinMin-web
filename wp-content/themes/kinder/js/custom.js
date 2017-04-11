@@ -6,7 +6,7 @@
 	}, 1000);
 
 	// parallax js
-	$('.parallax').parallax();
+	// $('.parallax').parallax();
 
 	// couter up
 	$('.counter, .cter').counterUp({
@@ -35,15 +35,15 @@
 		});
 
 	// smooth scroll
-	$("html").niceScroll({
-		zindex: "99999",
-		scrollspeed: 70,
-		mousescrollstep: 50,
-		cursorwidth: "6px",
-		cursorborder: "0",
-		cursorcolor: "#d2d2d2",
-		cursorborderradius: "0px",
-		});
+	// $("html").niceScroll({
+	// 	zindex: "99999",
+	// 	scrollspeed: 70,
+	// 	mousescrollstep: 50,
+	// 	cursorwidth: "6px",
+	// 	cursorborder: "0",
+	// 	cursorcolor: "#d2d2d2",
+	// 	cursorborderradius: "0px",
+	// 	});
 
 	//isotope
 	$('.gallery_content').isotope({
