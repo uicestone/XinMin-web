@@ -44,6 +44,8 @@ add_action('after_setup_theme', function() {
 	add_theme_support('post-thumbnails');
 	add_image_size('intro', 390, 394, true);
 	add_image_size('banner', 1920, 1200, true);
+	add_image_size('home-news', 519, 347, true);
+	add_image_size('home-gallery', 370, 250, true);
 });
 
 add_filter('nav_menu_link_attributes', function($attrs, $item) {

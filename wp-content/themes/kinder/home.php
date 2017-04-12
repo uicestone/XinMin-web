@@ -321,34 +321,22 @@
 				</div>
 				<div class="col-md-8 col-lg-8 sss">
 					<div class="event_cs">
+						<?php foreach(get_posts('category_name=新闻') as $post): ?>
 						<div class="event_item">
 							<div class="box_img">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe1_2.png" alt="">
+								<?=get_the_post_thumbnail($post, 'home-news')?>
 								<div class="shape"></div>
 							</div>
 							<div class="event_content">
-								<h3><a href="#">校运动会举行</a></h3>
+								<h3><a href="<?=get_the_permalink($post)?>"><?=get_the_title($post)?></a></h3>
 								<dl>
-									<dt>2016年12月20日</dt>
+									<dt><?=get_the_date('Y年m月d日', $post)?></dt>
 								</dl>
-								<p>一年一度的运动盛典又拉开帷幕了，这场游戏，从来没有输赢，只有快乐</p>
-								<a href="#">全文</a>
+								<p><?=get_the_subtitle($post)?></p>
+								<a href="<?=get_the_permalink($post)?>">全文</a>
 							</div>
 						</div>
-						<div class="event_item">
-							<div class="box_img">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/event.png" alt="">
-								<div class="shape"></div>
-							</div>
-							<div class="event_content">
-								<h3><a href="#">宝山区新民实验学校成立</a></h3>
-								<dl>
-									<dt>2016年12月1日</dt>
-								</dl>
-								<p>宝钢三中和月浦实验小学合并，九年一贯制实验中学崭新挂牌</p>
-								<a href="#">全文</a>
-							</div>
-						</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 			</div>
@@ -366,88 +354,32 @@
 		</div>
 		<div data-js-module="filtering-demo">
 			<div class="gallery_nav filter-button-group button-group js-radio-button-group">
-			<button class="button is-checked" data-filter="*">All</button>
-			<button class="button" data-filter=".wildlife, .toy, .charty">charty</button>
-			<button class="button" data-filter=".nature, .video, children">nature</button>
-			<button class="button" data-filter=".wildlife, .toy">wildlife</button>
-			<button class="button" data-filter=".video, .children">video</button>
-			<button class="button" data-filter=".toy, .nature">toy</button>
-			<button class="button" data-filter=".children">children</button>
+			<button class="button is-checked" data-filter="*">全部</button>
+			<button class="button" data-filter=".class">课堂</button>
+			<button class="button" data-filter=".nature">自然</button>
+			<button class="button" data-filter=".sports">运动</button>
+			<button class="button" data-filter=".art">艺术</button>
+			<button class="button" data-filter=".tech">科技</button>
+			<button class="button" data-filter=".daily">日常</button>
 	 	</div>
 		<div class="gallery_content grid flw">
-			<div class="element-item video">
+			<?php foreach(get_posts('category_name=活动&posts_per_page=24') as $index => $post): ?>
+			<div class="element-item <?=wp_get_post_tags($post->ID)[0]->slug?>">
 				<div class="gallery_item">
-					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" data-imagelightbox="light_box_img">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" alt="image event">
+					<a href="<?=get_the_post_thumbnail_url($post)?>" data-imagelightbox="light_box_img">
+						<?=get_the_post_thumbnail($post, 'home-gallery')?>
 					</a>
 					<ul class="child_hv">
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child1.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
-						<li><b>CHARTY, NATURE</b></li>
+						<li><a href="<?=get_the_post_thumbnail_url($post)?>" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
+						<li><a href="<?=get_the_post_thumbnail_url($post)?>" class="btn_cl" data-imagelightbox="light_box_img"><?=get_the_title($post)?></a></li>
+						<li><b><?=wp_get_post_tags($post->ID)[0]->name?></b></li>
 					</ul>
 				</div>
 			</div>
+			<?php if($index === 0): ?>
 			<div class="gutter-sizer"></div>
-			<div class="element-item toy">
-				<div class="gallery_item">
-					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" data-imagelightbox="light_box_img">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" alt="image event">
-					</a>
-					<ul class="child_hv">
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child2.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
-						<li><b>CHARTY, NATURE</b></li>
-					</ul>
-				</div>
-			</div>
-			<div class="element-item video chrty">
-				<div class="gallery_item">
-					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" data-imagelightbox="light_box_img">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" alt="image event">
-					</a>
-					<ul class="child_hv">
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child3.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
-						<li><b>CHARTY, NATURE</b></li>
-					</ul>
-				</div>
-			</div>
-			<div class="element-item children video">
-				<div class="gallery_item">
-					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" data-imagelightbox="light_box_img">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" alt="image event">
-					</a>
-					<ul class="child_hv">
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child4.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
-						<li><b>CHARTY, NATURE</b></li>
-					</ul>
-				</div>
-			</div>
-			<div class="element-item nature toy">
-				<div class="gallery_item">
-					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" data-imagelightbox="light_box_img">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" alt="image event">
-					</a>
-					<ul class="child_hv">
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child5.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
-						<li><b>CHARTY, NATURE</b></li>
-					</ul>
-				</div>
-			</div>
-			<div class="element-item wildlife children">
-				<div class="gallery_item">
-					<a href="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" data-imagelightbox="light_box_img">
-						<img src="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" alt="image event">
-					</a>
-					<ul class="child_hv">
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
-						<li><a href="<?=get_stylesheet_directory_uri()?>/images/upload/child6.png" class="btn_cl" data-imagelightbox="light_box_img">Children Funny</a></li>
-						<li><b>CHARTY, NATURE</b></li>
-					</ul>
-				</div>
-			</div>
+			<?php endif; ?>
+			<?php endforeach; ?>
 		 </div>
 		</div>
 	</div>
@@ -460,7 +392,7 @@
 			<span class="ion-chatbubble-working"></span>
 			<h3>对我们有任何疑问？</h3>
 			<p>如果您对我校招生、课程、师资等有任何疑问，欢迎随时致电我们咨询</p>
-			<a href="#" class="qas">电话：</a>
+			<a href="#" class="qas">电话：021-56649303</a>
 		</div>
 	</div>
 </div>

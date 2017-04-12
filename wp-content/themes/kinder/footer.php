@@ -9,9 +9,9 @@
 				<div class="row">
 					<div class="col-md-3 col-lg-3">
 						<div class="ft_col">
-							<a href="#" class="lg_bottom"><img src="<?=get_stylesheet_directory_uri()?>/images/lg.png" alt="Image Logo"></a>
+							<a href="#" class="lg_bottom"><img src="<?=get_stylesheet_directory_uri()?>/images/logo.png" width="100px" alt="Image Logo"></a>
 							<div class="des_">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/des.png" alt="Image Des">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/campus.jpg" alt="Image Des">
 							</div>
 							<ul class="info flw">
 								<li>宝山区月浦四村1号</li>
@@ -36,18 +36,14 @@
 					<div class="col-md-3 col-lg-3">
 						<div class="ft_col">
 							<h3>最新动态</h3>
+							<?php foreach(get_posts('category_name=新闻') as $post): ?>
 							<dl class="tw">
-								<dt><p>校运动会举办</p></dt>
-								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
-								<dt><span>1 day ago</span></dt>
+								<dt><p><?=get_the_title($post)?></p></dt>
+								<dd><a href="<?=get_the_permalink($post)?>">查看新闻详情</a></dd>
+								<dt><span><?=get_the_date('Y-m-d', $post->ID)?></span></dt>
 								<dd>&#160;</dd>
 							</dl>
-							<dl class="tw">
-								<dt><p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></dt>
-								<dd><a href="#">http://twitter.com/linktotweet</a></dd>
-								<dt><span>2 day ago</span></dt>
-								<dd>&#160;</dd>
-							</dl>
+							<?php endforeach; ?>
 						</div>
 					</div>
 					<div class="col-md-3 col-lg-3">
