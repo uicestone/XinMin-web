@@ -1,4 +1,14 @@
 <?php get_header(); ?>
+
+<div class="page-loader">
+	<div class="loader">
+		<span class="dot dot_1"></span>
+		<span class="dot dot_2"></span>
+		<span class="dot dot_3"></span>
+		<span class="dot dot_4"></span>
+	</div>
+</div>
+
 <main id="main" class="page_content">
 <!-- main slider ver. 4-->
 <div class="main_sl flw">
