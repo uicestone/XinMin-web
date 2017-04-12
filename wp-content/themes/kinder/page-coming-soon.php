@@ -8,8 +8,7 @@
 				<img src="<?=get_stylesheet_directory_uri()?>/images/logo.png" alt="Logo Image">
 			</a>
 			<div class="title_">
-				<h3>期待与您见面</h3>
-				<p>新民实验学校网站全新上线</p>
+				<h3>网站即将上线</h3>
 			</div>
 			<div class="box_cd">
 				<ul id="countdown">

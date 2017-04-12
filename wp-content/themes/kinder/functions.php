@@ -74,6 +74,13 @@ add_filter('nav_menu_css_class', function($classes, $item) {
 
 show_admin_bar( false );
 
+add_action('wp', function() {
+	$coming_soon_page = get_posts(array('name'=>'coming-soon', 'post_type'=>'page'));
+	if($coming_soon_page && !is_page('coming-soon') && !is_admin() && !current_user_can('administrator')) {
+	    header('Location: ' . get_permalink($coming_soon_page[0]->ID)); exit;
+	}
+});
+
 class Kinder_Walker_Nav_Menu extends Walker_Nav_Menu {
 	public function start_lvl(&$output, $depth = 0, $args = array())
 	{

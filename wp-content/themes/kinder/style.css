@@ -9162,7 +9162,7 @@ select {
 	position: relative;
 	padding-top: 40px;
 	text-align: center;
-	color: #ffffff;
+	color: #ffdda2;
 }
 .comingsoon:before {
 	content: "";
@@ -9184,12 +9184,13 @@ select {
 	width: 170px;
 	background: white;
 	border-radius: 85px;
-	box-shadow: 5px 5px 10px grey;
+	box-shadow: 0 0 10px grey;
 }
 .comingsoon .title_ {
 	float: left;
-	width: 100%;
-	margin-top: 63px;
+    width: 370px;
+    margin-top: 63px;
+    margin-left: 20%;
 }
 .comingsoon .title_ h3 {
 	font-size: 60px;
@@ -9214,7 +9215,7 @@ select {
 	background: url(images/moon.png) no-repeat top center;
 }
 .comingsoon .box_cd #countdown li span {
-	color: #ffffff;
+	color: #ffdda2;
 	font-size: 50px;
 	font-weight: 300;
 	font-family: STHeiti, 'Microsoft Yahei', Lato, sans-serif;
@@ -9226,7 +9227,7 @@ select {
 	font-size: 24px;
 	font-family: STXingkai, "Grand Hotel", cursive;
 	font-weight: 400;
-	color: #303030;
+	color: #ffdda2;
 }
 .comingsoon .form_ {
 	width: 440px;
