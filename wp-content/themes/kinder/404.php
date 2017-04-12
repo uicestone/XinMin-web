@@ -6,15 +6,15 @@
 		<div class="row">
 			<div class="col-md-6 col-lg-6">
 				<div class="oops">
-					<h3>Oop!</h3>
-					<h4>We are sorry, page not found!</h4>
-					<p>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh vitae fermentum finibus. Donec malesuada efficitur dapibus.</p>
-					<a href="#" class="btn">RETURN TO HOMEPAGE</a>
+					<h3>噢！</h3>
+					<h4>抱歉，没有找到那个页面</h4>
+					<p>您可能点击了错误的链接或者老的地址？不妨回到首页看看，或者使用搜索功能</p>
+					<a href="<?=site_url()?>" class="btn">返回首页</a>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-6">
 				<div class="box_img">
-					<img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe.jpg" alt="img 404">
+					<img src="<?=get_stylesheet_directory_uri()?>/images/laugh.jpg" alt="img 404">
 				</div>
 			</div>
 		</div>
