@@ -1,87 +1,36 @@
-<!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7 no-js" lang="en-US">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8 no-js" lang="en-US">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html lang="en" class="no-js">
-<head>
-	<!-- Basic need -->
-	<title>The Kinder Project</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Kinder">
-	<meta name="keywords" content="Kinder universell">
-	<meta name="author" content="tnthao">
-	<link rel="profile" href="#profile">
-	<link rel="shortcut icon" href="<?=get_stylesheet_directory_uri()?>/images/favicon.ico">
-
-	<!-- Mobile specific meta -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="format-detection" content="telephone-no">
-
-	<!-- CSS files -->
-	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/style.css">
-
-	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
-	<!--  -->
-	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/ionicons.min.css">
-	<link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/font-awesome.min.css">
-	<!-- <link rel="stylesheet" href="<?=get_stylesheet_directory_uri()?>/css/animate.css"> -->
-
-	<!-- html5/css3 for old browsers -->
-	<script src="<?=get_stylesheet_directory_uri()?>/js/modernizr.js"></script>
-</head>
-
-<body>
+<?php get_header(); ?>
 
 <main id="main" class="page_content page_cms flw">
 <!-- coming soon page -->
 	<div class="comingsoon flw">
 		<div class="container">
-			<a href="index.html" class="lg">
-				<img src="<?=get_stylesheet_directory_uri()?>/images/lg.png" alt="Logo Image">
+			<a href="/" class="lg">
+				<img src="<?=get_stylesheet_directory_uri()?>/images/logo.png" alt="Logo Image">
 			</a>
 			<div class="title_">
-				<h3>We are comming soon!</h3>
-				<p>Proin nec lacus lacus. Sed vitae consectetur est, et mattis felis. Fusce lacinia nibh vitae fermentum finibus. Donec malesuada efficitur <br>dapibus. Cras euismod nunc tellus, eget tempor purus finibus id.</p>
+				<h3>期待与您见面</h3>
+				<p>新民实验学校网站全新上线</p>
 			</div>
 			<div class="box_cd">
 				<ul id="countdown">
 					<li>
 						<span class="days">00</span>
-						<p class="timeRefDays">days</p>
+						<p class="timeRefDays">天</p>
 					</li>
 					<li>
 						<span class="hours">00</span>
-						<p class="timeRefHours">hours</p>
+						<p class="timeRefHours">小时</p>
 					</li>
 					<li>
 						<span class="minutes">00</span>
-						<p class="timeRefMinutes">minutes</p>
+						<p class="timeRefMinutes">分钟</p>
 					</li>
 					<li>
 						<span class="seconds">00</span>
-						<p class="timeRefSeconds">seconds</p>
+						<p class="timeRefSeconds">秒</p>
 					</li>
 				</ul>
 			</div>
-			<div class="form_">
-				<form action="#" class="sub">
-					<input type="text" placeholder="Enter your email" required>
-					<input type="submit" value="Subscribe">
-				</form>
-			</div>
-			<ul class="social_">
-				<li><a href="#" class="ion-social-facebook"></a></li>
-				<li><a href="#" class="ion-social-googleplus"></a></li>
-				<li><a href="#" class="ion-social-twitter"></a></li>
-				<li><a href="#" class="ion-social-dribbble"></a></li>
-				<li><a href="#" class="ion-social-pinterest"></a></li>
-			</ul>
 		</div>
 	</div>
 <!-- end coming soon page -->
@@ -107,7 +56,7 @@
 </script>
 <script>
 	$("#countdown").countdown({
-		date: "17 august 2016 12:00:00",
+		date: "18 Apr 2017 09:00:00",
 		format: "on"
 	},
 	

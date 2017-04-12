@@ -25,7 +25,7 @@
 </head>
 
 <body <?php body_class('page-template-default page masthead-fixed full-width footer-widgets grid')?>>
-
+<?php if(!is_page('coming-soon')): ?>
 <!-- BEGIN | Header -->
 <header id="ht_header" class="flw">
 	<!-- top -->
@@ -74,3 +74,4 @@
 	<!-- end top menu -->
 </header>
 <!-- END | Header -->
+<?php endif; ?>

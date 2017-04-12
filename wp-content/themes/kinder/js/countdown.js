@@ -10,6 +10,8 @@
 			'format': null
 		};
 
+		var interval;
+
 		//append the settings array to options
 		if(options) {
 			$.extend(settings, options);
@@ -38,10 +40,10 @@
 			seconds -= minutes * 60; //update the seconds variable with no. of minutes removed
 			
 			//conditional Ss
-			if (days == 1) { thisEl.find(".timeRefDays").text("day"); } else { thisEl.find(".timeRefDays").text("days"); }
-			if (hours == 1) { thisEl.find(".timeRefHours").text("hour"); } else { thisEl.find(".timeRefHours").text("hours"); }
-			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("minute"); } else { thisEl.find(".timeRefMinutes").text("minutes"); }
-			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("second"); } else { thisEl.find(".timeRefSeconds").text("seconds"); }
+			if (days == 1) { thisEl.find(".timeRefDays").text("天"); } else { thisEl.find(".timeRefDays").text("天"); }
+			if (hours == 1) { thisEl.find(".timeRefHours").text("小时"); } else { thisEl.find(".timeRefHours").text("小时"); }
+			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("分钟"); } else { thisEl.find(".timeRefMinutes").text("分钟"); }
+			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("秒"); } else { thisEl.find(".timeRefSeconds").text("秒"); }
 			
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {

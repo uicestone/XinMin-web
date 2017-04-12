@@ -9182,6 +9182,9 @@ select {
 }
 .comingsoon .lg img {
 	width: 170px;
+	background: white;
+	border-radius: 85px;
+	box-shadow: 5px 5px 10px grey;
 }
 .comingsoon .title_ {
 	float: left;
