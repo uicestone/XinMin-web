@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_header(); the_post(); ?>
 <main id="main" class="page_content page_blog">
 		<div class="container">
 			<div class="row">
@@ -6,71 +6,25 @@
 <div class="col-md-9 col-lg-9">
 <div class="blog_single_content flw">
 	<div class="box_img_top">
-		<img src="<?=get_stylesheet_directory_uri()?>/images/upload/blog_single1.jpg" alt="img blog">
+		<?php the_post_thumbnail(); ?>
 	</div>
 	<div class="name_">
-		<a href="#" class="btn_name">Amazing Standard Blog Post // Black Heading 1</a>
+		<a href="<?php the_permalink(); ?>" class="btn_name"><?php the_title(); ?></a>
 	</div>
 	<ul class="list_if">
-		<li>By <a href="#">AdminCP</a></li>
-		<li><a href="#">Creative and Design</a></li>
-		<li>24 Comments</li>
-		<li>Posted at <a href="#">6:00 PM</a></li>
-		<li>124 Likes</li>
+		<li>发布于 <a href="#"><?php the_date('Y年m月d日'); ?></a></li>
 	</ul>
 	<div class="content_view flw">
 		<div class="txt">
-			<b>In varius varius justo, eget ultrices mauris rhoncus non. Morbi tristique, mauris eu imperdiet bibendum, velit diam iaculis velit, in ornare massa enim at lorem. Etiam risus diam, porttitor vitae ultrices quis. 
-			Dapibus id dolor. Morbi venenatis lacinia rhoncus. Pellentesque non bibendum tellus, vitae semper sem. Morbi nec porta sem, eget egestas leo. Donec imperdiet varius urna...</b>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet. Aliquam at ante at elit efficitur tincidunt a quis neque. Donec ut pulvinar metus. Pellentesque lobortis volutpat eros sed sagittis. Nunc rutrum ex eu auctor tristique. Maecenas suscipit vestibulum nunc nec placerat. Phasellus blandit augue nunc, consequat consectetur augue placerat sed. Aenean fermentum scelerisque lectus, sit amet ultricies ex interdum bibendum. Quisque porttitor, enim maximus convallis gravida, dui arcu lacinia libero, quis ornare nibh elit pharetra massa.</p>
+			<?php the_content(); ?>
 		</div>
-		<div class="quote">
-			<h3>This is quote paragraph, did you like it? Wow!</h3>
-			<p>Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intellegebat, liber regione eu sit. Mea cu case ludus integre.</p>
-		</div>
-		<div class="letter_">
-			<p>An Introduce Dolor sit amet, consectetur adipiscing elit. Ut sed bibendum leo. Mauris mauris massa, eleifend et purus vel, feugiat rutrum nulla. Cras vitae est vel ipsum faucibus fermentum a ultricies urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris pellentesque dolor eu est gravida, quis porta ipsum tincidunt. Curabitur et egestas tortor, eget elementum felis. Proin vitae dolor id lorem dignissim consectetur eu sed arcu. Suspendisse potenti. Vestibulum dolor felis, egestas at dui ut, iaculis scelerisque ante. Duis scelerisque tortor a vehicula eleifend. Nullam rutrum eleifend nibh quis efficitur. Vivamus vel urna at arcu aliquet varius. Donec in ipsum aliquet, congue est non, pellentesque neque. Morbi pellentesque accumsan nisl eleifend vehicula.</p>
-		</div>
-		<div class="txt">
-			<h3>Heading Two</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet. Aliquam at ante at elit efficitur tincidunt a quis neque. Donec ut pulvinar metus. Pellentesque lobortis volutpat eros sed sagittis.</p>
-		</div>
-		<div class="txt">
-			<h3>This is paragrph style</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius ultricies metus. Donec ac ex porta libero venenatis sodales. Sed efficitur eget risus sed molestie. Nulla blandit bibendum metus ut sagittis. Etiam quis semper justo. Sed tristique facilisis felis ut tincidunt. Phasellus auctor convallis nisl ut accumsan. Suspendisse ullamcorper fermentum lectus, vel tincidunt ligula mollis sit amet:</p>
-		</div>
-		<ul class="left_">
-			<li>Phasellus sit amet velit auctor turpis rhoncus.</li>
-			<li>Phasellus sed dolor sodales, eleifend ipsum eu.</li>
-			<li>Nullam id dolor in ex eleifend tempus.</li>
-			<li class="close_">Etiam id lorem vel neque faucibus fermentum.</li>
-			<li>Nunc tincidunt augue in enim sollicitudin feugiat.</li>
-		</ul>
-		<ul class="right_">
-			<li>Phasellus sit amet velit auctor turpis rhoncus.</li>
-			<li>Phasellus sed dolor sodales, eleifend ipsum eu.</li>
-			<li>Nullam id dolor in ex eleifend tempus.</li>
-			<li class="close_">Etiam id lorem vel neque faucibus fermentum.</li>
-			<li>Nunc tincidunt augue in enim sollicitudin feugiat.</li>
-		</ul>
-		<div class="txt">
-			<h3>You Will Love Our Styles.</h3>
-			<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus.</p>
-			<div class="box_img">
-				<img src="<?=get_stylesheet_directory_uri()?>/images/upload/blog_single2.jpg" alt="img blog">
-			</div>
-			<div class="text">
-				<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. </p>
-				<p>Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus. Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttito.</p>
-			</div>
-		</div>
-		<ul class="tag_">
+		<!-- <ul class="tag_">
 			<li><a href="#">Awesome</a></li>
 			<li><a href="#">Cute</a></li>
 			<li><a href="#" class="atv">Kidkat</a></li>
 			<li><a href="#">Kids</a></li>
-		</ul>
-		<div class="social_if">
+		</ul> -->
+		<!-- <div class="social_if">
 			<ul class="left_l">
 				<li><span class="ion-android-hangout"></span>05 comments</li>
 				<li><span class="ion-android-favorite-outline"></span>124 Likes</li>
@@ -80,7 +34,7 @@
 				<li><a href="#" class="ion-social-facebook"></a></li>
 				<li><a href="#" class="ion-social-twitter"></a></li>
 			</ul>
-		</div>
+		</div> -->
 		<div class="box_admin">
 			<div class="ava_ad">
 				<a href="#">
@@ -88,24 +42,24 @@
 				</a>
 			</div>
 			<div class="infor">
-				<a href="#" class="name_ad">Administrator</a>
-				<span class="fea_">Web Designer</span>
+				<a href="#" class="name_ad">作者</a>
+				<span class="fea_">教师</span>
 				<span class="sumary_">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. </span>
 			</div>
 		</div>
 		<div class="related_post">
 			<ul class="nav_ related_l">
 				<li><span>Posted by <a href="#">Admin</a> on <a href="#">Web Design</a></span></li>
-				<li><h4>What does the matter previous?</h4></li>
-				<li><a href="#" class="btn_link">Previous Post</a></li>
+				<li><h4>上一篇文章</h4></li>
+				<li><a href="#" class="btn_link">上一篇</a></li>
 			</ul>
 			<ul class="nav_ related_r">
 				<li><span>Posted by <a href="#">Admin</a> on <a href="#">Web Design</a></span></li>
-				<li><h4>What does the matter next?</h4></li>
-				<li><a href="#" class="btn_link">Next Post</a></li>
+				<li><h4>下一篇文章</h4></li>
+				<li><a href="#" class="btn_link">下一篇</a></li>
 			</ul>
 		</div>
-		<div class="box_comments">
+		<!-- <div class="box_comments">
 			<h3 class="cmt_tt">(05) Comments</h3>
 			<div class="comments_ do_post_">
 				<div class="user_ava">
@@ -159,8 +113,8 @@
 				</div>
 			</div>
 			<a href="#" class="more_cmts">VIEW MORE (<span>02</span>)</a>
-		</div>
-		<div class="levae_cmt">
+		</div> -->
+		<!-- <div class="levae_cmt">
 			<h3 class="tt_">Leave a Comment</h3>
 			<form action="#" class="form_lv">
 				<div class="req">
@@ -172,7 +126,7 @@
 				<textarea placeholder="Comment"></textarea>
 				<input type="submit" value="POST YOUR COMMENT">
 			</form>
-		</div>
+		</div> -->
 	</div>
 </div>
 </div>
