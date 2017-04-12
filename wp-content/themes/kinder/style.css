@@ -12660,16 +12660,7 @@ select {
 ._section_item ._box_item:before {
 	content: "";
 	transition-duration: 0.3s;
-	opacity: 0;
-}
-._section_item ._box_item._box_item_one {
-	background: #ffffff url(images/upload/part1.png) no-repeat top left;
-}
-._section_item ._box_item._box_item_two {
-	background: #ffffff url(images/upload/part2.png) no-repeat top left;
-}
-._section_item ._box_item._box_item_three {
-	background: #ffffff url(images/upload/part3.png) no-repeat top left;
+	/*opacity: 0;*/
 }
 ._section_item ._box_item.bd_radi_l {
 	border-radius: 15px 0 0 15px;
@@ -12692,6 +12683,16 @@ select {
 	border-radius: 0 15px 15px 0;
 	content: "";
 	background: rgba(143, 220, 235, 0.75);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+}
+._section_item ._box_item:before {
+	content: "";
+	background: rgba(255, 255, 255, 0.7);
 	position: absolute;
 	top: 0;
 	left: 0;

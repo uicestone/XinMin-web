@@ -14,37 +14,25 @@
 <div class="main_sl flw">
 	<div class="box_sliders">
 		<div
-			id="rev_slider_4_1_wrapper"
+			id="rev_slider_wrapper"
 			class="rev_slider_wrapper fullwidthbanner-container"
 			data-alias="classicslider1"
 			style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
 			<div
-				id="rev_slider_4_1"
+				id="rev_slider"
 				class="rev_slider fullwidthabanner"
 				style="display:none;" data-version="5.0.7">
 				<ul>
                     <?php foreach (get_posts('category_name=头图&order=asc') as $index => $post): ?>
-					<li
-						data-index="rs-<?=$index?>"
-						data-transition="zoomout"
-						data-slotamount="default"
-						data-easein="Power4.easeInOut"
-						data-easeout="Power4.easeInOut"
-						data-masterspeed="2000"
-						data-rotate="0"
-						data-fstransition="fade"
-						data-fsmasterspeed="1500"
-						data-fsslotamount="7"
-						data-saveperformance="on"
-						class="add_">
-                        <?=get_the_post_thumbnail($post, [1920, 1200], ['alt'=>'img',
+					<li data-index="rs-<?=$index?>" class="add_">
+                        <?=get_the_post_thumbnail($post, 'banner', ['alt'=>'img',
 							'data-bgposition'=>'center center',
 							'data-bgfit'=>'cover',
 							'data-bgrepeat'=>'no-repeat',
 							'class'=>'rev-slidebg',
 							'data-no-retina'=>''])?>
 						<div
-							class="tp-caption NotGeneric-Title tp-resizeme rs-parallaxlevel-3 title_main_2"
+							class="tp-caption tp-resizeme rs-parallaxlevel-3 title_main_2"
 							id="slide-17-layer-1"
 							data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 							data-y="['top','top','top','top']" data-voffset="['335','300','255','125']"
@@ -131,41 +119,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="box_shadow flw">
-				<div class="col-md-4 col-lg-4 nopadding">
-					<div class="_box_item _box_item_one bd_radi_l">
-						<span class="icon-1 kinder_icon"></span>
-						<div class="medal_">
-							<span>学制：</span>
-							<h3>九年一贯制学校</h3>
-							<p></p>
-						</div>
-						<a href="#" class="btn_read">详情</a>
-					</div>
-				</div>
+				<?php $posts = get_posts('category_name=介绍&order=asc'); ?>
+				<?php foreach($posts as $index => $post): ?>
 				<div class="col-md-4 col-lg-4 nopadding"
-				data-wow-delay=".2s" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.2s; animation-name: fadeInUpSmall;" >
-					<div class="_box_item _box_item_two">
-						<span class="icon-2 kinder_icon"></span>
+					data-wow-delay=".2s" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: <?=0.2*$index?>s; animation-name: fadeInUpSmall;">
+					<div class="_box_item<?php if($index===0){ ?> bd_radi_l<?php } ?><?php if($index===count($posts)-1){ ?> bd_radi_r<?php } ?>" style="background-image:url('<?=get_the_post_thumbnail_url($post, 'intro')?>')">
+						<span class="icon-<?=$index+1?> kinder_icon"></span>
 						<div class="medal_">
-							<span>生源：</span>
-							<h3>地区区块招生</h3>
+							<span><?=get_the_title($post)?>：</span>
+							<h3><?=get_the_subtitle($post)?></h3>
 							<p></p>
 						</div>
-						<a href="#" class="btn_read">详情</a>
+						<a href="<?=get_the_permalink($post)?>" class="btn_read">详情</a>
 					</div>
 				</div>
-				<div class="col-md-4 col-lg-4 nopadding wow fadeInUpSmall animated"
-				data-wow-delay=".4s" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: 0.4s; animation-name: fadeInUpSmall;" >
-					<div class="_box_item _box_item_three bd_radi_r">
-						<span class="icon-3 kinder_icon"></span>
-						<div class="medal_">
-							<span>教师：</span>
-							<h3>专业可靠的教师团队</h3>
-							<p></p>
-						</div>
-						<a href="#" class="btn_read">详情</a>
-					</div>
-				</div>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</div>	
@@ -216,14 +184,17 @@
 			<h4>• 孩子的成长，我们的职业 •</h4>
 		</div>
 		<div class="row">
+			<?php foreach(get_posts('category_name=学科') as $post): ?>
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
-						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe1.png" alt="Image babe"></a>
+						<a href="<?=get_the_permalink($post)?>">
+							<?=get_the_post_thumbnail($post, 'post-thumbnail')?>
+						</a>
 						<div class="wave"></div>
 					</div>
 					<div class="box_suma">
-						<a href="#" class="name_ flw">小学奥数特训</a>
+						<a href="#" class="name_ flw"><?=get_the_title($post)?></a>
 						<div class="rate_ flw">
 							<span class="ion-ios-heart"></span>
 							<span class="ion-ios-heart"></span>
@@ -232,7 +203,7 @@
 							<span class="ion-ios-heart"></span>
 						</div>
 						<div class="sumary_ flw">
-							<p></p>
+							<?=wpautop($post->post_content)?>
 						</div>
 						<a href="#" class="btn_apply">预约试听</a>
 						<a class="more_" href="#">
@@ -241,73 +212,14 @@
 							<span></span>
 						</a>
 						<div class="popup_">
-							<a href="#" class="btn_popup">详情</a>
+							<a href="<?=get_the_permalink($post)?>" class="btn_popup">详情</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-lg-4">
-				<div class="classes_it">
-					<div class="box_img">
-						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe2.png" alt="Image babe"></a>
-						<div class="wave"></div>
-					</div>
-					<div class="box_suma">
-						<a href="#" class="name_ flw">初中英语强化</a>
-						<div class="rate_ flw">
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-						</div>
-						<div class="sumary_ flw">
-							<p></p>
-						</div>
-						<a href="#" class="btn_apply">预约试听</a>
-						<a class="more_" href="#">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-						<div class="popup_">
-							<a href="#" class="btn_popup">详情</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 col-lg-4">
-				<div class="classes_it">
-					<div class="box_img">
-						<a href="#"><img src="<?=get_stylesheet_directory_uri()?>/images/upload/babe3.png" alt="Image babe"></a>
-						<div class="wave"></div>
-					</div>
-					<div class="box_suma">
-						<a href="#" class="name_ flw">中考冲刺加油</a>
-						<div class="rate_ flw">
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-							<span class="ion-ios-heart"></span>
-						</div>
-						<div class="sumary_ flw">
-							<p></p>
-						</div>
-						<a href="#" class="btn_apply">预约试听</a>
-						<a class="more_" href="#">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-						<div class="popup_">
-							<a href="#" class="btn_popup">详情</a>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php endforeach; ?>
 		</div>
-		<a href="#" class="all_classes">查看我们的所有课程</a>
+		<a href="<?=site_url()?>/course/" class="all_classes">查看我们的所有课程</a>
 	</div>
 </div>
 <!-- end section classes -->
