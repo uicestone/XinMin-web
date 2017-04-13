@@ -10633,7 +10633,7 @@ select {
 }
 .page_blog .sidebar .new_post .tab_content .item_post_ .box_img {
 	float: left;
-	height: 80px;
+	height: 100px;
 	width: 37.038%;
 	overflow: hidden;
 	border-radius: 3px;

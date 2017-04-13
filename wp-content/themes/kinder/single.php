@@ -35,8 +35,8 @@
 				<li><a href="#" class="ion-social-twitter"></a></li>
 			</ul>
 		</div> -->
-		<div class="box_admin">
-			<div class="ava_ad">
+		<div class="box_admin" style="height:2px;padding:0;margin-top:40px">
+			<!-- <div class="ava_ad">
 				<a href="#">
 					<img src="<?=get_stylesheet_directory_uri()?>/images/upload/ad_ava.png" alt="img avatar">
 				</a>
@@ -44,20 +44,22 @@
 			<div class="infor">
 				<a href="#" class="name_ad">作者</a>
 				<span class="fea_">教师</span>
-				<span class="sumary_">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. </span>
-			</div>
+				<span class="sumary_">教师介绍</span>
+			</div> -->
 		</div>
 		<div class="related_post">
+			<?php $previous = get_previous_post(true); if($previous): ?>
 			<ul class="nav_ related_l">
-				<li><span>Posted by <a href="#">Admin</a> on <a href="#">Web Design</a></span></li>
-				<li><h4>上一篇文章</h4></li>
-				<li><a href="#" class="btn_link">上一篇</a></li>
+				<li><h4><?=get_the_title($previous)?></h4></li>
+				<li><a href="<?=get_the_permalink($previous)?>" class="btn_link">上一篇</a></li>
 			</ul>
+			<?php endif; ?>
+			<?php $next = get_next_post(true); if($next): ?>
 			<ul class="nav_ related_r">
-				<li><span>Posted by <a href="#">Admin</a> on <a href="#">Web Design</a></span></li>
-				<li><h4>下一篇文章</h4></li>
-				<li><a href="#" class="btn_link">下一篇</a></li>
+				<li><h4><?=get_the_title($next)?></h4></li>
+				<li><a href="<?=get_the_permalink($next)?>" class="btn_link">下一篇</a></li>
 			</ul>
+			<?php endif; ?>
 		</div>
 		<!-- <div class="box_comments">
 			<h3 class="cmt_tt">(05) Comments</h3>
@@ -135,137 +137,100 @@
 <div class="col-md-3 col-lg-3">
 	<div class="sidebar flw">
 		<form action="#" class="search_">
-			<input type="text" placeholder="Search" required>
+			<input type="text" placeholder="搜索" required>
 			<button type="submit" class="ion-android-search"></button>
 		</form>
 		<div class="title_">
-			<h3>Categories</h3>
+			<h3>分类</h3>
 		</div>
 		<ul class="cate_">
-			<li><a href="#">Frontend Development</a><span>05</span></li>
-			<li><a href="#">JavaScript</a><span>03</span></li>
-			<li><a href="#">Programming Patterns</a><span>06</span></li>
-			<li><a href="#">System Administration</a><span>05</span></li>
-			<li><a href="#">WordPress</a><span>02</span></li>
+			<?php wp_list_categories(['title_li'=>'']); ?>
 		</ul>
-		<div class="title_">
-			<h3>Tab Widget Style</h3>
-		</div>
 		<div class="new_post">
 			<ul class="tabs_menu">
-		        <li class="tab_current">
-		        	<a href="#recent_post">Recent Post</a>
-		        	<span></span>
-	        	</li>
-		        <li>
-		        	<a href="#popular_post">Popular Post</a>
-		        	<span></span>
-	        	</li>
-		    </ul>
-		    <div class="tab">
-		        <div id="recent_post" class="tab_block tab_content">
-		            <div class="item_post_">
-		            	<div class="box_img">
-		            		<a href="#">
-		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p1.png" alt="img post">
-		            		</a>
-		            	</div>
-		            	<dl class="suma_">
-		            		<dt>
-		            			<span class="date">July 27, 2014</span>
-		            			<span class="cmt">3</span>
-		            		</dt>
+				<li class="tab_current">
+					<a href="#recent_post">最新文章</a>
+					<span></span>
+				</li>
+				<li>
+					<a href="#popular_post">热门内容</a>
+					<span></span>
+				</li>
+			</ul>
+			<div class="tab">
+				<div id="recent_post" class="tab_block tab_content">
+					<?php foreach(get_posts() as $post): ?>
+					<div class="item_post_">
+						<div class="box_img">
+							<a href="<?=get_the_permalink($post)?>">
+								<?=get_the_post_thumbnail($post, 'thumbnail')?>
+							</a>
+						</div>
+						<dl class="suma_">
+							<dt>
+								<span class="date"><?=get_the_date('Y-m-d', $post->ID)?></span>
+								<!-- <span class="cmt">3</span> -->
+							</dt>
+							<dd>
+								<a href="<?=get_the_permalink($post)?>" class="btn_link"><?=get_the_title($post)?></a>
+							</dd>
+						</dl>
+					</div>
+					<?php endforeach; ?>
+				</div>
+				<div id="popular_post" class="tab_content">
+					<div class="item_post_">
+						<div class="box_img">
+							<a href="#">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p2.png" alt="img post">
+							</a>
+						</div>
+						<dl class="suma_">
+							<dt>
+								<span class="date">June 27, 2016</span>
+								<span class="cmt">23</span>
+							</dt>
 							<dd>
 								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
 							</dd>
-		            	</dl>
-		            </div>
-		            <div class="item_post_">
-		            	<div class="box_img">
-		            		<a href="#">
-		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p2.png" alt="img post">
-		            		</a>
-		            	</div>
-		            	<dl class="suma_">
-		            		<dt>
-		            			<span class="date">July 27, 2014</span>
-		            			<span class="cmt">3</span>
-		            		</dt>
+						</dl>
+					</div>
+					<div class="item_post_">
+						<div class="box_img">
+							<a href="#">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p1.png" alt="img post">
+							</a>
+						</div>
+						<dl class="suma_">
+							<dt>
+								<span class="date">July 27, 2014</span>
+								<span class="cmt">13</span>
+							</dt>
 							<dd>
 								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
 							</dd>
-		            	</dl>
-		            </div>
-		            <div class="item_post_">
-		            	<div class="box_img">
-		            		<a href="#">
-		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p3.png" alt="img post">
-		            		</a>
-		            	</div>
-		            	<dl class="suma_">
-		            		<dt>
-		            			<span class="date">July 27, 2014</span>
-		            			<span class="cmt">3</span>
-		            		</dt>
+						</dl>
+					</div>
+					<div class="item_post_">
+						<div class="box_img">
+							<a href="#">
+								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p3.png" alt="img post">
+							</a>
+						</div>
+						<dl class="suma_">
+							<dt>
+								<span class="date">July 27, 2014</span>
+								<span class="cmt">3</span>
+							</dt>
 							<dd>
 								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
 							</dd>
-		            	</dl>
-		            </div>
-		        </div>
-		        <div id="popular_post" class="tab_content">
-		            <div class="item_post_">
-		            	<div class="box_img">
-		            		<a href="#">
-		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p2.png" alt="img post">
-		            		</a>
-		            	</div>
-		            	<dl class="suma_">
-		            		<dt>
-		            			<span class="date">June 27, 2016</span>
-		            			<span class="cmt">23</span>
-		            		</dt>
-							<dd>
-								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
-							</dd>
-		            	</dl>
-		            </div>
-		            <div class="item_post_">
-		            	<div class="box_img">
-		            		<a href="#">
-		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p1.png" alt="img post">
-		            		</a>
-		            	</div>
-		            	<dl class="suma_">
-		            		<dt>
-		            			<span class="date">July 27, 2014</span>
-		            			<span class="cmt">13</span>
-		            		</dt>
-							<dd>
-								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
-							</dd>
-		            	</dl>
-		            </div>
-		            <div class="item_post_">
-		            	<div class="box_img">
-		            		<a href="#">
-		            			<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p3.png" alt="img post">
-		            		</a>
-		            	</div>
-		            	<dl class="suma_">
-		            		<dt>
-		            			<span class="date">July 27, 2014</span>
-		            			<span class="cmt">3</span>
-		            		</dt>
-							<dd>
-								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
-							</dd>
-		            	</dl>
-		            </div>
-		        </div>
-		    </div>
+						</dl>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="title_">
+		<!-- <div class="title_">
 			<h3>Archives</h3>
 		</div>
 		<ul class="archives_">
@@ -289,8 +254,8 @@
 			<li><a href="#" class="ion-social-googleplus-outline"></a></li>
 			<li><a href="#" class="ion-social-tumblr"></a></li>
 			<li><a href="#" class="ion-social-dribbble-outline"></a></li>
-		</ul>
-		<div class="title_">
+		</ul> -->
+		<!-- <div class="title_">
 			<h3>Tags Widget</h3>
 		</div>
 		<ul class="tag_">
@@ -307,7 +272,7 @@
 			<li><a href="#">Classic</a></li>
 			<li><a href="#">Corporate</a></li>
 			<li><a href="#">Stunning</a></li>
-		</ul>
+		</ul> -->
 	</div>
 </div>
 <!-- end blog sidebar -->
