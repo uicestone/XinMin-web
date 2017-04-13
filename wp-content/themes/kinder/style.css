@@ -10266,6 +10266,9 @@ select {
 }
 .page_blog .post_ .box_img img {
 	width: 100%;
+    height: 100%;
+    object-position: 50% 20%;
+    object-fit: cover;
 }
 .page_blog .post_ .box_carousel {
 	height: 400px;

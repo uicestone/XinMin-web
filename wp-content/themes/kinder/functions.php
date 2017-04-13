@@ -42,10 +42,9 @@ add_action('wp_enqueue_scripts', function() {
 add_action('after_setup_theme', function() {
 	register_nav_menu('primary', '主导航');
 	add_theme_support('post-thumbnails');
-	add_image_size('intro', 390, 394, true);
-	add_image_size('banner', 1920, 1200, true);
-	add_image_size('home-news', 519, 347, true);
-	add_image_size('home-gallery', 370, 250, true);
+	set_post_thumbnail_size(1024, 1024);
+	add_image_size('fhd', 1920, 1200, true);
+	add_image_size('hvga', 480, 320, true);
 });
 
 add_filter('nav_menu_link_attributes', function($attrs, $item) {
@@ -54,7 +53,7 @@ add_filter('nav_menu_link_attributes', function($attrs, $item) {
 	
 	$attrs['class'][] = 'menu-link';
 	
-	if(array_intersect(['current-menu-item', 'current-page-ancestor', 'current-post-ancestor'], $item->classes)) {
+	if(array_intersect(['current-menu-item', 'current-page-ancestor', 'current-post-ancestor'], $item->classes ?: [])) {
 		$attrs['class'][] = 'set_active';
 	}
 	

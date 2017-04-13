@@ -25,7 +25,7 @@
 				<ul>
                     <?php foreach (get_posts('category_name=头图&order=asc') as $index => $post): ?>
 					<li data-index="rs-<?=$index?>" class="add_">
-                        <?=get_the_post_thumbnail($post, 'banner', ['alt'=>'img',
+                        <?=get_the_post_thumbnail($post, 'fhd', ['alt'=>'img',
 							'data-bgposition'=>'center center',
 							'data-bgfit'=>'cover',
 							'data-bgrepeat'=>'no-repeat',
@@ -123,7 +123,7 @@
 				<?php foreach($posts as $index => $post): ?>
 				<div class="col-md-4 col-lg-4 nopadding"
 					data-wow-delay=".2s" data-wow-duration=".7s" style="visibility: visible; animation-duration: 0.7s; animation-delay: <?=0.2*$index?>s; animation-name: fadeInUpSmall;">
-					<div class="_box_item<?php if($index===0){ ?> bd_radi_l<?php } ?><?php if($index===count($posts)-1){ ?> bd_radi_r<?php } ?>" style="background-image:url('<?=get_the_post_thumbnail_url($post, 'intro')?>')">
+					<div class="_box_item<?php if($index===0){ ?> bd_radi_l<?php } ?><?php if($index===count($posts)-1){ ?> bd_radi_r<?php } ?>" style="background-image:url('<?=get_the_post_thumbnail_url($post, 'hvga')?>')">
 						<span class="icon-<?=$index+1?> kinder_icon"></span>
 						<div class="medal_">
 							<span><?=get_the_title($post)?>：</span>
@@ -189,7 +189,7 @@
 				<div class="classes_it">
 					<div class="box_img">
 						<a href="<?=get_the_permalink($post)?>">
-							<?=get_the_post_thumbnail($post, 'post-thumbnail')?>
+							<?=get_the_post_thumbnail($post)?>
 						</a>
 						<div class="wave"></div>
 					</div>
@@ -324,7 +324,7 @@
 						<?php foreach(get_posts('category_name=新闻') as $post): ?>
 						<div class="event_item">
 							<div class="box_img">
-								<?=get_the_post_thumbnail($post, 'home-news')?>
+								<?=get_the_post_thumbnail($post, 'hvga')?>
 								<div class="shape"></div>
 							</div>
 							<div class="event_content">
@@ -367,7 +367,7 @@
 			<div class="element-item <?=wp_get_post_tags($post->ID)[0]->slug?>">
 				<div class="gallery_item">
 					<a href="<?=get_the_post_thumbnail_url($post)?>" data-imagelightbox="light_box_img">
-						<?=get_the_post_thumbnail($post, 'home-gallery')?>
+						<?=get_the_post_thumbnail($post, 'hvga')?>
 					</a>
 					<ul class="child_hv">
 						<li><a href="<?=get_the_post_thumbnail_url($post)?>" class="ion-android-search" data-imagelightbox="light_box_img"></a></li>
