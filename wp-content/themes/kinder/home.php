@@ -219,7 +219,7 @@
 			</div>
 			<?php endforeach; ?>
 		</div>
-		<a href="<?=site_url()?>/course/" class="all_classes">查看我们的所有课程</a>
+		<a href="<?=site_url()?>/category/%E5%AD%A6%E7%A7%91/" class="all_classes">查看我们的所有课程</a>
 	</div>
 </div>
 <!-- end section classes -->

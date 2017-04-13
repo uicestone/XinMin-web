@@ -10459,7 +10459,8 @@ select {
 	line-height: 36px;
 	margin-left: 10px;
 }
-.page_blog .navigation li a {
+.page_blog .navigation li a,
+.page_blog .navigation li span {
 	border: 1px solid #aaaaaa;
 	color: #777777;
 	border-radius: 3px;
@@ -10470,7 +10471,7 @@ select {
 .page_blog .navigation li a:hover {
 	border-color: #f26f29;
 }
-.page_blog .navigation li a.natv {
+.page_blog .navigation li .current {
 	border-color: transparent;
 	color: #ffffff;
 	background: #f26f29;

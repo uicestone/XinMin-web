@@ -54,7 +54,7 @@ add_filter('nav_menu_link_attributes', function($attrs, $item) {
 	
 	$attrs['class'][] = 'menu-link';
 	
-	if(in_array('current-menu-item', $item->classes) || in_array('current-page-ancestor', $item->classes)) {
+	if(array_intersect(['current-menu-item', 'current-page-ancestor', 'current-post-ancestor'], $item->classes)) {
 		$attrs['class'][] = 'set_active';
 	}
 	
