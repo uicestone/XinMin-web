@@ -44,7 +44,7 @@
 					<?php endforeach; ?>
 				</div>
 				<div id="popular_post" class="tab_content">
-					<div class="item_post_">
+					<!-- <div class="item_post_">
 						<div class="box_img">
 							<a href="#">
 								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p2.png" alt="img post">
@@ -59,39 +59,7 @@
 								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
 							</dd>
 						</dl>
-					</div>
-					<div class="item_post_">
-						<div class="box_img">
-							<a href="#">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p1.png" alt="img post">
-							</a>
-						</div>
-						<dl class="suma_">
-							<dt>
-								<span class="date">July 27, 2014</span>
-								<span class="cmt">13</span>
-							</dt>
-							<dd>
-								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
-							</dd>
-						</dl>
-					</div>
-					<div class="item_post_">
-						<div class="box_img">
-							<a href="#">
-								<img src="<?=get_stylesheet_directory_uri()?>/images/upload/p3.png" alt="img post">
-							</a>
-						</div>
-						<dl class="suma_">
-							<dt>
-								<span class="date">July 27, 2014</span>
-								<span class="cmt">3</span>
-							</dt>
-							<dd>
-								<a href="#" class="btn_link">30 Photographic Works of Impressive Old Age</a>
-							</dd>
-						</dl>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
