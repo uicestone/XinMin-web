@@ -174,9 +174,10 @@
 		</div>
 	</div>
 </div>
-
 <!-- end section featured -->
+
 <!-- section classes -->
+<?php $majors = get_posts('category_name=学科'); if ($majors): ?>
 <div class="_section_classes flw">
 	<div class="container">
 		<div class="class_title">
@@ -184,7 +185,7 @@
 			<h4>• 孩子的成长，我们的职业 •</h4>
 		</div>
 		<div class="row">
-			<?php foreach(get_posts('category_name=学科') as $post): ?>
+			<?php foreach($majors as $post): ?>
 			<div class="col-md-4 col-lg-4">
 				<div class="classes_it">
 					<div class="box_img">
@@ -222,6 +223,7 @@
 		<a href="<?=site_url()?>/category/%E5%AD%A6%E7%A7%91/" class="all_classes">查看我们的所有课程</a>
 	</div>
 </div>
+<?php endif; ?>
 <!-- end section classes -->
 <!-- _section_teacher -->
 <div class="_section_teacher flw">
@@ -238,7 +240,7 @@
 				<p></p>
 			</div>
 			<div class="row">
-				<?php foreach (get_posts('category_name=教师&order=asc&posts_per_page=-1') as $index => $post): ?>
+				<?php foreach (get_posts('category_name=教师&order=asc&posts_per_page=4') as $index => $post): ?>
 				<div class="col-md-3 col-lg-3">
 					<div class="box_item">
 						<!--<ul class="social_">
@@ -271,34 +273,15 @@
 <div class="_section_counter flw">
 	<div class="container">
 		<div class="row">
+			<?php foreach(get_posts('category_name=数据&order=asc') as $index => $post): ?>
 			<div class="col-md-3 col-lg-3">
-				<div class="item_counter">
-					<span class="counter one">547</span>
-					<span class="or_ smile"></span>
-					<p>校园占地（亩）</p>
+				<div class="item_counter index-<?=$index?>">
+					<span class="counter"><?=get_the_subtitle($post)?></span>
+					<span class="smile"></span>
+					<p><?=get_the_title($post)?></p>
 				</div>
 			</div>
-			<div class="col-md-3 col-lg-3">
-				<div class="item_counter">
-					<span class="counter two">72</span>
-					<span class="bl_ smile"></span>
-					<p>教师团队</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-lg-3">
-				<div class="item_counter">
-					<span class="counter three">1341</span>
-					<span class="ort_ smile"></span>
-					<p>在校学生</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-lg-3">
-				<div class="item_counter">
-					<span class="counter four">5687</span>
-					<span class="orr_ smile"></span>
-					<p>全年课程</p>
-				</div>
-			</div>
+			<?php endforeach; ?>
 		</div>
 	</div>
 </div>

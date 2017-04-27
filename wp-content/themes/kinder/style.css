@@ -13193,12 +13193,12 @@ select {
 	transition-duration: 0.3s;
 }
 ._section_teacher {
-	height: 2100px;
+	height: 760px;
 	position: relative;
 }
 ._section_teacher .box_parallax {
 	position: absolute;
-	height: 2100px;
+	height: 760px;
 	overflow: hidden;
 }
 ._section_teacher .box_parallax .parallax:before {
@@ -13364,37 +13364,37 @@ select {
 ._section_counter .item_counter .smile {
 	margin-bottom: 20px;
 }
-._section_counter .item_counter .or_ {
+._section_counter .item_counter.index-0 .smile {
 	color: #f26f29;
 }
-._section_counter .item_counter .or_:after {
+._section_counter .item_counter.index-0 .smile:after {
 	content: url(images/ct_or.png);
 	width: 100%;
 	display: block;
 	line-height: 0;
 }
-._section_counter .item_counter .bl_ {
+._section_counter .item_counter.index-1 .smile {
 	color: #5fcde3;
 }
-._section_counter .item_counter .bl_:after {
+._section_counter .item_counter.index-1 .smile:after {
 	content: url(images/ct_bl.png);
 	width: 100%;
 	display: block;
 	line-height: 0;
 }
-._section_counter .item_counter .ort_ {
+._section_counter .item_counter.index-2 .smile {
 	color: #f2ad29;
 }
-._section_counter .item_counter .ort_:after {
+._section_counter .item_counter.index-2 .smile:after {
 	content: url(images/ct_ort.png);
 	width: 100%;
 	display: block;
 	line-height: 0;
 }
-._section_counter .item_counter .orr_ {
+._section_counter .item_counter.index-3 .smile {
 	color: #f25829;
 }
-._section_counter .item_counter .orr_:after {
+._section_counter .item_counter.index-3 .smile:after {
 	content: url(images/ct_r.png);
 	width: 100%;
 	display: block;
@@ -13408,28 +13408,28 @@ select {
 	margin-bottom: 20px;
 	display: block;
 }
-._section_counter .item_counter .counter.one {
+._section_counter .item_counter.index-0 .counter {
 	color: #f26f29;
 }
-._section_counter .item_counter .counter.one:after {
+._section_counter .item_counter.index-0 .counter:after {
 	content: "+";
 	font-size: 30px;
 	position: relative;
 	top: -15px;
 }
-._section_counter .item_counter .counter.two {
+._section_counter .item_counter.index-1 .counter {
 	color: #5fcde3;
 }
-._section_counter .item_counter .counter.three {
+._section_counter .item_counter.index-2 .counter {
 	color: #f2ad29;
 }
-._section_counter .item_counter .counter.three:after {
+._section_counter .item_counter.index-2 .counter:after {
 	content: "+";
 	font-size: 30px;
 	position: relative;
 	top: -15px;
 }
-._section_counter .item_counter .counter.four {
+._section_counter .item_counter.index-3 .counter {
 	color: #f25829;
 }
 ._section_counter .item_counter p {
