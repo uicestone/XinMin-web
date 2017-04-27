@@ -55,7 +55,7 @@
 </script>
 <script>
 	$("#countdown").countdown({
-		date: "18 Apr 2017 09:00:00",
+		date: "2 May 2017 09:00:00",
 		format: "on"
 	},
 	
