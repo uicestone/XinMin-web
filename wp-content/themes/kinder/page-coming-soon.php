@@ -55,7 +55,7 @@
 </script>
 <script>
 	$("#countdown").countdown({
-		date: "2 May 2017 09:00:00",
+		date: '<?=date('d M Y H:i:s', strtotime(the_subtitle('', '', false)))?>',
 		format: "on"
 	},
 	
