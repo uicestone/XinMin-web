@@ -76,3 +76,49 @@ input {
     border-bottom-width: 1px;
     border-left-width: 1px
 }
+
+.menu {
+    background: #f39431;
+    margin: 0;
+    border-bottom: 3px solid #c1680a;
+    margin-bottom: 5px;
+}
+
+.menu .menu-item {
+    display: inline-block;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu .menu-item a {
+    font-family: '黑体', SimHei;
+    padding: 8px 10px;
+    color: white;
+}
+
+.menu .menu-item:after {
+    content: '';
+    border-right: 1px #bf6e1a solid;
+    margin: 0 5px;
+}
+
+.menu .menu-item.current-menu-item a {
+    border-bottom: 2px #ffc88f solid;
+}
+
+.menu .menu-item:last-child:after {
+    border-right: none;
+}
+
+.cat-items .cat-item {
+    list-style-image: url('images/dian.gif');
+    line-height: 2;
+}
+.cat-items .children {
+    padding-left: 15px;
+}
+
+.cat-items .children .children {
+    padding-left: 30px;
+}
