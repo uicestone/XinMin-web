@@ -122,3 +122,11 @@ input {
 .cat-items .children .children {
     padding-left: 30px;
 }
+
+.content {
+    margin-top: 3em;
+}
+
+.content p {
+    margin: 0 3em 0.5em;
+}
