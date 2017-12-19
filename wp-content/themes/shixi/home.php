@@ -30,7 +30,7 @@
                                                 width="288" height="33" border="0"></a></td>
                             </tr>
                             <tr>
-                                <td width="288" height="437" background="<?=get_stylesheet_directory_uri()?>/images/web1-06.jpg" align="center"
+                                <td width="288" height="315" background="<?=get_stylesheet_directory_uri()?>/images/web1-06.jpg" align="center"
                                     valign="top">
 
                                     <table width="280" height="250" cellpadding="0" cellspacing="0">
@@ -145,80 +145,49 @@
                                                             name="Image9" width="230" height="110"
                                                             border="0"></a></td>
                                             <td width="6" height="110"></td>
-                                            <td><a target="_blank" href="column5c93.html?tid=6397"
-                                                   onMouseOut="MM_swapImgRestore()"
-                                                   onMouseOver="MM_swapImage('Image10','','<?=get_stylesheet_directory_uri()?>/images/web2-10.jpg',1)"><img
-                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-10.jpg"
-                                                            name="Image10" width="230" height="110"
-                                                            border="0"></a></td>
-                                            <td width="7" height="110"></td>
-                                            <td><a target="_blank" href="columnba47.html?tid=6396"
-                                                   onMouseOut="MM_swapImgRestore()"
-                                                   onMouseOver="MM_swapImage('Image11','','<?=get_stylesheet_directory_uri()?>/images/web2-12.jpg',1)"><img
-                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-12.jpg"
-                                                            name="Image11" width="230" height="110"
-                                                            border="0"></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="703" height="6"></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td><a target="_blank" href="column073d.html?tid=6398"
-                                                   onMouseOut="MM_swapImgRestore()"
-                                                   onMouseOver="MM_swapImage('Image12','','<?=get_stylesheet_directory_uri()?>/images/web2-14.jpg',1)"><img
-                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-14.jpg"
-                                                            name="Image12" width="230" height="110"
-                                                            border="0"></a></td>
-                                            <td width="6" height="110"></td>
-                                            <td><a target="_blank" href="column211f.html?tid=6399"
-                                                   onMouseOut="MM_swapImgRestore()"
-                                                   onMouseOver="MM_swapImage('Image13','','<?=get_stylesheet_directory_uri()?>/images/web2-16.jpg',1)"><img
-                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-16.jpg"
-                                                            name="Image13" width="230" height="110"
-                                                            border="0"></a></td>
-                                            <td width="7" height="110"></td>
-                                            <td><a target="_blank" href="columneebe.html?tid=6400"
-                                                   onMouseOut="MM_swapImgRestore()"
-                                                   onMouseOver="MM_swapImage('Image14','','<?=get_stylesheet_directory_uri()?>/images/web2-18.jpg',1)"><img
-                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-18.jpg"
-                                                            name="Image14" width="230" height="110"
-                                                            border="0"></a></td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="703" height="6"></td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td><a target="_blank" href="column6d62.html?tid=6504"
-                                                   onMouseOut="MM_swapImgRestore()"
-                                                   onMouseOver="MM_swapImage('Image17','','<?=get_stylesheet_directory_uri()?>/images/web2-20.jpg',1)"><img
-                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-20.jpg"
-                                                            name="Image17" width="230" height="110"
-                                                            border="0"></a></td>
-                                            <td width="6" height="110"></td>
-                                            <td><a target="_blank" href="column118a.html?tid=6590"
+                                            <td><a target="_blank" href="<?=site_url('category/德育天地')?>"
                                                    onMouseOut="MM_swapImgRestore()"
                                                    onMouseOver="MM_swapImage('Image18','','<?=get_stylesheet_directory_uri()?>/images/web2-22.jpg',1)"><img
                                                             src="<?=get_stylesheet_directory_uri()?>/images/web1-22.jpg"
                                                             name="Image18" width="230" height="110"
                                                             border="0"></a></td>
                                             <td width="7" height="110"></td>
-                                            <td><a target="_blank" href="column744c.html?tid=5435"
+                                            <td><a target="_blank" href="<?=site_url('category/教育纵横')?>"
+                                                   onMouseOut="MM_swapImgRestore()"
+                                                   onMouseOver="MM_swapImage('Image10','','<?=get_stylesheet_directory_uri()?>/images/web2-10.jpg',1)"><img
+                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-10.jpg"
+                                                            name="Image10" width="230" height="110"
+                                                            border="0"></a></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="703" height="6"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td><a target="_blank" href="<?=site_url('category/教师发展')?>"
+                                                   onMouseOut="MM_swapImgRestore()"
+                                                   onMouseOver="MM_swapImage('Image14','','<?=get_stylesheet_directory_uri()?>/images/web2-18.jpg',1)"><img
+                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-18.jpg"
+                                                            name="Image14" width="230" height="110"
+                                                            border="0"></a></td>
+                                            <td width="6" height="110"></td>
+                                            <td><a target="_blank" href="<?=site_url('category/新民党建')?>"
                                                    onMouseOut="MM_swapImgRestore()"
                                                    onMouseOver="MM_swapImage('Image19','','<?=get_stylesheet_directory_uri()?>/images/web2-24.jpg',1)"><img
                                                             src="<?=get_stylesheet_directory_uri()?>/images/web1-24.jpg"
                                                             name="Image19" width="230" height="110"
+                                                            border="0"></a></td>
+                                            <td width="7" height="110"></td>
+                                            <td><a target="_blank" href="<?=site_url('category/教工之家')?>"
+                                                   onMouseOut="MM_swapImgRestore()"
+                                                   onMouseOver="MM_swapImage('Image17','','<?=get_stylesheet_directory_uri()?>/images/web2-20.jpg',1)"><img
+                                                            src="<?=get_stylesheet_directory_uri()?>/images/web1-20.jpg"
+                                                            name="Image17" width="230" height="110"
                                                             border="0"></a></td>
                                         </tr>
                                     </table>
