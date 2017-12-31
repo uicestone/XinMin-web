@@ -25,7 +25,7 @@
                     <td valign="top">
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
-                                <td><a href="column810e.html?tid=6417" target="_blank"><img
+                                <td><a href="" target="_blank"><img
                                                 src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg"
                                                 width="288" height="33" border="0"></a></td>
                             </tr>
@@ -60,7 +60,7 @@
                             <tr align="center" style="line-height:24px;">
                                 <td width="8" height="116"></td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="column1ec8.html?tid=6443"
+                                    <a style="font-size:12px;" href=""
                                        target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp08.jpg"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -76,7 +76,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="column6739.html?lid=6413"
+                                    <a style="font-size:12px;" href=""
                                        target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp05.jpg"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -92,7 +92,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="../appfile/plan/index.html"
+                                    <a style="font-size:12px;" href=""
                                        target="_blank" onclick="alert('请先登录');return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp07.jpg"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -100,7 +100,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="../appfile/notice/index.html"
+                                    <a style="font-size:12px;" href=""
                                        target="_blank" onclick="alert('请先登录');return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp03.jpg"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -110,7 +110,7 @@
 
 
                                 <td width="100">
-                                    <a style="font-size:12px;" href="../appfile/msg/main.html"
+                                    <a style="font-size:12px;" href=""
                                        target="_blank" onclick="alert('请先登录');return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp02.jpg"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
