@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+
+$category_parents = get_category_parents($cat, true, ' >> ');
+
+get_header(); ?>
 
 <table cellpadding="0" cellspacing="0" width="998" align="center">
     <tbody>
@@ -78,16 +82,18 @@
                 </tbody>
             </table>
 
+			<?php if (is_string($category_parents)): ?>
             <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
                 <tbody>
                 <tr>
-                    <td align="left" height="25" bgcolor="#FFFFFF" style="font-size:14px; ">&nbsp;&nbsp; 您现在的位置：<a
-                                href="<?=site_url()?>">首页</a> &gt;&gt;
-                        <?=substr(get_category_parents($cat, true, ' >> '), 0, -4)?>
+                    <td align="left" height="25" bgcolor="#FFFFFF" style="font-size:14px; ">&nbsp;&nbsp; 您现在的位置：
+                        <a href="<?=site_url()?>">首页</a> &gt;&gt;
+                        <?=substr($category_parents, 0, -4)?>
                     </td>
                 </tr>
                 </tbody>
             </table>
+			<?php endif; ?>
 
             <table cellpadding="0" cellspacing="0">
                 <tbody>
