@@ -4,7 +4,7 @@
     <tbody>
     <tr>
         <td>
-            <img src=""
+            <img src="<?=get_stylesheet_directory_uri()?>/images/banner.jpg"
                  name="slide" border="0" width="998" height="234" style="object-fit: cover; float: left;
                     z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,Duration=1)"
                  onclick="alert(this.src)">
@@ -22,7 +22,7 @@
 <table cellpadding="0" cellspacing="0" width="998" height="6" align="center">
     <tbody>
     <tr>
-        <td bgcolor="#faefd4"></td>
+        <td bgcolor="#b4e4ec"></td>
     </tr>
     </tbody>
 </table>
@@ -31,11 +31,11 @@
 <table cellpadding="0" cellspacing="0" width="998" align="center">
     <tbody>
     <tr>
-        <td width="255" align="left" valign="top" height="1" bgcolor="#ffe7bd">
-            <table width="250" cellpadding="1" cellspacing="1" height="100%" bgcolor="#FFC373">
+        <td width="255" align="left" valign="top" height="1" bgcolor="#b4e4ec">
+            <table width="250" cellpadding="1" cellspacing="1" height="100%" bgcolor="#b4e4ec">
                 <tbody>
                 <tr>
-                    <td valign="top" bgcolor="#ffe7bd">
+                    <td valign="top" bgcolor="#b4e4ec">
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tbody>
                             <tr>
@@ -47,7 +47,7 @@
                             </tbody>
                         </table>
 
-                        <table width="250" bgcolor="#ffe7bd" cellpadding="0" cellspacing="0">
+                        <table width="250" bgcolor="#b4e4ec" cellpadding="0" cellspacing="0">
 
                             <tbody>
                             <tr>
@@ -78,7 +78,7 @@
                 </tbody>
             </table>
 
-            <table width="740" bgcolor="#FFC373" cellpadding="1" cellspacing="1">
+            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
                 <tbody>
                 <tr>
                     <td align="left" height="25" bgcolor="#FFFFFF" style="font-size:14px; ">&nbsp;&nbsp; 您现在的位置：<a
@@ -98,7 +98,7 @@
             </table>
 
 
-            <table width="740" bgcolor="#FFC373" cellpadding="1" cellspacing="1">
+            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
                 <tbody>
                 <tr>
                     <td bgcolor="#FFFFFF" align="center" width="470" style="font-size:14px">标题</td>
@@ -132,7 +132,7 @@
                 </tr>
                 </tbody>
             </table>
-            <table width="740" bgcolor="#FFC373" cellpadding="1" cellspacing="1">
+            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
                 <tbody>
                 <tr>
                     <td height="30" bgcolor="#FFFFFF" align="center" style="font-size:14px ">

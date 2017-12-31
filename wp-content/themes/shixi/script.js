@@ -32,7 +32,7 @@ var slidespeed = 4000
 
 var imageholder = new Array()
 var ie55 = window.createPopup
-for (i = 0; i < slideimages.length; i++) {
-    imageholder[i] = new Image()
-    imageholder[i].src = slideimages[i]
-}
+// for (i = 0; i < slideimages.length; i++) {
+//     imageholder[i] = new Image()
+//     imageholder[i].src = slideimages[i]
+// }
