@@ -4,7 +4,7 @@
 	<tbody>
 	<tr>
 		<td>
-			<img src="<?=get_stylesheet_directory_uri()?>/images/banner.jpg"
+			<img src="<?=get_stylesheet_directory_uri()?>/images/banner.jpg?ver=2018-01-01"
 				 name="slide" border="0" width="998" height="234" style="object-fit: cover; float: left;
                     z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,Duration=1)"
 				 onclick="alert(this.src)">
@@ -41,7 +41,7 @@
 							<tr>
 								<td width="250" height="39" align="center"
 									style="font-size:16px; font-family:'黑体'; color:#fff; word-spacing:5px;"
-									background="<?=get_stylesheet_directory_uri()?>/images/b1.jpg"> <?=get_category($cat)->name?>
+									background="<?=get_stylesheet_directory_uri()?>/images/b1.jpg?ver=2018-01-01"> <?=get_category($cat)->name?>
 								</td>
 							</tr>
 							</tbody>
