@@ -37,14 +37,12 @@
             <table width="998" border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td valign="top">
-                        <table border="0" cellspacing="0" cellpadding="0">
+                        <table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px solid #8cc7d9">
                             <tr>
-                                <td><a href="" target="_blank"><img
-                                                src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg?ver=2018-01-01"
-                                                width="288" height="33" border="0"></a></td>
+                                <td style="line-height:0"><img src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg?ver=2018-01-01" width="288" height="33" border="0"></td>
                             </tr>
                             <tr>
-                                <td width="288" height="315" background="<?=get_stylesheet_directory_uri()?>/images/web1-06.jpg?ver=2018-01-01" align="center"
+                                <td width="288" height="320" background="<?=get_stylesheet_directory_uri()?>/images/web1-06.jpg?ver=2018-01-01" align="center"
                                     valign="top">
 
                                     <table width="280" height="250" cellpadding="0" cellspacing="0">
