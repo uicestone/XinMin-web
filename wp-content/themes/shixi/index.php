@@ -1,6 +1,8 @@
 <?php
 
 $category_parents = get_category_parents($cat, true, ' >> ');
+$child_cats = get_term_children($cat, 'category');
+$parent_cat_id = wp_get_term_taxonomy_parent_id($cat, 'category');
 
 get_header(); ?>
 
@@ -58,7 +60,7 @@ get_header(); ?>
                                 <td height="30" valign="middle"
                                     style="font-size:14px; font-family:'微软雅黑'; display:inline; padding-top:10px; ">
                                     <ul class="cat-items">
-                                        <?php wp_list_categories(['child_of' => $cat, 'hide_empty' => false, 'title_li' => false, 'show_option_none' => '']); ?>
+                                        <?php wp_list_categories(['child_of' => $child_cats ? $cat : $parent_cat_id, 'hide_empty' => false, 'title_li' => false, 'show_option_none' => '', 'orderby' => 'ID']); ?>
                                     </ul>
                                 </td>
                             </tr>
