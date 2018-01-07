@@ -53,8 +53,8 @@
                                         </tr>
                                         <tr>
                                             <td width="280" height="240" style="vertical-align: top; overflow-y:hidden; line-height:2.0">
-                                                <?php foreach (get_posts(['category_name' => '新闻']) as $post):?>
-                                                <div style="line-height:1.5; width:275px; height:25px;">
+                                                <?php foreach (get_posts(['posts_per_page' => 12]) as $post):?>
+                                                <div style="line-height:1.5;width:275px;height:25px;overflow:hidden;text-overflow: ellipsis;white-space: nowrap">
                                                     &nbsp;<img src="<?=get_stylesheet_directory_uri()?>/images/d1.gif">
                                                     <a href="<?=get_the_permalink($post->ID)?>"
                                                        title="<?=get_the_title($post->ID)?>"
