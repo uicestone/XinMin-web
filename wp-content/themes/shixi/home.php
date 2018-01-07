@@ -11,6 +11,20 @@
     </tr>
 </table>
 
+<table width="998" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr>
+        <td height="62" colspan="8" align="left">
+            <form>
+                <input type="text" name="s" style="height:20px">
+                <input type="submit" value="搜索">
+            </form>
+        </td>
+        <td height="62" colspan="8" align="right">
+            <font color="#333333" style="font-size:12px; "><?=date('Y年m月d日', time() + get_option('gmt_offset') * HOUR_IN_SECONDS)?> </font>
+        </td>
+    </tr>
+</table>
+
 <table cellpadding="0" cellspacing="0" width="998" height="6" align="center">
     <tr>
         <td></td>
