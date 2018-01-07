@@ -129,6 +129,17 @@ input {
 
 .content p {
     margin: 0 3em 0.5em;
+    text-indent: 2em;
+}
+
+.content img.aligncenter {
+    margin: 0 auto;
+    display: block;
+}
+
+.content img.alignright {
+    margin: 0 0 0 auto;
+    display: block;
 }
 
 .home-link {
