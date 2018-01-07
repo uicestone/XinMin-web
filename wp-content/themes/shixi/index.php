@@ -8,7 +8,7 @@ get_header(); ?>
     <tbody>
     <tr>
         <td>
-            <img src="<?=get_stylesheet_directory_uri()?>/images/banner1.jpg?ver=2018-01-01"
+            <img src="<?=get_stylesheet_directory_uri()?>/images/banner2.jpg?ver=2018-01-01"
                  name="slide" border="0" width="998" height="234" style="object-fit: cover; float: left;
                     z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,Duration=1)"
                  onclick="alert(this.src)">

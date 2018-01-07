@@ -3,7 +3,7 @@
 <table cellpadding="0" cellspacing="0" width="998" align="center">
     <tr>
         <td>
-            <img src="<?=get_stylesheet_directory_uri()?>/images/banner1.jpg?ver=2018-01-01" name="slide" border="0"
+            <img src="<?=get_stylesheet_directory_uri()?>/images/banner2.jpg?ver=2018-01-01" name="slide" border="0"
                  width="998" style="float: left;
         z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=150,Duration=1)"
                  onClick="if (this.src=='<?=get_stylesheet_directory_uri()?>/images/4.jpg'){window.open('regopen.html')}">
