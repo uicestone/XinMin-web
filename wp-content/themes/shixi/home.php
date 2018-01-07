@@ -74,11 +74,11 @@
                             <tr align="center" style="line-height:24px;">
                                 <td width="8" height="116"></td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href=""
+                                    <a style="font-size:12px;" href="http://bsjyj.eicbs.com/channel-3101131021.aspx"
                                        target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp08.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
-                                        校园公示
+                                        信息公开
                                     </a>
                                 </td>
                                 <td width="100">
