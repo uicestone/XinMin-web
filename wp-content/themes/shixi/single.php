@@ -100,7 +100,7 @@
 
 			<table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
 				<tbody><tr>
-					<td bgcolor="#FFFFFF" valign="top" style="padding:6px;" height="400">
+					<td bgcolor="#FFFFFF" valign="top" style="padding:6px;" height="500">
 
 
 						<div style="height:45px; padding-top:8px; font-size:24px; font-weight:bold; text-align:center;"><?php the_title(); ?></div>
@@ -113,25 +113,6 @@
 				</tr>
 				</tbody>
 			</table>
-
-			<table cellpadding="0" cellspacing="0">
-				<tbody>
-				<tr>
-					<td height="6"></td>
-				</tr>
-				</tbody>
-			</table>
-			<table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
-				<tbody>
-				<tr>
-					<td height="30" bgcolor="#FFFFFF" align="center" style="font-size:14px ">
-						<a href="<?=get_category_link(get_the_category()[count(get_the_category())-1]->term_id)?>">返回列表</a>
-					</td>
-				</tr>
-
-				</tbody>
-			</table>
-
 
 		</td>
 	</tr>
