@@ -107,6 +107,7 @@
 						<div style="height:18px; font-size:14px; text-align:right; padding-right:20px;">上传：<?php the_author(); ?> 时间：<?php the_date(); ?></div>
 
 						<div class="content" style="text-align:left;word-break:break-all;font-size:14px; width:720px; overflow-x:scroll;">
+                            <?php the_post_thumbnail('post-thumbnail', ['class' => 'aligncenter']); ?>
 							<?php the_content(); ?>
 						</div>
 					</td>

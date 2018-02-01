@@ -1,7 +1,7 @@
 <?php
 
 add_action('wp_enqueue_scripts', function() {
-	wp_enqueue_style('style.css', get_stylesheet_directory_uri() . '/style.css', [], '2018-01-01');
+	wp_enqueue_style('style.css', get_stylesheet_directory_uri() . '/style.css', [], '2018-01-07');
 	wp_enqueue_script('script.js', get_stylesheet_directory_uri() . '/script.js', [], '2018-01-01');
 	wp_enqueue_script('slide.js', get_stylesheet_directory_uri() . '/slide.js', [], '2018-01-01', true);
 });
