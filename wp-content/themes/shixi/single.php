@@ -103,8 +103,8 @@
 					<td bgcolor="#FFFFFF" valign="top" style="padding:6px;" height="500">
 
 
-						<div style="height:45px; padding-top:8px; font-size:24px; font-weight:bold; text-align:center;"><?php the_title(); ?></div>
-						<div style="height:18px; font-size:14px; text-align:right; padding-right:20px;">上传：<?php the_author(); ?> 时间：<?php the_date(); ?></div>
+						<div style="font-size:24px; font-weight:bold; text-align:center; margin-bottom: 10px; padding: 8px 15px"><?php the_title(); ?></div>
+						<div style="height:18px; font-size:14px; text-align:right; padding-right:20px;">发布时间：<?php the_date(); ?></div>
 
 						<div class="content" style="text-align:left;word-break:break-all;font-size:14px; width:720px; overflow-x:scroll;">
                             <?php the_post_thumbnail('post-thumbnail', ['class' => 'aligncenter']); ?>

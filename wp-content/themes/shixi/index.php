@@ -106,7 +106,7 @@ get_header(); ?>
             </table>
 
 
-            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
+            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1" style="table-layout: fixed">
                 <tbody>
                 <tr>
                     <td bgcolor="#FFFFFF" align="center" width="470" style="font-size:14px">标题</td>
@@ -116,7 +116,7 @@ get_header(); ?>
 
                 <?php $post_count = 0; while (have_posts()): the_post(); $post_count++ ?>
                 <tr>
-                    <td bgcolor="#FFFFFF" align="left"> &nbsp; <img src="<?=get_stylesheet_directory_uri()?>/images/d1.gif"> <a
+                    <td bgcolor="#FFFFFF" align="left" style="text-overflow: ellipsis; overflow: hidden; white-space: nowrap;"> &nbsp; <img src="<?=get_stylesheet_directory_uri()?>/images/d1.gif"> <a
                                 href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></td>
                     <td bgcolor="#FFFFFF" align="center"><?php the_category(', '); ?></td>
                     <td height="30" bgcolor="#FFFFFF" align="center"><?=get_the_date()?></td>

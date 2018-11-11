@@ -3,7 +3,7 @@
 <table cellpadding="0" cellspacing="0" width="998" align="center">
     <tr>
         <td>
-            <img src="<?=get_stylesheet_directory_uri()?>/images/banner2.jpg?ver=2018-01-01" name="slide" border="0"
+            <img src="<?=get_stylesheet_directory_uri()?>/images/banner-201811.jpg" name="slide" border="0"
                  width="998" style="float: left;
         z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=150,Duration=1)"
                  onClick="if (this.src=='<?=get_stylesheet_directory_uri()?>/images/4.jpg'){window.open('regopen.html')}">
@@ -11,19 +11,15 @@
     </tr>
 </table>
 
-<table width="998" border="0" cellspacing="0" cellpadding="0" align="center">
-    <tr>
-        <td height="62" colspan="8" align="left">
-            <form>
-                <input type="text" name="s" style="height:20px">
-                <input type="submit" value="搜索">
-            </form>
-        </td>
-        <td height="62" colspan="8" align="right">
-            <font color="#333333" style="font-size:12px; "><?=date('Y年m月d日', time() + get_option('gmt_offset') * HOUR_IN_SECONDS)?> </font>
-        </td>
-    </tr>
-</table>
+<div style="width: 998px">
+	<form style="float: left">
+		<input type="text" name="s" style="height:20px; width: 236px">
+		<input type="submit" value="搜索">
+	</form>
+	<span style="color: #333; float: right">
+		今天是 <?=date('Y年m月d日', time() + get_option('gmt_offset') * HOUR_IN_SECONDS)?>
+	</span>
+</div>
 
 <table cellpadding="0" cellspacing="0" width="998" height="6" align="center">
     <tr>
@@ -39,7 +35,9 @@
                     <td valign="top">
                         <table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px solid #8cc7d9">
                             <tr>
-                                <td style="line-height:0"><img src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg?ver=2018-01-01" width="288" height="33" border="0"></td>
+                                <td style="line-height:0">
+									<img src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg?ver=2018-01-01" width="288" height="33" border="0">
+								</td>
                             </tr>
                             <tr>
                                 <td width="288" height="320" background="<?=get_stylesheet_directory_uri()?>/images/web1-06.jpg?ver=2018-01-01" align="center"
