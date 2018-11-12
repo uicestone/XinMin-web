@@ -78,7 +78,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="../appfile/schoolbased/mine.html"
+                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
                                        target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp04.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -86,7 +86,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href=""
+                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
                                        target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp05.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -94,7 +94,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="#" target="_blank"
+                                    <a style="font-size:12px;" href="https://oa.dingtalk.com" target="_blank"
                                        onclick="return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp06.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -102,7 +102,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href=""
+                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
                                        target="_blank" onclick="alert('请先登录');return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp07.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -110,7 +110,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href=""
+                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
                                        target="_blank" onclick="alert('请先登录');return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp03.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -120,7 +120,7 @@
 
 
                                 <td width="100">
-                                    <a style="font-size:12px;" href=""
+                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
                                        target="_blank" onclick="alert('请先登录');return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp02.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
