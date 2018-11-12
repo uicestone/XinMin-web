@@ -5,8 +5,7 @@
         <td>
             <img src="<?=get_stylesheet_directory_uri()?>/images/banner-201811.jpg" name="slide" border="0"
                  width="998" style="float: left;
-        z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=150,Duration=1)"
-                 onClick="if (this.src=='<?=get_stylesheet_directory_uri()?>/images/4.jpg'){window.open('regopen.html')}">
+        z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=150,Duration=1)">
         </td>
     </tr>
 </table>
@@ -36,7 +35,7 @@
                         <table border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px solid #8cc7d9">
                             <tr>
                                 <td style="line-height:0">
-									<img src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg?ver=2018-01-01" width="288" height="33" border="0">
+									<a href="http://www.xmes.sh.cn/?s="><img src="<?=get_stylesheet_directory_uri()?>/images/web1-01.jpg?ver=2018-01-01" width="288" height="33" border="0"></a>
 								</td>
                             </tr>
                             <tr>

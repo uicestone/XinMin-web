@@ -12,8 +12,7 @@ get_header(); ?>
         <td>
             <img src="<?=get_stylesheet_directory_uri()?>/images/banner-201811.jpg"
                  name="slide" border="0" width="998" height="234" style="object-fit: cover; float: left;
-                    z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,Duration=1)"
-                 onclick="alert(this.src)">
+                    z-index: 1; padding: 0px; margin: 0px; filter: progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,Duration=1)">
         </td>
     </tr>
     </tbody>
@@ -85,16 +84,11 @@ get_header(); ?>
             </table>
 
 			<?php if (is_string($category_parents)): ?>
-            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
-                <tbody>
-                <tr>
-                    <td align="left" height="25" bgcolor="#FFFFFF" style="font-size:14px; ">&nbsp;&nbsp; 您现在的位置：
-                        <a href="<?=site_url()?>">首页</a> &gt;&gt;
-                        <?=substr($category_parents, 0, -4)?>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+				<div class="pagination">
+					您现在的位置：
+					<a href="<?=site_url()?>">首页</a> &gt;&gt;
+					<?=substr($category_parents, 0, -4)?>
+				</div>
 			<?php endif; ?>
 
             <table cellpadding="0" cellspacing="0">
@@ -140,20 +134,18 @@ get_header(); ?>
                 </tr>
                 </tbody>
             </table>
-            <table width="740" bgcolor="#b4e4ec" cellpadding="1" cellspacing="1">
-                <tbody>
-                <tr>
-                    <td height="30" bgcolor="#FFFFFF" align="center" style="font-size:14px ">
-                        <?=paginate_links()?>
-                    </td>
-                </tr>
-
-                </tbody>
-            </table>
-
-
+			<div class="pagination"><?=paginate_links()?></div>
         </td>
     </tr>
     </tbody>
 </table>
+<style>
+	.pagination {
+		background: white;
+		text-align: center;
+		padding: 5px;
+		border: 1px solid #bde3eb;
+		margin: 0 5px;
+	}
+</style>
 <?php get_footer(); ?>
