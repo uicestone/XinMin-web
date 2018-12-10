@@ -77,15 +77,14 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
-                                       target="_blank">
+                                    <a style="font-size:12px;" href="<?=site_url()?>/category/%E6%A0%A1%E5%86%85%E9%80%9A%E7%9F%A5/">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp04.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
                                         校内通知
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
+                                    <a style="font-size:12px;" href="https://im.dingtalk.com/"
                                        target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp05.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -93,7 +92,7 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="https://oa.dingtalk.com" target="_blank"
+                                    <a style="font-size:12px;" href="https://im.dingtalk.com/" target="_blank"
                                        onclick="return false;">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp06.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
@@ -101,16 +100,16 @@
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
-                                       target="_blank" onclick="alert('请先登录');return false;">
+                                    <a style="font-size:12px;" href="https://im.dingtalk.com/"
+                                       target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp07.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
                                         场馆预约
                                     </a>
                                 </td>
                                 <td width="100">
-                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
-                                       target="_blank" onclick="alert('请先登录');return false;">
+                                    <a style="font-size:12px;" href="https://im.dingtalk.com/"
+                                       target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp03.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
                                         资产管理
@@ -119,8 +118,8 @@
 
 
                                 <td width="100">
-                                    <a style="font-size:12px;" href="https://oa.dingtalk.com"
-                                       target="_blank" onclick="alert('请先登录');return false;">
+                                    <a style="font-size:12px;" href="https://im.dingtalk.com/"
+                                       target="_blank">
                                         <img src="<?=get_stylesheet_directory_uri()?>/images/tp02.jpg?ver=2018-01-01"
                                              width="60" border="0" style="margin-bottom:5px;"><br>
                                         设备报修

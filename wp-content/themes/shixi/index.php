@@ -84,7 +84,7 @@ get_header(); ?>
             </table>
 
 			<?php if (is_string($category_parents)): ?>
-				<div class="pagination">
+				<div class="pagination" style="text-align: left; padding-left: 20px">
 					您现在的位置：
 					<a href="<?=site_url()?>">首页</a> &gt;&gt;
 					<?=substr($category_parents, 0, -4)?>
